@@ -21,7 +21,3 @@
 /store/reeflect-sunnies     /store                             301
 /cart                       /store                             301
 
-# Trailing slashes go to the clean URL, like Squarespace
-/optometrist-blog/:post/    /optometrist-blog/:post            301
-/store/p/:product/          /store/p/:product                  301
-/:page/                     /:page                             301
