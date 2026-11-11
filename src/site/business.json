@@ -1,0 +1,102 @@
+{
+ "@context": "https://schema.org",
+ "@type": [
+  "Optician",
+  "Store"
+ ],
+ "@id": "https://www.outtoseevision.com/#business",
+ "name": "Out to See Vision Care",
+ "alternateName": "Out to See",
+ "description": "Eyewear boutique and optometrist in Kailua, Oahu, Hawaii. Designer frames from LINDBERG, MYKITA, MOSCOT and more, fitted with ZEISS lenses cut in our own lab, plus comprehensive eye exams and contact lens fittings.",
+ "url": "https://www.outtoseevision.com/",
+ "logo": "https://www.outtoseevision.com/images/outtoseelogothicker.png",
+ "image": "https://www.outtoseevision.com/images/storefront.jpg",
+ "telephone": "+1-808-501-2020",
+ "email": "hello@outtoseevision.com",
+ "faxNumber": "+1-808-501-2015",
+ "priceRange": "$$",
+ "medicalSpecialty": "Optometric",
+ "foundingDate": "2023-03",
+ "paymentAccepted": "Credit Card, HSA, FSA, Bitcoin",
+ "currenciesAccepted": "USD",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "573 Kailua Rd, Ste 106",
+  "addressLocality": "Kailua",
+  "addressRegion": "HI",
+  "postalCode": "96734",
+  "addressCountry": "US"
+ },
+ "geo": {
+  "@type": "GeoCoordinates",
+  "latitude": 21.393741856678336,
+  "longitude": -157.7413301378158
+ },
+ "hasMap": "https://maps.app.goo.gl/v4TVgrFpoD5CGyrK6",
+ "openingHoursSpecification": [
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "opens": "10:00",
+   "closes": "18:00"
+  },
+  {
+   "@type": "OpeningHoursSpecification",
+   "dayOfWeek": "Sunday",
+   "opens": "10:00",
+   "closes": "15:00"
+  }
+ ],
+ "areaServed": [
+  {
+   "@type": "City",
+   "name": "Kailua"
+  },
+  {
+   "@type": "City",
+   "name": "Kaneohe"
+  },
+  {
+   "@type": "City",
+   "name": "Lanikai"
+  },
+  {
+   "@type": "City",
+   "name": "Waimanalo"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Windward Oahu"
+  }
+ ],
+ "employee": [
+  {
+   "@type": "Person",
+   "name": "Dr. Lauren Mordue",
+   "jobTitle": "Optometrist and Cofounder",
+   "worksFor": {
+    "@id": "https://www.outtoseevision.com/#business"
+   }
+  },
+  {
+   "@type": "Person",
+   "name": "Cory",
+   "jobTitle": "Optician",
+   "worksFor": {
+    "@id": "https://www.outtoseevision.com/#business"
+   }
+  }
+ ],
+ "sameAs": [
+  "https://www.facebook.com/outtoseevision/",
+  "https://www.instagram.com/outtoseevision/",
+  "https://www.yelp.com/biz/out-to-see-kailua"
+ ]
+}

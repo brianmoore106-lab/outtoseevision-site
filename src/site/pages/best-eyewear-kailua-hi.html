@@ -1,0 +1,1001 @@
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:15;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/16/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+.ots-ew-wrap *, .ots-ew-wrap *::before, .ots-ew-wrap *::after { box-sizing:border-box; }
+.ots-ew-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-ew-eyebrow {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:11px; font-weight:700; letter-spacing:2.5px;
+  text-transform:uppercase; margin-bottom:14px; display:block;
+}
+.ots-ew-h1 { font-family:Georgia,"Times New Roman",serif; font-size:38px; font-weight:500; line-height:1.2; margin-bottom:18px; }
+.ots-ew-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; margin-bottom:16px; }
+.ots-ew-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; margin-bottom:8px; }
+.ots-ew-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; }
+.ots-ew-prose p { margin-bottom:16px; }
+.ots-ew-prose p:last-child { margin-bottom:0; }
+.ots-ew-btn-primary {
+  display:inline-block; background:#1D9E75; color:#fff; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:14px 28px; border-radius:8px; letter-spacing:0.3px; transition:background 0.2s;
+}
+.ots-ew-btn-primary:hover { background:#0F6E56; }
+.ots-ew-btn-outline {
+  display:inline-block; background:transparent; color:#fff; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:13px 28px; border-radius:8px;
+  border:2px solid rgba(255,255,255,0.5); letter-spacing:0.3px; transition:background 0.2s;
+}
+.ots-ew-btn-outline:hover { background:rgba(255,255,255,0.1); }
+.ots-ew-btn-white {
+  display:inline-block; background:#fff; color:#1D9E75; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:14px 28px; border-radius:8px;
+  letter-spacing:0.3px; transition:background 0.2s, color 0.2s;
+}
+.ots-ew-btn-white:hover { background:#E1F5EE; color:#0F6E56; }
+.ots-ew-btn-group { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots-ew-hero { background:#1A2E3B; padding:80px 0; text-align:center; }
+.ots-ew-hero .ots-ew-eyebrow { color:#A0B4BE; }
+.ots-ew-hero .ots-ew-h1 { color:#fff; max-width:700px; margin-left:auto; margin-right:auto; }
+.ots-ew-hero-sub { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:17px; line-height:1.7; color:#A0B4BE; max-width:620px; margin:0 auto; }
+.ots-ew-hero .ots-ew-btn-group { justify-content:center; }
+.ots-ew-about { background:#FAF8F4; padding:72px 0; }
+.ots-ew-about .ots-ew-eyebrow { color:#1D9E75; }
+.ots-ew-about .ots-ew-h2 { color:#1F2421; }
+.ots-ew-about-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; margin-top:40px; }
+.ots-ew-feature-card { background:#fff; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+.ots-ew-feature-card .ots-ew-h3 { color:#1A2E3B; }
+.ots-ew-feature-card p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-ew-brands { background:#1A2E3B; padding:72px 0; }
+.ots-ew-brands .ots-ew-eyebrow { color:#A0B4BE; }
+.ots-ew-brands .ots-ew-h2 { color:#fff; margin-bottom:10px; }
+.ots-ew-brands-sub { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.7; color:#A0B4BE; margin-bottom:40px; }
+.ots-ew-brand-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+.ots-ew-brand-card { display:block; text-decoration:none; background:#0F1E27; border-radius:10px; overflow:hidden; transition:transform 0.2s, box-shadow 0.2s; }
+.ots-ew-brand-card:hover { transform:translateY(-3px); box-shadow:0 12px 32px rgba(0,0,0,0.35); }
+.ots-ew-brand-img { position:relative; width:100%; aspect-ratio:4/3; overflow:hidden; }
+.ots-ew-brand-img img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; display:block; transition:transform 0.3s; }
+.ots-ew-brand-card:hover .ots-ew-brand-img img { transform:scale(1.04); }
+.ots-ew-brand-footer { padding:14px 16px; display:flex; align-items:center; justify-content:space-between; }
+.ots-ew-brand-name { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#fff; }
+.ots-ew-brand-arrow { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; color:#1D9E75; font-weight:700; }
+.ots-ew-faq { background:#FAF8F4; padding:72px 0; }
+.ots-ew-faq .ots-ew-eyebrow { color:#1D9E75; }
+.ots-ew-faq .ots-ew-h2 { color:#1F2421; margin-bottom:32px; }
+.ots-ew-faq-item { border-bottom:1px solid #E5E2DA; padding:22px 0; }
+.ots-ew-faq-item:first-child { border-top:1px solid #E5E2DA; }
+.ots-ew-faq-q { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1F2421; margin-bottom:10px; }
+.ots-ew-faq-a { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-ew-cta { background:#1D9E75; padding:72px 0; text-align:center; }
+.ots-ew-cta .ots-ew-h2 { color:#fff; }
+.ots-ew-cta-sub { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 28px auto; }
+.ots-ew-cta .ots-ew-btn-group { justify-content:center; }
+.ots-ew-cta-meta { margin-top:28px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; color:rgba(255,255,255,0.65); line-height:1.7; }
+.ots-ew-cta-meta a { color:rgba(255,255,255,0.85); text-decoration:none; }
+.ots-ew-cta-meta a:hover { text-decoration:underline; }
+@media (max-width:720px) {
+  .ots-ew-h1 { font-size:28px; } .ots-ew-h2 { font-size:24px; }
+  .ots-ew-hero { padding:52px 0; }
+  .ots-ew-about-grid { grid-template-columns:1fr; gap:16px; }
+  .ots-ew-brand-grid { grid-template-columns:repeat(2,1fr); gap:12px; }
+  .ots-ew-btn-group { flex-direction:column; align-items:center; }
+  .ots-ew-btn-primary, .ots-ew-btn-outline, .ots-ew-btn-white { text-align:center; width:100%; max-width:320px; }
+}
+@media (max-width:480px) {
+  .ots-ew-brand-grid { grid-template-columns:1fr; }
+}
+</style>
+<div class="ots-ew-wrap">
+<section class="ots-ew-hero">
+<div class="ots-ew-inner">
+<span class="ots-ew-eyebrow">Eyewear Boutique · Serving All of Oahu from Kailua</span>
+<h1 class="ots-ew-h1">Designer Eyewear on Oahu, Just Over the Pali in Kailua</h1>
+<p class="ots-ew-hero-sub">Handpicked frames from the world's best independent and luxury eyewear brands, fitted with ZEISS lenses and cut in our in-house lab. This is eyewear done right.</p>
+<div class="ots-ew-btn-group">
+<a class="ots-ew-btn-primary" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" rel="noopener" target="_blank">Book an Eye Exam</a>
+<a class="ots-ew-btn-outline" href="tel:+18085012020">Call (808) 501-2020</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1781239600564_3415 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:17;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/18/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 1 of 2 · OUR APPROACH · place directly below the dark hero block -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-why-approach { background:#FFFFFF; padding:72px 0; }
+.ots-why-pillars { display:grid; grid-template-columns:repeat(3,1fr); gap:32px; margin-top:40px; }
+.ots-why-pillar { border-top:2px solid #1D9E75; padding-top:20px; }
+.ots-why-num { display:block; font-family:Georgia,"Times New Roman",serif; font-size:28px; line-height:1; color:#1D9E75; margin-bottom:14px; }
+.ots-why-pillar p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; line-height:1.7; color:#4A5568; margin:0 0 14px 0; }
+.ots-why-link { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75 !important; text-decoration:none !important; letter-spacing:0.3px; }
+.ots-why-link:hover { color:#0F6E56 !important; text-decoration:underline !important; }
+@media (max-width:720px) {
+  .ots-why-approach { padding:52px 0; }
+  .ots-why-pillars { grid-template-columns:1fr; gap:28px; }
+}
+</style>
+<div class="ots-why-wrap">
+<section class="ots-why-approach">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">Our Approach</span>
+<h2 class="ots-why-h2">Exceptional Frames. ZEISS Lenses. Expert Hands.</h2>
+<p class="ots-why-prose">Great glasses come down to three things: the frame, the lenses, and the people who bring them together. At Out to See, we take all three seriously.</p>
+<div class="ots-why-pillars">
+<div class="ots-why-pillar ots-reveal">
+<span class="ots-why-num">01</span>
+<h3 class="ots-why-h3">The Frame</h3>
+<p>Dr. Lauren and the team hand pick every frame in the boutique from makers like LINDBERG, MYKITA, MOSCOT, and FACE À FACE.</p>
+</div>
+<div class="ots-why-pillar ots-reveal">
+<span class="ots-why-num">02</span>
+<h3 class="ots-why-h3">The Lens</h3>
+<p>We pair your frame with ZEISS lenses, chosen for your prescription, your eyes, and the way you actually use them.</p>
+<a class="ots-why-link" href="/lens-upgrades-kailua-hi">Explore our ZEISS lenses →</a>
+</div>
+<div class="ots-why-pillar ots-reveal">
+<span class="ots-why-num">03</span>
+<h3 class="ots-why-h3">The People</h3>
+<p>We take precise measurements, cut your lenses in our own lab here in Kailua, and fit the finished pair to your face. Adjustments are always free.</p>
+<a class="ots-why-link" href="/the-lab">See inside our lab →</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.ots-reveal:not(.ots-anim)');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('ots-in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(function(el, i){ el.classList.add('ots-anim'); el.style.transitionDelay = ((i % 3) * 90) + 'ms'; io.observe(el); });
+})();
+</script>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790749684675_1722 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:22;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/23/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+.ots-dr-wrap *, .ots-dr-wrap *::before, .ots-dr-wrap *::after { box-sizing:border-box; }
+.ots-dr { background:#FAF8F4; padding:72px 0; }
+.ots-dr-inner { max-width:900px; margin:0 auto; padding:0 24px; }
+.ots-dr-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-dr-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-dr-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; margin:0; max-width:720px; }
+.ots-dr-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-top:28px; }
+.ots-dr-card { background:#fff; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+.ots-dr-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 10px 0; }
+.ots-dr-card p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-dr-strip { display:flex; flex-wrap:wrap; gap:10px 28px; margin-top:28px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; color:#1A2E3B; font-weight:600; }
+.ots-dr-strip span::before { content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:#1D9E75; margin-right:8px; vertical-align:middle; }
+.ots-dr-btn { display:inline-block; margin-top:28px; background:#1D9E75; color:#fff !important; text-decoration:none !important; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; font-weight:700; letter-spacing:0.3px; padding:14px 28px; border-radius:8px; transition:background 0.2s; }
+.ots-dr-btn:hover { background:#0F6E56; }
+@media (max-width:760px) { .ots-dr-grid { grid-template-columns:1fr; } }
+@media (max-width:680px) { .ots-dr { padding:52px 0; } .ots-dr-h2 { font-size:24px; } .ots-dr-btn { display:block; text-align:center; max-width:320px; margin-left:auto; margin-right:auto; } }
+</style>
+<div class="ots-dr-wrap">
+<section class="ots-dr">
+<div class="ots-dr-inner">
+<span class="ots-dr-eyebrow">Coming from Honolulu or Elsewhere on Oahu?</span>
+<h2 class="ots-dr-h2">Why people drive over the Pali for their glasses</h2>
+<p class="ots-dr-prose">Kailua is a short drive from town over the Pali Highway or H3. People come from Hawaii Kai, Manoa, Kakaako, Mililani, and the North Shore because this is where they find frames and lens work they can't get at the mall. Three things make the trip worth it.</p>
+<div class="ots-dr-grid">
+<div class="ots-dr-card">
+<h3 class="ots-dr-h3">The collection</h3>
+<p>LINDBERG, MYKITA, MOSCOT, Tom Ford, Face à Face, Etnia Barcelona, KREWE, and Maui Jim, hand picked by our team. We also stock smaller frames and lower bridge fits that are hard to find anywhere else.</p>
+</div>
+<div class="ots-dr-card">
+<h3 class="ots-dr-h3">ZEISS lenses, cut in our own lab</h3>
+<p>ZEISS makes each lens individually for your eyes. Our in house lab then cuts and fits it to your exact frame, instead of shipping it off to a distant lab. We can also put new ZEISS lenses in frames you already own.</p>
+</div>
+<div class="ots-dr-card">
+<h3 class="ots-dr-h3">A full time optician</h3>
+<p>Someone who knows these frames inside and out helps you choose, fits them to your face, and fine tunes them later. Adjustments are always free, no matter where you bought your glasses.</p>
+</div>
+</div>
+<div class="ots-dr-strip">
+<span>Free parking at Lau Hala Shops</span>
+<span>Open 7 days</span>
+<span>Call or text ahead about a frame</span>
+</div>
+<a class="ots-dr-btn" href="tel:+18085012020">Call or Text (808) 501-2020</a>
+</div>
+</section>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1793662439416_2835 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:23;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/24/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 2 of 2 · WHY WE CARRY THE BRANDS WE CARRY · place directly below Code Block 1 -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-why-curate { background:#FAF8F4; padding:72px 0; }
+.ots-why-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:40px; }
+.ots-why-card { background:#fff; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+.ots-why-card p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-why-close { margin:36px 0 0 0; font-family:Georgia,"Times New Roman",serif; font-size:19px; line-height:1.6; color:#1A2E3B; max-width:720px; }
+@media (max-width:900px) { .ots-why-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:720px) {
+  .ots-why-curate { padding:52px 0; }
+  .ots-why-grid { grid-template-columns:1fr; }
+  .ots-why-close { font-size:17px; }
+}
+</style>
+<div class="ots-why-wrap">
+<section class="ots-why-curate">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">How We Curate</span>
+<h2 class="ots-why-h2">Why We Carry the Brands We Carry</h2>
+<p class="ots-why-prose">We don't try to carry everything. We carry frames we would wear ourselves, and every line in the boutique earns its place the same way.</p>
+<div class="ots-why-grid">
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Design</h3>
+<p>A clear point of view, from the quiet precision of LINDBERG to the bold, architectural shapes of FACE À FACE.</p>
+</div>
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Construction</h3>
+<p>Hinges, joints, and finishes built to hold an adjustment and last for years, like the screwless hinges on LINDBERG and MYKITA.</p>
+</div>
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Materials</h3>
+<p>Titanium, stainless steel, and quality acetate that stand up to salt air, sun, and everyday island life.</p>
+</div>
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Fit</h3>
+<p>Frames that sit well on real faces, with sizes and bridge options that let us fit a wide range of people.</p>
+</div>
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Craftsmanship</h3>
+<p>Makers with a history of doing it right, like MOSCOT, a family business in New York since 1915.</p>
+</div>
+<div class="ots-why-card ots-reveal">
+<h3 class="ots-why-h3">Care After the Sale</h3>
+<p>Frames we can service, adjust, and repair for years, so the pair you love keeps fitting the way it did on day one.</p>
+</div>
+</div>
+<p class="ots-why-close">That is why our collection is curated rather than crowded. Every frame on our wall is one we are ready to stand behind, fit, and care for long after you leave the store.</p>
+</div>
+</section>
+</div>
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.ots-reveal:not(.ots-anim)');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('ots-in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(function(el, i){ el.classList.add('ots-anim'); el.style.transitionDelay = ((i % 3) * 90) + 'ms'; io.observe(el); });
+})();
+</script>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790750006369_1906 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:32;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/33/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+.otsb{max-width:1100px;margin:0 auto;padding:40px 20px;font-family:inherit}
+.otsb h2{color:#1F2640;font-family:inherit;text-align:center;font-size:clamp(26px,3.4vw,38px);margin:0 0 12px}
+.otsb .lead{color:#4F6272;text-align:center;font-size:18px;line-height:1.6;max-width:700px;margin:0 auto 30px}
+.otsb .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.otsb .card{display:block;background:#FDF6E9;padding:28px 24px;text-decoration:none!important;border:1px solid transparent;transition:border-color .2s}
+.otsb a.card:hover{border-color:#B8452A}
+.otsb .name{color:#1F2640;font-size:21px;letter-spacing:.08em;margin:0 0 6px}
+.otsb .origin{color:#B8452A;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}
+.otsb .desc{color:#4F6272;font-size:16px;line-height:1.55;margin:0 0 16px}
+.otsb .more{color:#1F2640;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.otsb .more.quiet{color:#4F6272}
+.otsb .note{color:#4F6272;text-align:center;font-size:16px;margin:30px 0 0}
+.otsb .note a{color:#B8452A}
+</style>
+<div class="otsb">
+<h2>The brands we carry</h2>
+<p class="lead">Handmade frames from makers around the world, in titanium, stainless steel, acetate, wood and more. Every pair is fitted with ZEISS lenses cut in our own Kailua lab.</p>
+<div class="grid">
+<a class="card" href="/lindberg-eyewear-hawaii"><p class="name">LINDBERG</p><p class="origin">Denmark · since 1983</p><p class="desc">Featherlight titanium with no screws, rivets or welds.</p><span class="more">Explore LINDBERG →</span></a>
+<a class="card" href="/mykita-eyewear-hawaii"><p class="name">MYKITA</p><p class="origin">Berlin · since 2003</p><p class="desc">Handmade frames with a patented screwless steel hinge.</p><span class="more">Explore MYKITA →</span></a>
+<a class="card" href="/moscot-eyewear-hawaii"><p class="name">MOSCOT</p><p class="origin">New York · since 1915</p><p class="desc">The Lemtosh, the Miltzen and a century of family craft.</p><span class="more">Explore MOSCOT →</span></a>
+<a class="card" href="/tom-ford"><p class="name">TOM FORD</p><p class="origin">Made in Italy · since 2005</p><p class="desc">Rich acetate and the signature metal T.</p><span class="more">Explore Tom Ford →</span></a>
+<a class="card" href="/maui-jim-prescription-sunglasses-kailua-hi"><p class="name">MAUI JIM</p><p class="origin">Born in Hawaii · since 1980</p><p class="desc">Polarized sunglasses built for island light, made in your prescription.</p><span class="more">Explore Maui Jim →</span></a>
+<a class="card" href="/face-a-face-eyewear-hawaii"><p class="name">FACE À FACE</p><p class="origin">Paris · since 1995</p><p class="desc">Bold, architectural frames for people who like to be noticed.</p><span class="more">Explore Face à Face →</span></a>
+<a class="card" href="/etnia-barcelona-eyewear-hawaii"><p class="name">ETNIA BARCELONA</p><p class="origin">Barcelona · since 2001</p><p class="desc">Fearless color and rich natural acetates.</p><span class="more">Explore Etnia Barcelona →</span></a>
+<div class="card"><p class="name">PRODESIGN DENMARK</p><p class="origin">Denmark</p><p class="desc">Clean Scandinavian design with a comfortable, everyday fit.</p><span class="more quiet">In the boutique</span></div>
+<a class="card" href="/krewe-eyewear-hawaii"><p class="name">KREWE</p><p class="origin">New Orleans · since 2013</p><p class="desc">Playful acetate optical and sunglasses with Southern soul.</p><span class="more">Explore KREWE →</span></a>
+<div class="card"><p class="name">VERNON GANTRY</p><p class="origin">Independent eyewear founded 2016 Queens, NY</p><p class="desc">Distinctive frames with a modern edge.</p><span class="more quiet">In the boutique</span></div>
+<div class="card"><p class="name">SHWOOD</p><p class="origin">Portland, Oregon</p><p class="desc">Handcrafted frames made from real wood, stone and shell.</p><span class="more quiet">In the boutique</span></div>
+<a class="card" href="/sunglasses"><p class="name">OAKLEY</p><p class="origin">California</p><p class="desc">Performance eyewear for sport, water and everything in between.</p><span class="more">See sunglasses →</span></a>
+</div>
+<p class="note">Collections change often. Looking for a specific brand or model? <a href="sms:+18085012020">Text us</a> and we will tell you what is in stock.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790469741191_1985 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:44;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/45/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-ew-wrap">
+<section class="ots-ew-brands">
+<div class="ots-ew-inner">
+<span class="ots-ew-eyebrow">Our Frame Lines</span>
+<h2 class="ots-ew-h2">The Brands We Carry</h2>
+<p class="ots-ew-brands-sub">Click any brand to explore their full collection. Every frame you see can be fitted with ZEISS prescription lenses in our in-house lab.</p>
+<div class="ots-ew-brand-grid">
+<a class="ots-ew-brand-card" href="https://lindberg.com/en" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="LINDBERG titanium eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/lindberglogoselection-489d3f.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">LINDBERG</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.mauijim.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Maui Jim polarized sunglasses and prescription frames at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/mauijimcoverselection2-bfe1dc.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Maui Jim</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.krewe.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="KREWE acetate eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/krewecoverselection-5f2532.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">KREWE</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://mykita.com/en" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="MYKITA eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/mykitacoverselection-8393a2.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">MYKITA</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.faceaface-paris.com/en" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Face A Face Paris luxury eyewear frames at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/faceafacecoverselection-6ef340.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Face A Face</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://vernongantryeyewear.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Vernon Gantry eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/vernongantrycoverselection-a71d3a.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Vernon Gantry</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://moscot.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="MOSCOT heritage eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/moscotcoverselection-73420e.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">MOSCOT</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.prodesigndenmark.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="ProDesign Denmark eyewear frames at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/prodesigncoverselection-3ffd6e.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">ProDesign Denmark</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="http://etniabarcelona.com/us/en" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Etnia Barcelona eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/etniabarcelonacoverselection-765e79.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Etnia Barcelona</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://shwoodshop.com/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Shwood handcrafted wood eyewear frames at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/shwoodcoverselection-5651cb.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Shwood</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.tomfordfashion.com/en-us/eyewear/" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Tom Ford luxury eyewear frames available at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/tomfordcoverselection-e950d7.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Tom Ford</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+<a class="ots-ew-brand-card" href="https://www.oakley.com/en-us" rel="noopener" target="_blank">
+<div class="ots-ew-brand-img">
+<img alt="Oakley performance sports eyewear at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/oakleycoverselection-a4efdf.webp"/>
+</div>
+<div class="ots-ew-brand-footer">
+<span class="ots-ew-brand-name">Oakley</span>
+<span class="ots-ew-brand-arrow">→</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:21;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/22/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 3 · THE FRAME IS ONLY HALF THE EQUATION · place below the brand logo section -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-why-link { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75 !important; text-decoration:none !important; letter-spacing:0.3px; }
+.ots-why-link:hover { color:#0F6E56 !important; text-decoration:underline !important; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-lens { background:#FFFFFF; padding:72px 0; }
+.ots-lens-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:40px; }
+.ots-lens-card { background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+.ots-lens-card p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-lens-links { display:flex; flex-wrap:wrap; gap:28px; margin-top:32px; }
+@media (max-width:720px) { .ots-lens { padding:52px 0; } .ots-lens-grid { grid-template-columns:1fr; } .ots-lens-links { gap:16px; flex-direction:column; } }
+</style>
+<div class="ots-why-wrap">
+<section class="ots-lens">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">The Lenses</span>
+<h2 class="ots-why-h2">The Frame Is Only Half the Equation</h2>
+<p class="ots-why-prose">A beautiful frame is what people see. The lenses are what you see through. Put an ordinary lens in an exceptional frame and you still have an ordinary pair of glasses. That is why every pair we make gets ZEISS lenses, precise measurements, and a professional fit.</p>
+<div class="ots-lens-grid">
+<div class="ots-lens-card ots-reveal">
+<h3 class="ots-why-h3">Made for Your Prescription</h3>
+<p>Every ZEISS lens is made to order for your prescription, then sent to us. Nothing comes off a shelf.</p>
+</div>
+<div class="ots-lens-card ots-reveal">
+<h3 class="ots-why-h3">Measured for Your Face and Frame</h3>
+<p>Where your pupils sit, how the frame tilts, and how far it sits from your eyes. These measurements tell the lens exactly where to put your clearest vision.</p>
+</div>
+<div class="ots-lens-card ots-reveal">
+<h3 class="ots-why-h3">Chosen for How You Live</h3>
+<p>Screens all day, driving at night, sun on the water. We match the lens design and coatings to your day, not the other way around.</p>
+</div>
+<div class="ots-lens-card ots-reveal">
+<h3 class="ots-why-h3">Cut and Mounted in Our Lab</h3>
+<p>We edge your lenses and mount them in your frame right here in Kailua, so we control the fit from start to finish.</p>
+</div>
+</div>
+<div class="ots-lens-links">
+<a class="ots-why-link" href="/lens-upgrades-kailua-hi">Explore our ZEISS lenses →</a>
+<a class="ots-why-link" href="/the-lab">See inside our lab →</a>
+</div>
+</div>
+</section>
+</div>
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.ots-reveal:not(.ots-anim)');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('ots-in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(function(el, i){ el.classList.add('ots-anim'); el.style.transitionDelay = ((i % 3) * 90) + 'ms'; io.observe(el); });
+})();
+</script>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790753014793_2169 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:38;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/39/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 4 · HOW BUYING GLASSES WORKS · place directly below Code Block 3 -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-why-link { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75 !important; text-decoration:none !important; letter-spacing:0.3px; }
+.ots-why-link:hover { color:#0F6E56 !important; text-decoration:underline !important; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-proc { background:#FAF8F4; padding:72px 0; }
+.ots-steps { list-style:none; margin:40px 0 0 0; padding:0; position:relative; }
+.ots-step:not(:last-child)::before { content:""; position:absolute; left:21px; top:44px; bottom:0; width:2px; background:#D8E9E1; }
+.ots-step { position:relative; padding:0 0 30px 68px; }
+.ots-step:last-child { padding-bottom:0; }
+.ots-step-num { position:absolute; left:0; top:0; width:44px; height:44px; border-radius:50%; background:#1D9E75; color:#fff; font-family:Georgia,"Times New Roman",serif; font-size:18px; display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 6px #FAF8F4; }
+.ots-step .ots-why-h3 { padding-top:11px; margin-bottom:6px; }
+.ots-step p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; line-height:1.7; color:#4A5568; margin:0; max-width:680px; }
+.ots-step a { color:#1D9E75; font-weight:700; text-decoration:none; }
+.ots-step a:hover { text-decoration:underline; }
+@media (max-width:720px) { .ots-proc { padding:52px 0; } .ots-step { padding-left:58px; } .ots-step-num { width:38px; height:38px; font-size:16px; } .ots-step:not(:last-child)::before { left:18px; top:38px; } .ots-step .ots-why-h3 { padding-top:8px; } }
+</style>
+<div class="ots-why-wrap">
+<section class="ots-proc">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">The Process</span>
+<h2 class="ots-why-h2">How Buying Glasses Works at Out to See</h2>
+<p class="ots-why-prose">Great glasses take a little more care than picking a frame off a wall. Here is exactly what happens, from the first try on to years after you take them home.</p>
+<ol class="ots-steps">
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">1</span>
+<h3 class="ots-why-h3">Come In and Try On Anytime</h3>
+<p>Walk in any time we are open. Try on as many frames as you like. Our Optician and Dr. Lauren Mordue are in 6 days a week and can always assist. We will tell you honestly what suits your face, your style, and your prescription.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">2</span>
+<h3 class="ots-why-h3">Bring a Prescription, or Get One Here</h3>
+<p>Use a current prescription from any eye doctor, or book a <a href="/comprehensive-eye-exam-kailua-hi">comprehensive eye exam</a> with Dr. Lauren. Your lenses are only as good as the prescription behind them.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">3</span>
+<h3 class="ots-why-h3">We Measure You in Your Frame</h3>
+<p>Once you choose a frame, we adjust it to your face and take precise measurements with it on. This is the step most people never see, and the one that matters most for clear, comfortable vision.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">4</span>
+<h3 class="ots-why-h3">Choose Your ZEISS Lenses</h3>
+<p>We walk you through the lens designs and coatings that fit your prescription and your day, and give you the full price before anything is ordered. No surprises.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">5</span>
+<h3 class="ots-why-h3">Review and Sign Your Order</h3>
+<p>You review everything and sign your order on our iPad. Because every pair is made just for you, an order cannot be changed once it is placed, so we take our time here and answer every question first.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">6</span>
+<h3 class="ots-why-h3">ZEISS Makes Your Lenses. We Finish Them.</h3>
+<p>ZEISS makes your lenses to order and sends them to us. We cut them, mount them in your frame, and check them against your prescription in our lab. Most glasses are ready in 1 to 2 weeks. Specialty lenses can take a little longer, and we will give you a timeline when you order.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">7</span>
+<h3 class="ots-why-h3">Pick Up and Final Fit</h3>
+<p>We fit the finished pair to your face and make sure your vision is sharp and comfortable before you leave.</p>
+</li>
+<li class="ots-step ots-reveal">
+<span class="ots-step-num">8</span>
+<h3 class="ots-why-h3">For as Long as You Own Them</h3>
+<p>Adjustments, nose pad replacements, and minor repairs are always free. Stop by any time something feels off.</p>
+</li>
+</ol>
+</div>
+</section>
+</div>
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.ots-reveal:not(.ots-anim)');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('ots-in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(function(el, i){ el.classList.add('ots-anim'); el.style.transitionDelay = ((i % 3) * 90) + 'ms'; io.observe(el); });
+})();
+</script>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790753014793_2479 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark-bold h-small"><div class="fe" style="--rm:6;--rd:18;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/19/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 5 · THE PEOPLE · place directly below Code Block 4 -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-why-link { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75 !important; text-decoration:none !important; letter-spacing:0.3px; }
+.ots-why-link:hover { color:#0F6E56 !important; text-decoration:underline !important; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-ppl { background:#FFFFFF; padding:72px 0; }
+.ots-ppl-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; margin-top:40px; }
+.ots-ppl-card { display:flex; gap:20px; align-items:flex-start; background:#FAF8F4; border:1px solid #E5E2DA; border-radius:10px; padding:24px; }
+.ots-ppl-photo { flex:0 0 96px; width:96px; height:96px; border-radius:50%; overflow:hidden; background:#1A2E3B; color:#fff; display:flex; align-items:center; justify-content:center; font-family:Georgia,"Times New Roman",serif; font-size:30px; }
+.ots-ppl-photo img { width:100%; height:100%; object-fit:cover; display:block; }
+.ots-ppl-role { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#1D9E75; margin-bottom:10px; }
+.ots-ppl-card p { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin:0; }
+.ots-ppl-link { margin-top:28px; }
+@media (max-width:720px) { .ots-ppl { padding:52px 0; } .ots-ppl-grid { grid-template-columns:1fr; } .ots-ppl-card { flex-direction:column; } }
+</style>
+<div class="ots-why-wrap">
+<section class="ots-ppl">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">The People</span>
+<h2 class="ots-why-h2">The People Who Make It Work</h2>
+<p class="ots-why-prose">Anyone can sell a designer frame. What you are really choosing is who examines your eyes, who measures you, and who stands behind the finished pair.</p>
+<div class="ots-ppl-grid">
+<div class="ots-ppl-card ots-reveal">
+<!-- To add a photo later, replace LM with: <img src="PASTE_IMAGE_URL" alt="Dr. Lauren Mordue, optometrist at Out to See in Kailua"> -->
+<div class="ots-ppl-photo">LM</div>
+<div>
+<h3 class="ots-why-h3">Dr. Lauren Mordue</h3>
+<span class="ots-ppl-role">Optometrist and Cofounder</span>
+<p>Dr. Lauren examines your eyes and writes the prescription your lenses are built on. Together with the team, she hand picks every frame in the boutique.</p>
+</div>
+</div>
+<div class="ots-ppl-card ots-reveal">
+<!-- To add a photo later, replace C with: <img src="PASTE_IMAGE_URL" alt="Cory, optician at Out to See in Kailua"> -->
+<div class="ots-ppl-photo">C</div>
+<div>
+<h3 class="ots-why-h3">Cory</h3>
+<span class="ots-ppl-role">Optician</span>
+<p>Cory helps you find the right frame, takes the measurements your lenses depend on, and fits your finished glasses to your face. Cory is also the person to see for every adjustment after that.</p>
+</div>
+</div>
+</div>
+<div class="ots-ppl-link"><a class="ots-why-link" href="/the-team">Meet the whole team →</a></div>
+</div>
+</section>
+</div>
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.ots-reveal:not(.ots-anim)');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('ots-in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(function(el, i){ el.classList.add('ots-anim'); el.style.transitionDelay = ((i % 3) * 90) + 'ms'; io.observe(el); });
+})();
+</script>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790753014793_2811 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:22;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/23/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-ew-wrap">
+<section class="ots-ew-about">
+<div class="ots-ew-inner">
+<span class="ots-ew-eyebrow">The Boutique</span>
+<h2 class="ots-ew-h2">Fashionable, Functional &amp; Genuinely Different</h2>
+<div class="ots-ew-prose">
+<p>Out to See carries a large variety of fashionable and functional eyeglass and sunglass frames from independent makers and established luxury brands. You're welcome to use your prescription from Out to See or your outside provider to purchase eyewear — and all frames in our boutique are available as non-prescription as well.</p>
+</div>
+<div class="ots-ew-about-grid">
+<div class="ots-ew-feature-card">
+<h3 class="ots-ew-h3">Luxury &amp; Handmade Eyewear</h3>
+<p>We are proud to offer handmade frames from makers all over the world — crafted from titanium, stainless steel, acetate, wood, and even seashells. These are frames built to last and designed to be noticed.</p>
+</div>
+<div class="ots-ew-feature-card">
+<h3 class="ots-ew-h3">Specialty Eyewear</h3>
+<p>Need sports glasses, safety glasses, or blue light filtering glasses? We have them. Whatever your activity or work environment demands, we'll find the right frame and lens combination for it.</p>
+</div>
+<div class="ots-ew-feature-card">
+<h3 class="ots-ew-h3">Options for Every Budget</h3>
+<p>We have eyewear options to suit nearly any budget — just ask. Our team will show you what's available at your price point without pressure, and we'll always be honest about where the best value is.</p>
+</div>
+<div class="ots-ew-feature-card">
+<h3 class="ots-ew-h3">Repairs &amp; Adjustments, Always Free</h3>
+<p>Frame adjustments, nosepad replacements, and minor repairs are always complimentary — regardless of where you bought your glasses. Proper fit is essential for clear, comfortable vision and we're always happy to help.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:44;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/45/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- CODE BLOCK 6 · FAQ · replaces the existing Frequently Asked Questions block -->
+<style>
+.ots-why-wrap *, .ots-why-wrap *::before, .ots-why-wrap *::after { box-sizing:border-box; }
+.ots-why-inner { max-width:960px; margin:0 auto; padding:0 24px; }
+.ots-why-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-why-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-why-h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-why-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:720px; margin:0; }
+.ots-why-link { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75 !important; text-decoration:none !important; letter-spacing:0.3px; }
+.ots-why-link:hover { color:#0F6E56 !important; text-decoration:underline !important; }
+.ots-reveal.ots-anim { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+.ots-reveal.ots-anim.ots-in { opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce) { .ots-reveal.ots-anim { opacity:1; transform:none; transition:none; } }
+@media (max-width:720px) { .ots-why-h2 { font-size:24px; } }
+.ots-faq { background:#FFFFFF; padding:72px 0; }
+.ots-faq-group { margin-top:40px; }
+.ots-faq-group-title { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1A2E3B; margin:0 0 8px 0; }
+.ots-faq details { border-bottom:1px solid #E5E2DA; }
+.ots-faq details:first-of-type { border-top:1px solid #E5E2DA; }
+.ots-faq summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1F2421; }
+.ots-faq summary::-webkit-details-marker { display:none; }
+.ots-faq summary::after { content:"+"; flex:0 0 auto; font-family:Georgia,"Times New Roman",serif; font-size:24px; font-weight:400; line-height:1; color:#1D9E75; transition:transform .25s ease; }
+.ots-faq details[open] summary::after { transform:rotate(45deg); }
+.ots-faq summary:hover { color:#1D9E75; }
+.ots-faq-a { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; line-height:1.7; color:#4A5568; margin:0; padding:0 36px 22px 0; max-width:760px; }
+.ots-faq-a a { color:#1D9E75; font-weight:700; text-decoration:none; }
+.ots-faq-a a:hover { text-decoration:underline; }
+@media (max-width:720px) { .ots-faq { padding:52px 0; } .ots-faq summary { font-size:15px; } .ots-faq-a { padding-right:0; } }
+</style>
+<div class="ots-why-wrap">
+<section class="ots-faq">
+<div class="ots-why-inner">
+<span class="ots-why-eyebrow">Common Questions</span>
+<h2 class="ots-why-h2">Buying Glasses at Out to See: Your Questions, Answered</h2>
+<div class="ots-faq-group">
+<p class="ots-faq-group-title">Shopping for Frames</p>
+<details>
+<summary>Do I need an appointment to shop for frames?</summary>
+<p class="ots-faq-a">No. Walk in any time we are open: Monday to Saturday 10am to 6pm, and Sunday 10am to 3pm. If you would like dedicated time with Cory, text us at <a href="sms:+18085012020">(808) 501-2020</a> and we will set a time.</p>
+</details>
+<details>
+<summary>Can I use a prescription from a different eye doctor?</summary>
+<p class="ots-faq-a">Absolutely. Bring a current prescription from any provider and use it for frames and lenses from our boutique. We cut and fit your lenses in our own lab no matter where your exam was done.</p>
+</details>
+<details>
+<summary>Can I buy frames without a prescription?</summary>
+<p class="ots-faq-a">Yes. Every frame in our boutique is available without a prescription. Choose plano lenses with no correction, readers, or just the frame.</p>
+</details>
+<details>
+<summary>Do you have frames for smaller faces or lower nose bridges?</summary>
+<p class="ots-faq-a">Yes. We stock frames in smaller sizes and with lower bridge fits, a real need for many people in Hawaii. Many of our titanium frames also have adjustable nose pads that we shape to your nose, so the frame sits where your lenses need it.</p>
+</details>
+<details>
+<summary>Are LINDBERG frames worth it?</summary>
+<p class="ots-faq-a">For many people, yes. LINDBERG frames are made from titanium, weigh very little, and use a screwless hinge with no screws to work loose. Fitted well, they are comfortable enough to forget you are wearing them. The best way to decide is to try one on next to a heavier frame. <a href="/lindberg-eyewear-hawaii">See our LINDBERG collection</a>.</p>
+</details>
+<details>
+<summary>What makes your selection different from a chain optical store?</summary>
+<p class="ots-faq-a">We curate independently. Every brand we carry was chosen because we believe in it, not because of a corporate buying agreement. You will find independent makers, European designers, and heritage brands that chain stores do not carry, and every pair of everyday glasses gets ZEISS lenses cut in our own lab.</p>
+</details>
+<details>
+<summary>Can you put new lenses in a frame I already own?</summary>
+<p class="ots-faq-a">In most cases, yes! We’ll check your frame first to make sure it’s in good condition and suited to your prescription. We’ll then order your custom ZEISS lenses and cut them to fit your frame right here in our lab. The exception is Maui Jim, which only makes its own prescription lenses.
+
+Best of all, you can keep wearing your glasses while your new lenses are being made. Once the lenses arrive, you’ll only need to leave your frame with us for a few hours while we cut, mount, and inspect your new lenses.</p>
+</details>
+<details>
+<summary>Do you carry prescription sunglasses and sports eyewear?</summary>
+<p class="ots-faq-a">Yes. We carry polarized sunglasses made for Hawaii light, plus sports and safety glasses, and most can be made with your prescription. <a href="/sunglasses">See our sunglasses</a>.</p>
+</details>
+</div>
+<div class="ots-faq-group">
+<p class="ots-faq-group-title">Lenses and Your Order</p>
+<details>
+<summary>What lenses do you use?</summary>
+<p class="ots-faq-a">We use ZEISS lenses. Each pair is made to order for your prescription, then cut and mounted in our lab. Maui Jim prescription sunglasses are the exception. Maui Jim makes those lenses in its own lab and ships the pair complete. <a href="/lens-upgrades-kailua-hi">Learn about our ZEISS lens options</a>.</p>
+</details>
+<details>
+<summary>How long does it take to get my glasses?</summary>
+<p class="ots-faq-a">Most glasses are ready in around 2 weeks, give or take. ZEISS makes your lenses to order, then we cut, mount, and carefully inspect them in our in-house lab. Maui Jim prescription eyewear arrives complete from their lab and is often ready in about a week. Complex prescriptions, custom tints, special-order frames, and other custom requests may take additional time. We’ll let you know if we expect your order to take longer than usual.</p>
+</details>
+<details>
+<summary>Can I change or cancel my order after it is placed?</summary>
+<p class="ots-faq-a">Once an eyewear order has been placed, it cannot be canceled, as our lenses are custom made specifically for you. However, if your new eyewear isn’t working as expected, don’t worry! We have a remake period that allows us to make adjustments to things like your prescription, measurements, lens design, or lens options to help get everything just right.</p>
+</details>
+<details>
+<summary>What if my new glasses do not feel right?</summary>
+<p class="ots-faq-a">Come back and see us. Most issues come down to fit, and adjustments are always free. If it is something else, we will check your measurements and prescription and work out the right fix with you.</p>
+</details>
+<details>
+<summary>Do you repair and adjust glasses I bought somewhere else?</summary>
+<p class="ots-faq-a">Yes, and it is always free. Frame adjustments, nose pad replacements, and minor repairs are complimentary no matter where you bought your glasses.</p>
+</details>
+</div>
+<div class="ots-faq-group">
+<p class="ots-faq-group-title">Payment and Insurance</p>
+<details>
+<summary>Do you accept HSA and FSA?</summary>
+<p class="ots-faq-a">Yes. Prescription glasses and lenses are an eligible expense for most HSA and FSA plans. If you are unsure about yours, check with your plan administrator.</p>
+</details>
+<details>
+<summary>Do you take vision insurance?</summary>
+<p class="ots-faq-a">We accept UHA. We do not accept VSP or EyeMed, which lets us spend more time with every patient and choose our frames and lenses freely. Some plans reimburse you for out of network purchases, so it is worth checking with yours. <a href="/pricing">See pricing and insurance</a>.</p>
+</details>
+<details>
+<summary>How much do glasses cost?</summary>
+<p class="ots-faq-a">It depends on the frame and lenses you choose. We will always give you the full price before anything is ordered. Exam and service prices are on our <a href="/pricing">pricing page</a>.</p>
+</details>
+<details>
+<summary>What forms of payment do you accept?</summary>
+<p class="ots-faq-a">HSA and FSA cards, major credit cards, and yes, Bitcoin.</p>
+</details>
+</div>
+</div>
+</section>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790753014793_3092 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:13;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/14/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-ew-wrap">
+<section class="ots-ew-cta">
+<div class="ots-ew-inner">
+<h2 class="ots-ew-h2">Come See What We Have In Store.</h2>
+<p class="ots-ew-cta-sub">Stop by Lau Hala Shops in Kailua and try on a few. Our team is here to help you find frames that fit your face, your life, and your budget.</p>
+<div class="ots-ew-btn-group">
+<a class="ots-ew-btn-white" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" rel="noopener" target="_blank">Book an Eye Exam</a>
+</div>
+<p class="ots-ew-cta-meta">
+      573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, HI 96734
+       · 
+      <a href="tel:+18085012020">(808) 501-2020</a> (call or text)<br/>
+      Mon–Sat 10am–6pm  ·  Sun 10am–3pm
+    </p>
+</div>
+</section>
+</div>
+</div></div></div></div></section>

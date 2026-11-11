@@ -1,0 +1,21 @@
+---
+// Every regular page. Each page's content lives in src/site/pages/<url>.html
+// and its title, description and schema live in src/site/meta.json.
+import Base from '../layouts/Base.astro';
+import meta from '../site/meta.json';
+
+const bodies = import.meta.glob('../site/pages/*.html', { query: '?raw', import: 'default', eager: true });
+
+export function getStaticPaths() {
+  return Object.keys(meta.pages).filter((slug) => slug !== 'optometrist-blog').map((slug) => ({
+    params: { slug: slug === 'index' ? undefined : slug },
+    props: { key: slug },
+  }));
+}
+const { key } = Astro.props;
+const page = (meta.pages as Record<string, any>)[key];
+const body = bodies[`../site/pages/${key}.html`] as string;
+---
+<Base title={page.title} description={page.description} canonical={page.path} noindex={page.noindex} ogImage={page.ogImage} schema={page.schema}>
+  <Fragment set:html={body} />
+</Base>

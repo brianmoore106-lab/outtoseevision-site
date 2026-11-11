@@ -1,0 +1,33 @@
+---
+// Blog list: the hero band from the Squarespace page, then every post, newest first.
+import Base from '../../layouts/Base.astro';
+import meta from '../../site/meta.json';
+import heroHtml from '../../site/pages/optometrist-blog.html?raw';
+import { posts, shortDate } from '../../site/blog';
+const page = (meta.pages as Record<string, any>)['optometrist-blog'];
+---
+<Base title={page.title} description={page.description} canonical="/optometrist-blog" ogImage={page.ogImage} schema={page.schema}>
+  <Fragment set:html={heroHtml.split("<section").slice(0, 2).join("<section")} />
+  <section class="blog-list">
+    {posts.map((p) => (
+      <article>
+        <time datetime={p.date}>{shortDate(p.date)}</time>
+        <h2><a href={`/optometrist-blog/${p.slug}`}>{p.h1}</a></h2>
+        <a class="more" href={`/optometrist-blog/${p.slug}`}>Read More</a>
+      </article>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .blog-list { display: grid; grid-template-columns: repeat(2, minmax(0, 460px)); justify-content: center; column-gap: 150px; row-gap: 80px; padding: 50px 6vw 120px; background: #fff; }
+  article { text-align: center; }
+  time { display: block; font-size: 16px; color: hsla(var(--black-hsl), 1); margin-bottom: 14px; }
+  h2 { font: 500 35.2px/1.2 var(--heading-font); letter-spacing: -.02em; margin: 0 0 12px; }
+  h2 a { color: hsla(var(--black-hsl), 1); text-decoration: none; }
+  .more { font-size: 14.27px; color: hsla(var(--accent-hsl), 1); text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 767px) {
+    .blog-list { grid-template-columns: 1fr; row-gap: 56px; }
+    h2 { font-size: 28px; }
+  }
+</style>

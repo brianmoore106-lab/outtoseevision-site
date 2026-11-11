@@ -1,0 +1,14 @@
+---
+// Shown after any form is sent (Netlify Forms).
+import Base from '../layouts/Base.astro';
+import { BOOKING_URL } from '../site/links';
+---
+<Base title="Thank You | Out to See Vision Care" noindex>
+  <section class="sec t-white-bold h-medium">
+    <div class="wrap" style="text-align:center">
+      <h1 style="font:500 44.8px/1.15 var(--heading-font);letter-spacing:-.02em">Thank you. We got your message.</h1>
+      <p>We'll get back to you soon. Need us sooner? Call or text <a href="tel:+18085012020">(808) 501-2020</a>.</p>
+      <p style="margin-top:2rem"><a class="btn btn-primary" href={BOOKING_URL} target="_blank" rel="noopener">Book Eye Exam</a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,289 @@
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+/* OUT TO SEE · BRAND PAGE STYLE (matches the ZEISS and Maui Jim pages).
+   Replaces the <style> at the top of the hero Code Block on every brand page.
+   Your text and layout stay the same. Only the look changes. */
+.ots, div.ots-also, div.ots-prec { box-sizing:border-box; max-width:none; margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+.ots *, div.ots-also *, div.ots-prec * { box-sizing:border-box; }
+
+/* Bands: white by default, every other section cream */
+.ots, div.ots-also { background:#FFFFFF; padding:72px 24px; color:#4A5568; }
+section.page-section:nth-of-type(even) .ots, section.page-section:nth-of-type(even) div.ots-also { background:#FAF8F4; }
+.ots > *, div.ots-also.ots-also > * { max-width:852px; margin-left:auto; margin-right:auto; }
+
+/* Type */
+.ots h1, .ots h2, div.ots-also h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; color:#1F2421; line-height:1.25; margin-top:0; margin-bottom:16px; }
+.ots h1 { font-size:38px; line-height:1.2; }
+.ots h2, div.ots-also h2 { font-size:30px; }
+.ots h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; line-height:1.4; color:#1A2E3B; margin:0 0 8px 0; }
+.ots p, div.ots-also p { font-size:16px; line-height:1.75; color:#4A5568; margin-top:0; margin-bottom:16px; }
+.ots p:last-child { margin-bottom:0; }
+.ots .eyebrow { display:block; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots a, div.ots-also .also-all a { color:#1D9E75 !important; font-weight:700; text-decoration:none !important; }
+.ots a:hover, div.ots-also .also-all a:hover { text-decoration:underline !important; }
+.ots .links { font-size:15px; margin-top:24px; }
+.ots.center { text-align:center; }
+.ots.center p { margin-left:auto; margin-right:auto; }
+
+/* Cards: bordered boxes with the green edge */
+.ots .grid, div.ots-also .also-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-top:36px; }
+.ots .card, div.ots-also a.also-card { background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+section.page-section:nth-of-type(even) .ots .card, section.page-section:nth-of-type(even) div.ots-also a.also-card { background:#FFFFFF; }
+.ots .card p { font-size:14px; line-height:1.7; margin:0; }
+div.ots-also a.also-card { display:block; text-decoration:none !important; color:#4A5568 !important; transition:transform .2s ease, box-shadow .2s ease; }
+div.ots-also a.also-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(26,46,59,.10); }
+div.ots-also .also-name { display:block; font-size:16px; font-weight:700; letter-spacing:.04em; color:#1A2E3B; margin:0 0 8px 0; }
+div.ots-also .also-text { display:block; font-size:14px; line-height:1.7; color:#4A5568; }
+div.ots-also .also-more { display:block; font-size:14px; font-weight:700; letter-spacing:.3px; text-transform:none; color:#1D9E75; margin-top:14px; }
+div.ots-also .also-all { font-size:15px; margin-top:24px; }
+
+/* Buttons */
+.ots .btns { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots.center .btns { justify-content:center; }
+.ots .btn { display:inline-block; padding:14px 28px; border-radius:8px; background:#1D9E75; color:#FFFFFF !important; font-size:15px; font-weight:700; letter-spacing:.3px; text-transform:none; text-decoration:none !important; transition:background .2s, color .2s, border-color .2s; }
+.ots .btn:hover { background:#0F6E56; text-decoration:none !important; }
+.ots .btn.alt { background:transparent; color:#1A2E3B !important; border:2px solid #1A2E3B; padding:12px 28px; }
+.ots .btn.alt:hover { background:#1A2E3B; color:#FFFFFF !important; }
+
+/* Hero: the navy band at the top (the block with the H1) */
+.ots:has(h1) { background:#1A2E3B !important; padding:80px 24px; }
+.ots:has(h1) h1 { color:#FFFFFF; max-width:720px; }
+.ots:has(h1) p { color:#A0B4BE; font-size:17px; line-height:1.7; max-width:640px; }
+.ots:has(h1) .eyebrow { color:#A0B4BE; }
+.ots:has(h1) .btn.alt { color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots:has(h1) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* Closing call to action: the green band at the bottom */
+.ots.center:not(:has(h1)) { background:#1D9E75 !important; }
+.ots.center:not(:has(h1)) h2 { color:#FFFFFF; }
+.ots.center:not(:has(h1)) p { color:rgba(255,255,255,.88); font-size:17px; max-width:580px; }
+.ots.center:not(:has(h1)) .btn { background:#FFFFFF; color:#1D9E75 !important; }
+.ots.center:not(:has(h1)) .btn:hover { background:#E1F5EE; color:#0F6E56 !important; }
+.ots.center:not(:has(h1)) .btn.alt { background:transparent; color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots.center:not(:has(h1)) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* FAQ accordion */
+.ots details { border-top:1px solid #E5E2DA; border-bottom:none; padding:0; }
+.ots details:last-of-type { border-bottom:1px solid #E5E2DA; }
+.ots h2 + details { margin-top:28px; }
+.ots summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; font-size:16px; font-weight:700; color:#1F2421; }
+.ots summary::-webkit-details-marker { display:none; }
+.ots summary:after { content:"+"; float:none; flex:0 0 auto; font-family:Georgia,"Times New Roman",serif; font-size:24px; font-weight:400; line-height:1; color:#1D9E75; transition:transform .25s ease; }
+.ots details[open] summary:after { content:"+"; transform:rotate(45deg); }
+.ots summary:hover { color:#1D9E75; }
+.ots details p { font-size:15px; line-height:1.7; margin:0; padding:0 36px 22px 0; }
+
+/* LINDBERG Precious panel: keeps its gold, matches the site navy */
+div.ots-prec { padding:0; }
+div.ots-prec .ots-prec-panel { background:#1A2E3B; padding:72px 48px; }
+div.ots-prec .ots-prec-panel > * { max-width:852px; margin-left:auto; margin-right:auto; }
+div.ots-prec h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; font-size:30px; line-height:1.25; }
+div.ots-prec .prec-grid h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; }
+div.ots-prec .ots-prec-panel p { font-size:16px; line-height:1.75; }
+div.ots-prec .prec-grid p { font-size:14px; line-height:1.7; }
+div.ots-prec a.prec-btn { border-radius:8px; text-transform:none; letter-spacing:.3px; font-weight:700; font-size:15px; }
+
+/* Phones */
+@media (max-width:720px) {
+  .ots, div.ots-also { padding:52px 20px; }
+  .ots:has(h1) { padding:60px 20px; }
+  .ots h1 { font-size:28px; }
+  .ots h2, div.ots-also h2, div.ots-prec h2 { font-size:24px; }
+  .ots details p { padding-right:0; }
+  .ots summary { font-size:15px; }
+  div.ots-prec .ots-prec-panel { padding:52px 24px; }
+}
+</style>
+<div class="ots center">
+<p class="eyebrow">Designer Eyewear · Kailua, Oahu</p>
+<h1>Face à Face Eyewear in Kailua, Oahu</h1>
+<p>Face à Face makes glasses for people who would rather be remembered than blend in. Designed in Paris, the frames play with unexpected shapes, strong lines and color that feels closer to sculpture than accessory. At Out to See, we fit them to your face and fill them with ZEISS lenses cut in our Kailua lab.</p>
+<div class="btns">
+<a class="btn" href="/location-and-parking">Visit Us in Kailua</a>
+<a class="btn alt" href="sms:+18085012020">Text to Check Stock</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_479 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Three decades of Parisian nerve</h2>
+<p>Since 1995, Face à Face has built its name in Paris by ignoring the rules most eyewear follows. Where other brands soften a shape, Face à Face sharpens it. Where others play safe with color, it goes further.</p>
+<p>The result is eyewear that works like a signature: instantly personal, and hard to forget. The brand's own motto says it best. Wear your vision.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_758 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:11;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/12/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Why people choose Face à Face</h2>
+<div class="grid">
+<div class="card"><h3>Shape as statement</h3><p>Architectural lines and unexpected silhouettes you won't see on anyone else in Kailua.</p></div>
+<div class="card"><h3>Color with intent</h3><p>Bold, carefully chosen colors that frame the face instead of hiding it.</p></div>
+<div class="card"><h3>Made to be worn daily</h3><p>Striking does not mean impractical. These are frames people wear every day, for years.</p></div>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_1052 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>A bold frame deserves precise lenses</h2>
+<p>Distinctive shapes are harder to fit with lenses than simple ovals. Our lens maker, Cory, measures you in the frame you choose, then cuts ZEISS lenses to follow every curve in our lab here in Kailua.</p>
+<p>You get the look you picked, and vision that matches it.</p>
+<p class="links"><a href="/lens-upgrades-kailua-hi">Why we only use ZEISS</a>  ·  <a href="/the-lab">Meet our Kailua lab</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_1328 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-none h-small"><div class="fe" style="--rm:6;--rd:7;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/8/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Face à Face at Out to See</h2>
+<p>We carry a curated selection of Face à Face optical frames at our boutique in Lau Hala Shops. Bold frames are best judged in person, so come try a few. Text us first if you are after a particular style.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_1608 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:12;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/13/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Questions about Face à Face</h2>
+<details><summary>Are Face à Face frames too bold for everyday wear?</summary><p>Most people are surprised how natural they feel once the fit is right. We will help you find a shape that feels like you, not a costume.</p></details>
+<details><summary>Can Face à Face frames take strong prescriptions?</summary><p>Usually, yes. Some shapes suit higher prescriptions better than others, and we will guide you toward frames and ZEISS lenses that keep things thin and light.</p></details>
+<details><summary>Can they be made into sunglasses?</summary><p>Many Face à Face optical frames can be fitted with ZEISS prescription sun lenses. Ask us which styles work best.</p></details>
+<details><summary>Do I need an eye exam first?</summary><p>Bring a current prescription, or book a <a href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p></details>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_1935 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots center">
+<h2>Come try them on</h2>
+<p>Out to See, 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Walk in to browse, or text (808) 501 2020.</p>
+<div class="btns">
+<a class="btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb">Book an Eye Exam</a>
+<a class="btn alt" href="/best-eyewear-kailua-hi">See All Our Brands</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790468217367_2228 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>

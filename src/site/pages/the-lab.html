@@ -1,0 +1,493 @@
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:16;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/17/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+.ots-lab-wrap *, .ots-lab-wrap *::before, .ots-lab-wrap *::after { box-sizing:border-box; }
+.ots-lab-inner { max-width:900px; margin:0 auto; padding:0 24px; }
+.ots-lab-eyebrow {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:11px; font-weight:700; letter-spacing:2.5px;
+  text-transform:uppercase; margin-bottom:14px; display:block;
+}
+.ots-lab-h1 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:38px; font-weight:500; line-height:1.2; margin-bottom:18px;
+}
+.ots-lab-h2 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:30px; font-weight:500; line-height:1.25; margin-bottom:16px;
+}
+.ots-lab-h3 {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:17px; font-weight:700; margin-bottom:10px;
+}
+.ots-lab-prose {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:16px; line-height:1.7; color:#4A5568;
+}
+.ots-lab-prose p { margin-bottom:16px; }
+.ots-lab-prose p:last-child { margin-bottom:0; }
+.ots-lab-btn-primary {
+  display:inline-block; background:#1D9E75; color:#fff; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:14px 28px; border-radius:8px;
+  letter-spacing:0.3px; transition:background 0.2s;
+}
+.ots-lab-btn-primary:hover { background:#0F6E56; }
+.ots-lab-btn-outline {
+  display:inline-block; background:transparent; color:#fff; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:13px 28px; border-radius:8px;
+  border:2px solid rgba(255,255,255,0.5); letter-spacing:0.3px;
+  transition:background 0.2s, border-color 0.2s;
+}
+.ots-lab-btn-outline:hover { background:rgba(255,255,255,0.1); border-color:#fff; }
+.ots-lab-btn-white {
+  display:inline-block; background:#fff; color:#1D9E75; text-decoration:none;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; font-weight:700; padding:14px 28px; border-radius:8px;
+  letter-spacing:0.3px; transition:background 0.2s, color 0.2s;
+}
+.ots-lab-btn-white:hover { background:#E1F5EE; color:#0F6E56; }
+.ots-lab-btn-group { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots-lab-hero { background:#1A2E3B; padding:80px 0; text-align:center; }
+.ots-lab-hero .ots-lab-eyebrow { color:#A0B4BE; }
+.ots-lab-hero .ots-lab-h1 { color:#fff; max-width:680px; margin-left:auto; margin-right:auto; }
+.ots-lab-hero-sub {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:17px; line-height:1.7; color:#A0B4BE;
+  max-width:620px; margin:0 auto;
+}
+.ots-lab-hero .ots-lab-btn-group { justify-content:center; }
+.ots-lab-pillars { background:#FAF8F4; padding:72px 0; }
+.ots-lab-pillars .ots-lab-eyebrow { color:#1D9E75; }
+.ots-lab-pillars .ots-lab-h2 { color:#1F2421; }
+.ots-lab-pillars-intro { text-align:center; margin-bottom:44px; }
+.ots-lab-pillar-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.ots-lab-pillar-card {
+  background:#fff; border:1px solid #E5E2DA;
+  border-top:3px solid #1D9E75; border-radius:10px; padding:28px 24px;
+}
+.ots-lab-pillar-card .ots-lab-h3 { color:#1A2E3B; }
+.ots-lab-pillar-card p {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:14px; line-height:1.7; color:#4A5568; margin:0;
+}
+.ots-lab-cory { background:#1A2E3B; padding:72px 0; }
+.ots-lab-cory-grid { display:grid; grid-template-columns:1fr 420px; gap:48px; align-items:center; }
+.ots-lab-cory .ots-lab-eyebrow { color:#A0B4BE; }
+.ots-lab-cory .ots-lab-h2 { color:#fff; }
+.ots-lab-cory-prose {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:16px; line-height:1.75; color:#A0B4BE;
+}
+.ots-lab-cory-prose p { margin-bottom:16px; }
+.ots-lab-cory-prose p:last-child { margin-bottom:0; }
+.ots-lab-cory-photo { border-radius:12px; overflow:hidden; }
+.ots-lab-cory-photo img { display:block; width:100%; height:auto; }
+.ots-lab-gallery { background:#1A2E3B; padding:0 0 72px 0; }
+.ots-lab-gallery-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:6px;
+  max-width:900px; margin:0 auto; padding:0 24px;
+}
+.ots-lab-gallery-item { border-radius:8px; overflow:hidden; }
+.ots-lab-gallery-item img { display:block; width:100%; height:220px; object-fit:cover; transition:transform 0.3s; }
+.ots-lab-gallery-item:hover img { transform:scale(1.03); }
+.ots-lab-services { background:#FAF8F4; padding:72px 0; }
+.ots-lab-services .ots-lab-eyebrow { color:#1D9E75; }
+.ots-lab-services .ots-lab-h2 { color:#1F2421; }
+.ots-lab-services-intro { margin-bottom:40px; }
+.ots-lab-services-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
+.ots-lab-svc-card {
+  background:#fff; border:1px solid #E5E2DA; border-radius:10px; padding:28px 24px;
+  display:flex; gap:20px; align-items:flex-start;
+}
+.ots-lab-svc-icon {
+  flex-shrink:0; width:42px; height:42px; border-radius:50%;
+  background:#E8F7F2; display:flex; align-items:center; justify-content:center;
+}
+.ots-lab-svc-icon svg { width:20px; height:20px; stroke:#1D9E75; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.ots-lab-svc-body { flex:1; }
+.ots-lab-svc-body .ots-lab-h3 { color:#1A2E3B; }
+.ots-lab-svc-body p {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:14px; line-height:1.7; color:#4A5568; margin:0;
+}
+.ots-lab-zeiss { background:#fff; padding:72px 0; border-top:1px solid #E5E2DA; }
+.ots-lab-zeiss .ots-lab-eyebrow { color:#1D9E75; }
+.ots-lab-zeiss .ots-lab-h2 { color:#1F2421; }
+.ots-lab-zeiss-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+.ots-lab-zeiss-badge {
+  display:inline-block; background:#1A2E3B; color:#fff;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:10px; font-weight:800; letter-spacing:2.5px;
+  padding:5px 12px; border-radius:4px; margin-bottom:14px;
+}
+.ots-lab-zeiss-bullets { list-style:none; padding:0; margin:16px 0 0 0; }
+.ots-lab-zeiss-bullets li {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; line-height:1.65; color:#4A5568;
+  padding:10px 0 10px 24px; position:relative;
+  border-bottom:1px solid #E5E2DA;
+}
+.ots-lab-zeiss-bullets li:last-child { border-bottom:none; }
+.ots-lab-zeiss-bullets li::before {
+  content:""; position:absolute; left:0; top:18px;
+  width:8px; height:8px; border-radius:50%; background:#1D9E75;
+}
+.ots-lab-zeiss-img { border-radius:12px; overflow:hidden; }
+.ots-lab-zeiss-img img { display:block; width:100%; height:auto; }
+.ots-lab-faq { background:#FAF8F4; padding:72px 0; }
+.ots-lab-faq .ots-lab-eyebrow { color:#1D9E75; }
+.ots-lab-faq .ots-lab-h2 { color:#1F2421; margin-bottom:32px; }
+.ots-lab-faq-list { display:flex; flex-direction:column; gap:0; }
+.ots-lab-faq-item { border-bottom:1px solid #E5E2DA; padding:22px 0; }
+.ots-lab-faq-item:first-child { border-top:1px solid #E5E2DA; }
+.ots-lab-faq-q {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:16px; font-weight:700; color:#1F2421; margin-bottom:10px;
+}
+.ots-lab-faq-a {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15px; line-height:1.7; color:#4A5568; margin:0;
+}
+.ots-lab-cta { background:#1D9E75; padding:72px 0; text-align:center; }
+.ots-lab-cta .ots-lab-h2 { color:#fff; }
+.ots-lab-cta-sub {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);
+  max-width:560px; margin:0 auto 28px auto;
+}
+.ots-lab-cta .ots-lab-btn-group { justify-content:center; }
+.ots-lab-cta-meta {
+  margin-top:28px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:13px; color:rgba(255,255,255,0.65); line-height:1.7;
+}
+.ots-lab-cta-meta a { color:rgba(255,255,255,0.85); text-decoration:none; }
+.ots-lab-cta-meta a:hover { text-decoration:underline; }
+@media (max-width:680px) {
+  .ots-lab-h1 { font-size:28px; }
+  .ots-lab-h2 { font-size:24px; }
+  .ots-lab-hero { padding:52px 0; }
+  .ots-lab-pillar-grid { grid-template-columns:1fr; }
+  .ots-lab-cory-grid { grid-template-columns:1fr; }
+  .ots-lab-cory-grid { grid-template-columns:1fr; }
+  .ots-lab-gallery-grid { grid-template-columns:1fr 1fr; }
+  .ots-lab-services-grid { grid-template-columns:1fr; }
+  .ots-lab-zeiss-grid { grid-template-columns:1fr; }
+  .ots-lab-btn-group { flex-direction:column; align-items:center; }
+  .ots-lab-btn-primary, .ots-lab-btn-outline, .ots-lab-btn-white { text-align:center; width:100%; max-width:320px; }
+}
+</style>
+<div class="ots-lab-wrap">
+<section class="ots-lab-hero">
+<div class="ots-lab-inner">
+<span class="ots-lab-eyebrow">Kailua Optical Lab · Lau Hala Shops</span>
+<h1 class="ots-lab-h1">Precision Eyeglass Lenses,<br/>Cut In-House with our own Optical Lab. Only ZEISS.</h1>
+<p class="ots-lab-hero-sub">Out to See Vision Care is home to Kailua's full-service in-house optical lab — where every prescription lens is measured, cut, and edged on-site by Master Lens Maker Cory using exclusively ZEISS optics.</p>
+<div class="ots-lab-btn-group">
+<a class="ots-lab-btn-primary" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" rel="noopener" target="_blank">Book an Eye Exam</a>
+<a class="ots-lab-btn-outline" href="tel:+18085012020">Call (808) 501-2020</a>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:17;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/18/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-pillars">
+<div class="ots-lab-inner">
+<div class="ots-lab-pillars-intro">
+<span class="ots-lab-eyebrow">Why It Matters</span>
+<h2 class="ots-lab-h2">What In-House Actually Means for You</h2>
+</div>
+<div class="ots-lab-pillar-grid">
+<div class="ots-lab-pillar-card">
+<h3 class="ots-lab-h3">Near-Obsessive Precision</h3>
+<p>Every lens is measured, cut, and edged here — not shipped out. That means exact placement and perfect alignment in your specific frame, verified by the hands that made it.</p>
+</div>
+<div class="ots-lab-pillar-card">
+<h3 class="ots-lab-h3">Keep Your Frames</h3>
+<p>Keep wearing your current frames while your custom lenses are being made. When they arrive, you'll only need to leave your glasses with us for a few hours - no shipping them away or worrying about them getting lost in transit.</p>
+</div>
+<div class="ots-lab-pillar-card">
+<h3 class="ots-lab-h3">Expert Craftsmanship on Every Pair</h3>
+<p>Led by Master Lens Maker Cory, our lab handles every job with the same attention whether it's your first pair or your tenth. We treat every lens like it's our own.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:20;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/21/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-cory">
+<div class="ots-lab-inner">
+<div class="ots-lab-cory-grid">
+<div>
+<span class="ots-lab-eyebrow">Master Lens Maker</span>
+<h2 class="ots-lab-h2">Meet Cory — The Craftsman Behind Every Lens</h2>
+<div class="ots-lab-cory-prose">
+<p>Cory leads our in-house optical lab with a level of precision that's genuinely rare in Hawaii. Every prescription that comes through Out to See goes through his hands — measured, cut, edged, and verified before it ever reaches your face.</p>
+<p>We don't outsource. We don't batch. We don't rush. Cory takes each frame individually, accounts for the specific geometry of your lens shape, and ensures the optical center lands exactly where it should for your prescription.</p>
+<p>That commitment is what separates an optometry practice with an in-house lab from one that just sells glasses. The difference shows up every time you put them on.</p>
+</div>
+</div>
+<div class="ots-lab-cory-photo">
+<img alt="Cory, Master Lens Maker at Out to See Vision Care optical lab in Kailua, Hawaii" loading="lazy" src="/images/corylabart.webp"/>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:18;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/19/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-gallery" style="background:#1A2E3B; padding:72px 0;">
+<div class="ots-lab-gallery-grid">
+<div class="ots-lab-gallery-item">
+<img alt="In-house optical lab lens cutting at Out to See Vision Care Kailua Hawaii" loading="lazy" src="/images/grok-image-5f3619f7-2067-4355-93ee-f7dbe78a154e.webp"/>
+</div>
+<div class="ots-lab-gallery-item">
+<img alt="Precision lens edging and optical lab equipment Kailua Hawaii" loading="lazy" src="/images/grok-image-ab2740b6-c5c7-461a-b338-896541771529.webp"/>
+</div>
+<div class="ots-lab-gallery-item">
+<img alt="ZEISS prescription lenses being crafted in optical lab Kailua Hawaii" loading="lazy" src="/images/grok-image-0de2cde6-9bc2-47df-b746-0c50666a77e1.webp"/>
+</div>
+<div class="ots-lab-gallery-item">
+<img alt="Eyeglass lens replacement same day optical lab Out to See Kailua" loading="lazy" src="/images/grok-image-c734b56e-bcb0-4d93-a957-ce2ff09bce18.webp"/>
+</div>
+<div class="ots-lab-gallery-item">
+<img alt="Optical lab craftsmanship and lens precision Out to See Vision Care Hawaii" loading="lazy" src="/images/grok-image-d3e77554-670a-4c56-9407-243e5b54098c.webp"/>
+</div>
+<div class="ots-lab-gallery-item" style="background:#0F1E27;display:flex;align-items:center;justify-content:center;padding:28px;">
+<p style="font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#ffffff;line-height:1.4;text-align:center;margin:0;">“We obsess over the smallest details so your vision is crisp, comfortable, and true.”</p>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:20;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/21/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-services">
+<div class="ots-lab-inner">
+<div class="ots-lab-services-intro">
+<span class="ots-lab-eyebrow">What We Do</span>
+<h2 class="ots-lab-h2">Full-Service Optical Lab in Kailua, Hawaii</h2>
+</div>
+<div class="ots-lab-services-grid">
+<div class="ots-lab-svc-card">
+<div class="ots-lab-svc-icon">
+<svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"></path></svg>
+</div>
+<div class="ots-lab-svc-body">
+<h3 class="ots-lab-h3">New Prescription Lenses</h3>
+<p>After your exam, your prescription goes straight to Cory — no mail, no delay. New lenses are cut and fitted in-house, typically within 1-2 weeks.</p>
+</div>
+</div>
+<div class="ots-lab-svc-card">
+<div class="ots-lab-svc-icon">
+<svg viewbox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" x2="12" y1="22.08" y2="12"></line></svg>
+</div>
+<div class="ots-lab-svc-body">
+<h3 class="ots-lab-h3">Lens Replacement — Keep Your Frames</h3>
+<p>Love your frames? Don't replace them. Whether your lenses are scratched, outdated, or just need a new prescription, we'll cut new ZEISS lenses to fit your existing frame.</p>
+</div>
+</div>
+<div class="ots-lab-svc-card">
+<div class="ots-lab-svc-icon">
+<svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" x2="9.01" y1="9" y2="9"></line><line x1="15" x2="15.01" y1="9" y2="9"></line></svg>
+</div>
+<div class="ots-lab-svc-body">
+<h3 class="ots-lab-h3">Sunglass Lens Replacement</h3>
+<p>Scratched non-prescription sunglass lenses? We replace those too — often the same day. Keep the frames you love with fresh, clear lenses.</p>
+</div>
+</div>
+<div class="ots-lab-svc-card">
+<div class="ots-lab-svc-icon">
+<svg viewbox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+</div>
+<div class="ots-lab-svc-body">
+<h3 class="ots-lab-h3">Premium Lens Upgrades</h3>
+<p>Anti-reflective coatings, blue-light filtering, photochromic (light-adaptive) lenses, high-index thin lenses — all ZEISS, all cut on-site. Ask about upgrade options at your visit.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:23;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/24/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-zeiss">
+<div class="ots-lab-inner">
+<div class="ots-lab-zeiss-grid">
+<div>
+<div class="ots-lab-zeiss-badge">EXCLUSIVE PARTNER</div>
+<span class="ots-lab-eyebrow">Our Lens Standard</span>
+<h2 class="ots-lab-h2">Why We Only Use ZEISS Lenses</h2>
+<div class="ots-lab-prose">
+<p>ZEISS has been the global benchmark for optical precision for over 175 years. We made the decision to use only ZEISS lenses because our patients' vision deserves nothing less than the clearest, most accurate optics available.</p>
+</div>
+<ul class="ots-lab-zeiss-bullets">
+<li>Industry-leading optical clarity and contrast at all distances</li>
+<li>Superior scratch-resistance and lens durability</li>
+<li>Advanced anti-reflective and UV-protective coatings</li>
+<li>Precise prescription accuracy verified to the highest tolerances</li>
+<li>Available in single vision, progressive, and specialty designs</li>
+</ul>
+</div>
+<div class="ots-lab-zeiss-img">
+<img alt="ZEISS precision lenses cut in-house at Out to See Vision Care optical lab Kailua Hawaii" loading="lazy" src="/images/grok-image-5f3619f7-2067-4355-93ee-f7dbe78a154e.webp" style="border-radius:12px;width:100%;height:auto;display:block;"/>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:35;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/36/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-faq">
+<div class="ots-lab-inner">
+<span class="ots-lab-eyebrow">Common Questions</span>
+<h2 class="ots-lab-h2">Frequently Asked Questions</h2>
+<div class="ots-lab-faq-list">
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">What does it mean to have an in-house optical lab?</p>
+<p class="ots-lab-faq-a">Most optical practices send your prescription to an off-site lab and wait several weeks for your glasses to return. Our in-house lab means Cory cuts and edges your lenses right here in Kailua. You get faster service, better quality control, and lenses made specifically for your frame by someone who can see the result firsthand.</p>
+</div>
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">How long does lens replacement take?</p>
+<p class="ots-lab-faq-a">Most lens replacements — whether updating a prescription or replacing scratched lenses — are completed within 1-2 weeks. Complex prescriptions or specialty lenses may take slightly longer; we'll give you an accurate timeline at drop-off.</p>
+</div>
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">Can I keep my current frames and just get new lenses?</p>
+<p class="ots-lab-faq-a">Yes — this is one of our most popular services. If your frames are in good condition, there's no reason to replace them just because your prescription changed or your lenses got scratched. Bring your frames in and Cory will cut new ZEISS lenses to fit them exactly. The one exception is Maui Jim. Maui Jim only makes its own prescription lenses, so we order those from them.</p>
+</div>
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">Do you replace lenses in sunglasses that aren't prescription?</p>
+<p class="ots-lab-faq-a">Yes. If your non-prescription sunglass lenses are scratched or damaged, we can often replace them with brand new lenses. This is often much more affordable than buying a new pair — and we can frequently do it the same day. Maui Jim is the exception. Maui Jim only makes its own lenses, so replacement lenses for Maui Jim frames have to come from Maui Jim.</p>
+</div>
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">What makes ZEISS lenses worth it?</p>
+<p class="ots-lab-faq-a">ZEISS is a global leader in optical innovation, known for setting the standard in lens technology. Their lenses are manufactured to exceptionally strict tolerances, delivering better clarity, sharper edges, and more accurate prescription correction. Their coatings — including anti-reflective, scratch-resistant, and UV-protective — are also more durable. We chose ZEISS exclusively because we believe it's the best available, and we don't want to offer anything less.</p>
+</div>
+<div class="ots-lab-faq-item">
+<p class="ots-lab-faq-q">Do I need an appointment to have lenses replaced?</p>
+<p class="ots-lab-faq-a">For lens replacements using an existing prescription, you can just walk in with your frames. If you need a new prescription first, you'll want to book an eye exam. Call or text us at (808) 501-2020 and we'll get you squared away.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1781231431805_3911 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark-bold h-small"><div class="fe" style="--rm:6;--rd:19;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/20/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- THE LAB PAGE · KEEP EXPLORING · new Code Block between the FAQ section and the green call to action -->
+<style>
+.ots-rel *, .ots-rel *::before, .ots-rel *::after { box-sizing:border-box; }
+.ots-rel { background:#FFFFFF; padding:72px 0; border-top:1px solid #E5E2DA; }
+.ots-rel-inner { max-width:900px; margin:0 auto; padding:0 24px; }
+.ots-rel-eyebrow { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots-rel-h2 { font-family:Georgia,"Times New Roman",serif; font-size:30px; font-weight:500; line-height:1.25; color:#1F2421; margin:0 0 16px 0; }
+.ots-rel-prose { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; line-height:1.75; color:#4A5568; max-width:680px; margin:0; }
+.ots-rel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:36px; }
+.ots-rel-card { display:block; text-decoration:none !important; background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 20px 20px; transition:transform .2s ease, box-shadow .2s ease; }
+.ots-rel-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(26,46,59,.10); }
+.ots-rel-card-title { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; color:#1A2E3B; margin-bottom:8px; }
+.ots-rel-card-text { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; line-height:1.7; color:#4A5568; margin-bottom:14px; }
+.ots-rel-card-more { display:block; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; color:#1D9E75; letter-spacing:.3px; }
+.ots-rel-brands { margin-top:32px; padding-top:24px; border-top:1px solid #E5E2DA; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:15px; line-height:2; color:#4A5568; }
+.ots-rel-brands strong { display:block; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1A2E3B; margin-bottom:6px; }
+.ots-rel-brands a { color:#1D9E75 !important; font-weight:700; text-decoration:none !important; white-space:nowrap; }
+.ots-rel-brands a:hover { text-decoration:underline !important; }
+.ots-rel-dot { color:#B9C4CB; margin:0 4px; }
+@media (max-width:720px) {
+  .ots-rel { padding:52px 0; }
+  .ots-rel-h2 { font-size:24px; }
+  .ots-rel-grid { grid-template-columns:1fr; }
+}
+</style>
+<section class="ots-rel">
+<div class="ots-rel-inner">
+<span class="ots-rel-eyebrow">Keep Exploring</span>
+<h2 class="ots-rel-h2">What Goes Into Every Pair</h2>
+<p class="ots-rel-prose">The lab is one part of the story. Here are the lenses we cut, the frames we mount them in, and the team behind the work.</p>
+<div class="ots-rel-grid">
+<a class="ots-rel-card" href="/lens-upgrades-kailua-hi">
+<span class="ots-rel-card-title">ZEISS Lenses</span>
+<span class="ots-rel-card-text">Made to order for your prescription and measured for your frame.</span>
+<span class="ots-rel-card-more">Explore ZEISS lenses →</span>
+</a>
+<a class="ots-rel-card" href="/best-eyewear-kailua-hi">
+<span class="ots-rel-card-title">Designer Eyewear</span>
+<span class="ots-rel-card-text">Hand picked frames from LINDBERG, MYKITA, MOSCOT and more.</span>
+<span class="ots-rel-card-more">Explore designer eyewear →</span>
+</a>
+<a class="ots-rel-card" href="/the-team">
+<span class="ots-rel-card-title">Meet the Team</span>
+<span class="ots-rel-card-text">The people who examine, measure, fit, and stand behind your glasses.</span>
+<span class="ots-rel-card-more">Meet the team →</span>
+</a>
+</div>
+<p class="ots-rel-brands"><strong>Shop by Brand</strong><a href="/lindberg-eyewear-hawaii">LINDBERG</a> <span class="ots-rel-dot">·</span> <a href="/mykita-eyewear-hawaii">MYKITA</a> <span class="ots-rel-dot">·</span> <a href="/moscot-eyewear-hawaii">MOSCOT</a> <span class="ots-rel-dot">·</span> <a href="/tom-ford">TOM FORD</a> <span class="ots-rel-dot">·</span> <a href="/face-a-face-eyewear-hawaii">Face à Face</a> <span class="ots-rel-dot">·</span> <a href="/etnia-barcelona-eyewear-hawaii">Etnia Barcelona</a> <span class="ots-rel-dot">·</span> <a href="/krewe-eyewear-hawaii">KREWE</a></p>
+</div>
+</section>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790975291810_1979 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:13;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/14/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots-lab-wrap">
+<section class="ots-lab-cta">
+<div class="ots-lab-inner">
+<h2 class="ots-lab-h2">Ready for Lenses That Are Actually Made for You?</h2>
+<p class="ots-lab-cta-sub">Book an exam, bring in your frames, or just stop by — our lab is open and Cory is here.</p>
+<div class="ots-lab-btn-group">
+<a class="ots-lab-btn-white" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" rel="noopener" target="_blank">Book an Eye Exam</a>
+</div>
+<p class="ots-lab-cta-meta">
+      573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, HI 96734
+       · 
+      <a href="tel:+18085012020">(808) 501-2020</a> (call or text)<br/>
+      Mon–Sat 10am–6pm  ·  Sun 10am–3pm
+    </p>
+</div>
+</section>
+</div>
+</div></div></div></div></section>

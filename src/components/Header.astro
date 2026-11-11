@@ -1,0 +1,127 @@
+---
+// Site header: same menu, links and Book Eye Exam button as the Squarespace site.
+import meta from '../site/meta.json';
+import { BOOKING_URL, GIFT_CARD_URL, INSTAGRAM_URL, FACEBOOK_URL } from '../site/links';
+
+const menu = [
+  { title: 'Vision Care', items: [
+    ['Comprehensive Eye Exam', '/comprehensive-eye-exam-kailua-hi'],
+    ['Eye Doctor in Kailua', '/eye-doctor-kailua-hi'],
+    ['Contact Lenses', '/contact-lens-fitting-kailua-hi'],
+    ['Walk-In & Same-Day Exams', '/walk-in-eye-exam-kailua-hi'],
+    ['DMV Vision Testing', '/dmv-vision-testing-kailua-hi'],
+    ['Dry Eye', '/dry-eye-treatment-kailua'],
+    ['Myopia Control', '/myopia-management-kailua-hi'],
+    ['Eye Care Tips', '/patient-literature'],
+    ['Blog', '/optometrist-blog'],
+    ['Pediatric Eye Exams', '/pediatric-eye-exams-kailua-hi'],
+    ['Kaneohe', '/eye-doctor-kaneohe-hi'],
+  ]},
+  { title: 'Eyewear Boutique', items: [
+    ['The Lab', '/the-lab'],
+    ['ZEISS Lenses', '/lens-upgrades-kailua-hi'],
+    ['Designer Eyewear', '/best-eyewear-kailua-hi'],
+    ['Sunglasses', '/sunglasses'],
+    ['Reeflect', '/custom-sunglasses-kailua-hi'],
+    ['Iris Photography', '/iris-photography'],
+    ['MAUI JIM', '/maui-jim-prescription-sunglasses-kailua-hi'],
+    ['LINDBERG', '/lindberg-eyewear-hawaii'],
+    ['MYKITA', '/mykita-eyewear-hawaii'],
+    ['MOSCOT', '/moscot-eyewear-hawaii'],
+    ['TOM FORD', '/tom-ford'],
+    ['FACE A FACE', '/face-a-face-eyewear-hawaii'],
+    ['ETNIA BARCELONA', '/etnia-barcelona-eyewear-hawaii'],
+    ['KREWE', '/krewe-eyewear-hawaii'],
+  ]},
+  { title: 'About Us', items: [
+    ['The Team', '/the-team'],
+    ['Our Story', '/about-best-optometrist-kailua-hi'],
+    ['Featured Films', '/featured-films'],
+    ['Pricing and Insurance', '/pricing'],
+    ['Location and Parking', '/location-and-parking'],
+    ['HIPAA Privacy Policy', '/hipaa'],
+  ]},
+  { title: 'Contact', items: [
+    ["Let's Connect", '/contact-best-optometrist-kailua-hi'],
+    ['Patient Portal', '/patient-portal'],
+    ['eGift Cards', GIFT_CARD_URL],
+  ]},
+];
+const ext = (href: string) => href.startsWith('http');
+const here = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '');
+const isOn = (items: string[][]) => items.some(([, h]) => h === here || (h !== '/' && here.startsWith(h + '/')));
+---
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="logo" href="/" aria-label="Out to See Vision Care home">
+      <img src={meta.logo} alt="Out to See" width="66" height="66" />
+    </a>
+    <nav class="nav" aria-label="Main">
+      {menu.map((f) => (
+        <div class={isOn(f.items) ? 'fold on' : 'fold'}>
+          <button class="fold-t" type="button" aria-haspopup="true">{f.title}</button>
+          <div class="fold-m">
+            {f.items.map(([t, h]) => <a href={h} {...(ext(h) ? { target: '_blank', rel: 'noopener' } : {})}>{t}</a>)}
+          </div>
+        </div>
+      ))}
+    </nav>
+    <div class="acts">
+      <a class="soc" href={INSTAGRAM_URL} target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+      </a>
+      <a class="soc" href={FACEBOOK_URL} target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg>
+      </a>
+      <a class="cta" href={BOOKING_URL} target="_blank" rel="noopener">Book Eye Exam</a>
+    </div>
+    <details class="mnav">
+      <summary aria-label="Open menu"><span></span><span></span><span></span></summary>
+      <div class="mnav-p">
+        {menu.map((f) => (
+          <div class="mfold">
+            <p>{f.title}</p>
+            {f.items.map(([t, h]) => <a href={h} {...(ext(h) ? { target: '_blank', rel: 'noopener' } : {})}>{t}</a>)}
+          </div>
+        ))}
+        <a class="cta" href={BOOKING_URL} target="_blank" rel="noopener">Book Eye Exam</a>
+      </div>
+    </details>
+  </div>
+</header>
+
+<style>
+  /* Header floats over the first section with a fade, like the Squarespace header */
+  .hdr { position: absolute; top: 0; left: 0; right: 0; z-index: 50; background: linear-gradient(hsla(var(--lightAccent-hsl), 1), rgba(0,0,0,0)); border-bottom: 1px solid hsla(var(--black-hsl), 1); }
+  .hdr-in { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 102px; padding: 0 14px; }
+  .logo img { display: block; height: 66px; width: auto; }
+  .nav { display: flex; gap: 0; align-items: center; position: absolute; left: 50%; transform: translateX(-50%); }
+  .fold { position: relative; padding: 0 .9em; }
+  .fold-t { background: none; border: 0; cursor: pointer; padding: 1.6px 0; font: 400 16px/24px var(--body-font); color: rgba(24, 34, 65, .6); background-image: linear-gradient(rgba(24, 34, 65, .6), rgba(24, 34, 65, .6)); background-size: 0 1px; background-repeat: no-repeat; background-position: 0 calc(100% - 1.6px); transition: background-size .2s; }
+  .fold:hover .fold-t, .fold:focus-within .fold-t, .fold.on .fold-t { background-size: 100% 1px; }
+  .fold.on .fold-t { color: var(--green); background-image: linear-gradient(var(--green), var(--green)); }
+  .fold-m { display: none; position: absolute; left: .9em; top: 100%; min-width: 200px; padding: 8px 16px; background: hsla(var(--lightAccent-hsl), 1); }
+  .fold:hover .fold-m, .fold:focus-within .fold-m { display: block; }
+  .fold-m a { display: block; padding: 1.3px 0; font: 400 13px/16.9px -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: rgba(24, 34, 65, .6); text-decoration: none; white-space: nowrap; }
+  .fold-m a:hover { color: #fff; }
+  .acts { display: flex; align-items: center; gap: 0; }
+  .soc { display: grid; place-items: center; width: 36px; height: 36px; margin: 0 3px; border: 1px solid rgba(24, 34, 65, .6); border-radius: 50%; color: rgba(24, 34, 65, .6); }
+  .soc:hover { color: var(--green); border-color: var(--green); }
+  .cta { background: var(--green); color: #fff; border-radius: 8px; font: 700 13px/1.4 var(--body-font); letter-spacing: .5px; text-transform: uppercase; text-decoration: none; padding: 22px 35.2px; margin-left: 24px; white-space: nowrap; }
+  .cta:hover { background: var(--green-dark); }
+  .mnav { display: none; }
+  @media (max-width: 1023px) {
+    .nav, .acts { display: none; }
+    .hdr-in { height: 76px; padding: 0 6vw; }
+    .logo img { height: 52px; }
+    .mnav { display: block; }
+    .mnav summary { list-style: none; cursor: pointer; display: grid; gap: 5px; padding: 10px; }
+    .mnav summary::-webkit-details-marker { display: none; }
+    .mnav summary span { display: block; width: 26px; height: 2px; background: hsla(var(--black-hsl), 1); }
+    .mnav-p { position: absolute; left: 0; right: 0; top: 100%; background: hsla(var(--lightAccent-hsl), 1); padding: 1rem 6vw 2rem; max-height: calc(100vh - 76px); overflow-y: auto; border-bottom: 1px solid hsla(var(--black-hsl), 1); }
+    .mfold { padding: .5rem 0 1rem; }
+    .mfold p { margin: 0 0 .4rem; font: 700 12px/1 var(--body-font); letter-spacing: 1.5px; text-transform: uppercase; color: hsla(var(--black-hsl), .7); }
+    .mfold a { display: block; padding: 8px 0; color: hsla(var(--black-hsl), 1); text-decoration: none; font-size: 17px; }
+    .mnav-p .cta { display: block; text-align: center; margin: 1rem 0 0; }
+  }
+</style>

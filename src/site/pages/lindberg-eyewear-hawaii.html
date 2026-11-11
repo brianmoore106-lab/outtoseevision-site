@@ -1,0 +1,523 @@
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+/* OUT TO SEE · BRAND PAGE STYLE (matches the ZEISS and Maui Jim pages).
+   Replaces the <style> at the top of the hero Code Block on every brand page.
+   Your text and layout stay the same. Only the look changes. */
+.ots, div.ots-also, div.ots-prec { box-sizing:border-box; max-width:none; margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+.ots *, div.ots-also *, div.ots-prec * { box-sizing:border-box; }
+
+/* Bands: white by default, every other section cream */
+.ots, div.ots-also { background:#FFFFFF; padding:72px 24px; color:#4A5568; }
+section.page-section:nth-of-type(even) .ots, section.page-section:nth-of-type(even) div.ots-also { background:#FAF8F4; }
+.ots > *, div.ots-also.ots-also > * { max-width:852px; margin-left:auto; margin-right:auto; }
+
+/* Type */
+.ots h1, .ots h2, div.ots-also h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; color:#1F2421; line-height:1.25; margin-top:0; margin-bottom:16px; }
+.ots h1 { font-size:38px; line-height:1.2; }
+.ots h2, div.ots-also h2 { font-size:30px; }
+.ots h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; line-height:1.4; color:#1A2E3B; margin:0 0 8px 0; }
+.ots p, div.ots-also p { font-size:16px; line-height:1.75; color:#4A5568; margin-top:0; margin-bottom:16px; }
+.ots p:last-child { margin-bottom:0; }
+.ots .eyebrow { display:block; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots a, div.ots-also .also-all a { color:#1D9E75 !important; font-weight:700; text-decoration:none !important; }
+.ots a:hover, div.ots-also .also-all a:hover { text-decoration:underline !important; }
+.ots .links { font-size:15px; margin-top:24px; }
+.ots.center { text-align:center; }
+.ots.center p { margin-left:auto; margin-right:auto; }
+
+/* Cards: bordered boxes with the green edge */
+.ots .grid, div.ots-also .also-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-top:36px; }
+.ots .card, div.ots-also a.also-card { background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+section.page-section:nth-of-type(even) .ots .card, section.page-section:nth-of-type(even) div.ots-also a.also-card { background:#FFFFFF; }
+.ots .card p { font-size:14px; line-height:1.7; margin:0; }
+div.ots-also a.also-card { display:block; text-decoration:none !important; color:#4A5568 !important; transition:transform .2s ease, box-shadow .2s ease; }
+div.ots-also a.also-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(26,46,59,.10); }
+div.ots-also .also-name { display:block; font-size:16px; font-weight:700; letter-spacing:.04em; color:#1A2E3B; margin:0 0 8px 0; }
+div.ots-also .also-text { display:block; font-size:14px; line-height:1.7; color:#4A5568; }
+div.ots-also .also-more { display:block; font-size:14px; font-weight:700; letter-spacing:.3px; text-transform:none; color:#1D9E75; margin-top:14px; }
+div.ots-also .also-all { font-size:15px; margin-top:24px; }
+
+/* Buttons */
+.ots .btns { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots.center .btns { justify-content:center; }
+.ots .btn { display:inline-block; padding:14px 28px; border-radius:8px; background:#1D9E75; color:#FFFFFF !important; font-size:15px; font-weight:700; letter-spacing:.3px; text-transform:none; text-decoration:none !important; transition:background .2s, color .2s, border-color .2s; }
+.ots .btn:hover { background:#0F6E56; text-decoration:none !important; }
+.ots .btn.alt { background:transparent; color:#1A2E3B !important; border:2px solid #1A2E3B; padding:12px 28px; }
+.ots .btn.alt:hover { background:#1A2E3B; color:#FFFFFF !important; }
+
+/* Hero: the navy band at the top (the block with the H1) */
+.ots:has(h1) { background:#1A2E3B !important; padding:80px 24px; }
+.ots:has(h1) h1 { color:#FFFFFF; max-width:720px; }
+.ots:has(h1) p { color:#A0B4BE; font-size:17px; line-height:1.7; max-width:640px; }
+.ots:has(h1) .eyebrow { color:#A0B4BE; }
+.ots:has(h1) .btn.alt { color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots:has(h1) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* Closing call to action: the green band at the bottom */
+.ots.center:not(:has(h1)) { background:#1D9E75 !important; }
+.ots.center:not(:has(h1)) h2 { color:#FFFFFF; }
+.ots.center:not(:has(h1)) p { color:rgba(255,255,255,.88); font-size:17px; max-width:580px; }
+.ots.center:not(:has(h1)) .btn { background:#FFFFFF; color:#1D9E75 !important; }
+.ots.center:not(:has(h1)) .btn:hover { background:#E1F5EE; color:#0F6E56 !important; }
+.ots.center:not(:has(h1)) .btn.alt { background:transparent; color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots.center:not(:has(h1)) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* FAQ accordion */
+.ots details { border-top:1px solid #E5E2DA; border-bottom:none; padding:0; }
+.ots details:last-of-type { border-bottom:1px solid #E5E2DA; }
+.ots h2 + details { margin-top:28px; }
+.ots summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; font-size:16px; font-weight:700; color:#1F2421; }
+.ots summary::-webkit-details-marker { display:none; }
+.ots summary:after { content:"+"; float:none; flex:0 0 auto; font-family:Georgia,"Times New Roman",serif; font-size:24px; font-weight:400; line-height:1; color:#1D9E75; transition:transform .25s ease; }
+.ots details[open] summary:after { content:"+"; transform:rotate(45deg); }
+.ots summary:hover { color:#1D9E75; }
+.ots details p { font-size:15px; line-height:1.7; margin:0; padding:0 36px 22px 0; }
+
+/* LINDBERG Precious panel: keeps its gold, matches the site navy */
+div.ots-prec { padding:0; }
+div.ots-prec .ots-prec-panel { background:#1A2E3B; padding:72px 48px; }
+div.ots-prec .ots-prec-panel > * { max-width:852px; margin-left:auto; margin-right:auto; }
+div.ots-prec h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; font-size:30px; line-height:1.25; }
+div.ots-prec .prec-grid h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; }
+div.ots-prec .ots-prec-panel p { font-size:16px; line-height:1.75; }
+div.ots-prec .prec-grid p { font-size:14px; line-height:1.7; }
+div.ots-prec a.prec-btn { border-radius:8px; text-transform:none; letter-spacing:.3px; font-weight:700; font-size:15px; }
+
+/* Phones */
+@media (max-width:720px) {
+  .ots, div.ots-also { padding:52px 20px; }
+  .ots:has(h1) { padding:60px 20px; }
+  .ots h1 { font-size:28px; }
+  .ots h2, div.ots-also h2, div.ots-prec h2 { font-size:24px; }
+  .ots details p { padding-right:0; }
+  .ots summary { font-size:15px; }
+  div.ots-prec .ots-prec-panel { padding:52px 24px; }
+}
+</style>
+<div class="ots center">
+<p class="eyebrow">Designer Eyewear · Kailua, Oahu</p>
+<h1>LINDBERG Eyewear in Kailua, Oahu</h1>
+<p>Some frames you notice. LINDBERG frames you forget you are wearing. Designed in Denmark and built from fine titanium with no screws, rivets or welds, they weigh almost nothing and flex instead of breaking. At Out to See, we fit each pair to your face and fill it with ZEISS lenses cut in our Kailua lab.</p>
+<div class="btns">
+<a class="btn" href="/location-and-parking">Visit Us in Kailua</a>
+<a class="btn alt" href="sms:+18085012020">Text Us to Check Inventory</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_479 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-none h-small"><div class="fe" style="--rm:6;--rd:48;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/49/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- LINDBERG PAGE · FRAMES WE CARRY · new Code Block directly below "LINDBERG at Out to See". Styles come from the brand page style in the hero block, plus the few card styles below. -->
+<style>
+.ots .ots-fr-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:36px; }
+.ots .ots-fr-card { display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; overflow:hidden; }
+section.page-section:nth-of-type(odd) .ots .ots-fr-card { background:#FAF8F4; }
+.ots .ots-fr-img { position:relative; aspect-ratio:4 / 3; background:#F1EEE7; display:flex; align-items:center; justify-content:center; margin:0; }
+.ots .ots-fr-img img { width:100%; height:100%; object-fit:contain; display:block; padding:18px; }
+.ots .ots-fr-img svg { width:62%; height:auto; opacity:.55; }
+.ots .ots-fr-body { padding:22px 22px 24px 20px; display:flex; flex-direction:column; flex:1; }
+.ots .ots-fr-coll { display:block; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#1D9E75; margin:0 0 6px 0; }
+.ots .ots-fr-body h3 { font-family:Georgia,"Times New Roman",serif; font-size:22px; font-weight:500; color:#1F2421; margin:0 0 10px 0; }
+.ots .ots-fr-body p { font-size:14px; line-height:1.7; margin:0 0 14px 0; }
+.ots .ots-fr-tags { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px 0; padding:0; list-style:none; }
+.ots .ots-fr-tags li { font-size:12px; font-weight:600; color:#1A2E3B; background:#E8F4EF; border-radius:999px; padding:4px 10px; margin:0; }
+.ots .ots-fr-tags li::before { content:none; }
+.ots .ots-fr-body a.ots-fr-ask { margin-top:auto; font-size:14px; }
+@media (max-width:720px) { .ots .ots-fr-grid { grid-template-columns:1fr; } }
+</style>
+<div class="ots">
+<p class="eyebrow">In the Boutique</p>
+<h2>LINDBERG Frames We Carry</h2>
+<p>Our LINDBERG selection changes as new pieces arrive. These are the most popular models you will usually find on our wall in Kailua along with many more. Text us before you come to check our stock and colors or feel free to stop by and shop anytime.</p>
+<div class="ots-fr-grid">
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="LINDBERG Air Titanium Rim Richelle eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><rect height="54" rx="24" width="80" x="10" y="14"></rect><rect height="54" rx="24" width="80" x="130" y="14"></rect><path d="M90 32 Q110 22 130 32"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">Air Titanium Rim</span>
+<h3>LINDBERG Richelle</h3>
+<p>A fine titanium wire frame with a full rim around each lens and LINDBERG's signature screwless spiral hinge. It is light enough to forget you have it on, and you can mix colors across the front and temples to make it your own.</p>
+<ul class="ots-fr-tags"><li>Titanium wire</li><li>Full rim</li><li>Screwless hinge</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Text us to check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="LINDBERG N.O.W. Titanium 6564 eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><path d="M10 22 Q50 6 92 18 Q94 50 70 66 Q30 72 16 50 Z"></path><path d="M210 22 Q170 6 128 18 Q126 50 150 66 Q190 72 204 50 Z"></path><path d="M92 28 Q110 20 128 28"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">N.O.W. Titanium</span>
+<h3>LINDBERG N.O.W. 6564</h3>
+<p>An ultra thin composite front paired with titanium temples and screwless hinges. LINDBERG says frames in the N.O.W. collection can weigh as little as 2.3 grams, and the fronts come in clear, translucent, and matt colors.</p>
+<ul class="ots-fr-tags"><li>Composite front</li><li>Titanium temples</li><li>Ultralight</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Text us to check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="LINDBERG Strip Titanium 9753 eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><rect height="50" rx="10" width="82" x="10" y="16"></rect><rect height="50" rx="10" width="82" x="128" y="16"></rect><path d="M92 28 L128 28"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">Strip Titanium</span>
+<h3>LINDBERG Strip 9753</h3>
+<p>Strip frames are laser cut from thin plates of premium titanium, and made in Denmark. The result is flat, strong, and nearly weightless. The 9753 is a clean, unisex design with LINDBERG's screwless hinge.</p>
+<ul class="ots-fr-tags"><li>Laser cut titanium</li><li>Unisex</li><li>Screwless hinge</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Text us to check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="LINDBERG Acetanium 1267 eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="6"><rect height="50" rx="6" width="82" x="10" y="16"></rect><rect height="50" rx="6" width="82" x="128" y="16"></rect><path d="M92 30 L128 30"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">Acetanium</span>
+<h3>LINDBERG Acetanium 1267</h3>
+<p>The look of a classic acetate frame with far less weight. The 1267 is a full rim rectangle with an acetate front, titanium temples, a titanium reinforced bridge, and titanium nose pad arms, so it stays comfortable all day and holds an adjustment.</p>
+<ul class="ots-fr-tags"><li>Acetate front</li><li>Titanium temples</li><li>Rectangle</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Text us to check colors and sizes →</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1791864855956_2162 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-white-bold h-small"><div class="fe" style="--rm:6;--rd:10;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/11/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Four decades of Danish restraint</h2>
+<p>LINDBERG began in 1983, when optician Poul Jørn Lindberg and his wife Hanne set out to make glasses that did less, better. In 1986, working with architect Hans Dissing, they introduced a titanium wire frame with a hinge made from the wire itself. No screws to loosen. No solder to crack.</p>
+<p>That idea still defines the brand today, and it has earned LINDBERG a long list of international design awards.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_757 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Why people who try LINDBERG don't go back</h2>
+<div class="grid">
+<div class="card"><h3>Weight</h3><p>Many rimless LINDBERG frames weigh just a few grams. No red marks on your nose at the end of the day.</p></div>
+<div class="card"><h3>Flexibility</h3><p>Titanium bends and returns to shape. These frames survive being sat on more often than you would expect.</p></div>
+<div class="card"><h3>Built for you</h3><p>Lens shape, color, temple length and nose pads can be configured, so one model can look completely different on two people.</p></div>
+<div class="card"><h3>Quiet design</h3><p>No logos on the front. The design is the signature.</p></div>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_1046 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:10;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/11/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Made for your prescription, not just your face</h2>
+<p>A rimless frame is only as good as its lenses, because the lenses are the frame. Every LINDBERG we sell is fitted with ZEISS lenses that our lens maker, Cory, measures, cuts and mounts in our own lab here in Kailua.</p>
+<p>Precise measurements matter even more with rimless designs, where there is nowhere for a poorly made lens to hide.</p>
+<p class="links"><a href="/lens-upgrades-kailua-hi">Why we only use ZEISS</a>  ·  <a href="/the-lab">Meet our Kailua lab</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_1340 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:7;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/8/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>LINDBERG at Out to See</h2>
+<p>We carry a curated selection of LINDBERG optical frames at our boutique in Lau Hala Shops. If you have a specific style in mind, text us before you come in and we will tell you what we have. We recommend coming in and trying them on.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_1648 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-dark h-small"><div class="fe" style="--rm:6;--rd:20;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/21/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- LINDBERG PAGE · LINDBERG PRECIOUS · paste in a new Code Block between "LINDBERG at Out to See" and "Questions about LINDBERG" -->
+<style>
+.ots-prec{max-width:880px;margin:0 auto;padding:40px 20px;font-family:inherit}
+.ots-prec *{box-sizing:border-box}
+.ots-prec-panel{background:#1F2640;color:#D9DEE8;padding:56px 48px;position:relative}
+.ots-prec-panel::before{content:"";position:absolute;left:48px;right:48px;top:0;height:2px;background:linear-gradient(90deg,#C8A45C,#EBD9A8 50%,#C8A45C)}
+.ots-prec .prec-eyebrow{color:#D8BC7C;letter-spacing:.14em;font-size:13px;text-transform:uppercase;margin:0 0 14px}
+.ots-prec h2{color:#fff;font-family:inherit;line-height:1.15;margin:0 0 18px;font-size:clamp(26px,3.4vw,38px)}
+.ots-prec p{font-size:18px;line-height:1.65;margin:0 0 18px;color:#D9DEE8}
+.ots-prec .prec-metals{display:flex;flex-wrap:wrap;gap:22px 28px;margin:34px 0 0;padding:0;list-style:none}
+.ots-prec .prec-metals li{display:flex;align-items:center;gap:12px;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#fff}
+.ots-prec .prec-dot{width:26px;height:26px;border-radius:50%;flex:0 0 26px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+.ots-prec .prec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px;padding-top:34px;border-top:1px solid rgba(216,188,124,.35)}
+.ots-prec .prec-grid h3{color:#fff;font-family:inherit;font-size:19px;line-height:1.25;margin:0 0 10px}
+.ots-prec .prec-grid p{font-size:16px;line-height:1.6;margin:0;color:#C3CAD8}
+.ots-prec .prec-foot{display:flex;flex-wrap:wrap;align-items:center;gap:18px 26px;margin-top:40px}
+.ots-prec a.prec-btn{display:inline-block;padding:15px 30px;background:transparent;color:#fff!important;border:1px solid #D8BC7C;text-decoration:none!important;letter-spacing:.06em;font-size:14px;text-transform:uppercase;text-align:center;transition:background .2s ease,color .2s ease}
+.ots-prec a.prec-btn:hover{background:#D8BC7C;color:#1F2640!important}
+.ots-prec .prec-note{font-size:15px;line-height:1.5;margin:0;color:#A9B2C4}
+@media (max-width:720px){
+  .ots-prec-panel{padding:40px 24px}
+  .ots-prec-panel::before{left:24px;right:24px}
+  .ots-prec .prec-grid{grid-template-columns:1fr;gap:24px}
+}
+</style>
+<div class="ots-prec">
+<div class="ots-prec-panel">
+<p class="prec-eyebrow">LINDBERG Precious</p>
+<h2>For something truly exceptional</h2>
+<p>Select LINDBERG designs are available in precious metals, including platinum, white gold, yellow gold, rose gold, and black gold. Certain styles can be further customized with diamonds or natural buffalo horn, creating a one of a kind frame made just for you.</p>
+<ul class="prec-metals">
+<li><span class="prec-dot" style="background:linear-gradient(135deg,#FFFFFF,#C9CED3 55%,#EEF0F2)"></span>Platinum</li>
+<li><span class="prec-dot" style="background:linear-gradient(135deg,#FFFFFF,#D9D5C8 55%,#F2EFE6)"></span>White gold</li>
+<li><span class="prec-dot" style="background:linear-gradient(135deg,#F7E7A8,#C99A2E 55%,#EBCB6E)"></span>Yellow gold</li>
+<li><span class="prec-dot" style="background:linear-gradient(135deg,#F6D2C4,#C98268 55%,#EBB5A2)"></span>Rose gold</li>
+<li><span class="prec-dot" style="background:linear-gradient(135deg,#6A6C74,#17181C 55%,#45474E)"></span>Black gold</li>
+</ul>
+<div class="prec-grid">
+<div>
+<h3>Solid, never plated</h3>
+<p>Precious frames are made from solid 18 karat gold or platinum by LINDBERG's own goldsmiths. This is solid precious metal, not plating.</p>
+</div>
+<div>
+<h3>Diamonds or horn</h3>
+<p>Add handpicked diamonds, or natural buffalo horn with a color and pattern that no other frame will ever share.</p>
+</div>
+<div>
+<h3>Made for one person</h3>
+<p>Each frame is made to order and tailored to your face. It carries its own product number, and your name can be engraved inside.</p>
+</div>
+</div>
+<div class="prec-foot">
+<a class="prec-btn" href="sms:+18085012020">Text Us About LINDBERG Precious</a>
+<p class="prec-note">Available by special order. Ask us about styles, options, and timing.</p>
+</div>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790982665779_1950 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:12;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/13/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Questions about LINDBERG</h2>
+<details><summary>Are LINDBERG frames worth it?</summary><p>If you wear glasses every day, weight and comfort matter more than almost anything else. Most people feel the difference the moment they put a pair on.</p></details>
+<details><summary>Can LINDBERG frames be adjusted?</summary><p>Yes. Titanium adjusts well, and we fine tune the fit when you pick them up and any time after, at no charge.</p></details>
+<details><summary>Can LINDBERG be made into sunglasses?</summary><p>Most LINDBERG optical frames can be fitted with polarized ZEISS prescription sun lenses. Ask us which styles work best.</p></details>
+<details><summary>Do I need an eye exam first?</summary><p>Bring a current prescription, or book a <a href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p></details>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_1932 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- LINDBERG PAGE · YOU MIGHT ALSO LIKE · paste in a new Code Block just above "Come try them on" -->
+<style>
+.ots-also{max-width:880px;margin:0 auto;padding:40px 20px;color:#4F6272;font-family:inherit}
+.ots-also h2{color:#1F2640;font-family:inherit;line-height:1.15;margin:0 0 18px;font-size:clamp(26px,3.4vw,38px)}
+.ots-also p{font-size:18px;line-height:1.65;margin:0 0 18px}
+.ots-also .also-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}
+.ots-also a.also-card{display:block;background:#FDF6E9;padding:26px 24px;text-decoration:none!important;color:#4F6272!important;transition:transform .2s ease,box-shadow .2s ease}
+.ots-also a.also-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(31,38,64,.12)}
+.ots-also .also-name{display:block;color:#1F2640;font-size:19px;font-weight:600;letter-spacing:.06em;margin:0 0 10px}
+.ots-also .also-text{display:block;font-size:16px;line-height:1.6}
+.ots-also .also-more{display:block;color:#B8452A;font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin-top:16px}
+.ots-also .also-all{font-size:16px;margin:26px 0 0}
+.ots-also .also-all a{color:#B8452A}
+</style>
+<div class="ots-also">
+<h2>You might also like</h2>
+<p>If you like the quiet precision of LINDBERG, these are worth trying on next.</p>
+<div class="also-grid">
+<a class="also-card" href="/mykita-eyewear-hawaii">
+<span class="also-name">MYKITA</span>
+<span class="also-text">Handmade in Berlin with a patented screwless hinge.</span>
+<span class="also-more">Explore MYKITA →</span>
+</a>
+<a class="also-card" href="/face-a-face-eyewear-hawaii">
+<span class="also-name">Face à Face</span>
+<span class="also-text">Bold, sculptural frames from Paris.</span>
+<span class="also-more">Explore Face à Face →</span>
+</a>
+<a class="also-card" href="/moscot-eyewear-hawaii">
+<span class="also-name">MOSCOT</span>
+<span class="also-text">New York classics since 1915, like the Lemtosh and the Miltzen.</span>
+<span class="also-more">Explore MOSCOT →</span>
+</a>
+</div>
+<p class="also-all"><a href="/best-eyewear-kailua-hi">See all our designer eyewear</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790975842857_1762 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots center">
+<h2>Come try them on</h2>
+<p>Out to See, 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Walk in to browse, or text (808) 501 2020.</p>
+<div class="btns">
+<a class="btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb">Book an Eye Exam</a>
+<a class="btn alt" href="/best-eyewear-kailua-hi">See All Our Brands</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790461643472_2211 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>

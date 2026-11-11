@@ -1,0 +1,36 @@
+---
+// REEFLECT product page. Online checkout is not set up yet; the button points to the shop.
+import Base from '../../../layouts/Base.astro';
+const description = 'Made with microplastics recovered directly from the sands of Kailua Beach, Oahu, Hawaii. Every pair is different. Every pair gives back 10% of profits to the Hawaii Wild Life Fund to further protect Hawaiian sea life. The material, the sunnies, the machine to make them are all created in Oahu.';
+const images = ['/images/reeflectwebgrain-jpg.webp', '/images/reeflectwebgrain-2-small.webp', '/images/reeflectwebgrain-3.webp'];
+const product = {
+  '@context': 'http://schema.org', '@type': 'Product', name: 'Reeflect Sunnies - Polarized', description,
+  image: 'https://www.outtoseevision.com/images/reeflectwebgrain-dedbd3.webp', brand: 'Out to See',
+  offers: { '@type': 'Offer', price: 149.0, priceCurrency: 'USD', url: 'https://www.outtoseevision.com/store/p/reeflect-sunnies-polarized', availability: 'https://schema.org/InStoreOnly' },
+};
+---
+<Base title="Reeflect Sunnies - Polarized — Out to See" description={description} canonical="/store/p/reeflect-sunnies-polarized" ogImage="/images/reeflectwebgrain-dedbd3.webp" schema={[product]}>
+  <section class="prod blog-hero">
+    <p class="crumb"><a href="/store">Store</a> › Reeflect Sunnies - Polarized</p>
+    <div class="cols">
+      <div class="gal">{images.map((src, i) => <img src={src} alt={`Reeflect Sunnies - Polarized, image ${i + 1} of 3`} loading={i ? 'lazy' : 'eager'} />)}</div>
+      <div class="info">
+        <h1>Reeflect Sunnies - Polarized</h1>
+        <p class="price">$149.00</p>
+        <p>{description}</p>
+        <a class="btn btn-primary" href="/custom-sunglasses-kailua-hi">Available in the shop</a>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .prod { background: #fff; padding: 0 6vw 100px; --btn-bg: hsla(var(--accent-hsl), 1); --btn-text: hsla(var(--white-hsl), 1); }
+  .crumb { font-size: 14px; margin: 10px auto 30px; max-width: 1099px; }
+  .crumb a { color: inherit; }
+  .cols { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; max-width: 1099px; margin: 0 auto; }
+  .gal { display: grid; gap: 12px; }
+  .gal img { width: 100%; height: auto; display: block; }
+  h1 { font: 500 35.2px/1.2 var(--heading-font); letter-spacing: -.02em; margin: 0 0 12px; }
+  .price { font-size: 20px; margin: 0 0 24px; }
+  @media (max-width: 767px) { .cols { grid-template-columns: 1fr; } }
+</style>

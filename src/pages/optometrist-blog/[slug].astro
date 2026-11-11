@@ -1,0 +1,42 @@
+---
+// One blog post. Content: src/site/blog/<slug>.html. Details: src/site/meta.json.
+import Base from '../../layouts/Base.astro';
+import { posts, postBodies, postDate, bySlugPath } from '../../site/blog';
+
+export function getStaticPaths() {
+  return posts.map((p) => ({ params: { slug: p.slug }, props: { slug: p.slug } }));
+}
+const post = posts.find((p) => p.slug === Astro.props.slug)!;
+const body = postBodies[`./blog/${post.slug}.html`];
+const prev = bySlugPath(post.pagination?.prev);
+const next = bySlugPath(post.pagination?.next);
+---
+<Base title={post.title} description={post.description} canonical={`/optometrist-blog/${post.slug}`} ogImage={post.ogImage} ogType="article" schema={post.schema}>
+  <article class="post blog-hero">
+    <header>
+      <h1 class="post-title">{post.h1}</h1>
+      <time datetime={post.date}>{postDate(post.date)}</time>
+    </header>
+    <div class="post-body"><Fragment set:html={body} /></div>
+  </article>
+  <nav class="pager" aria-label="More posts">
+    {prev ? <a class="prev" href={`/optometrist-blog/${prev.slug}`}><span aria-hidden="true">‹</span>{prev.h1}</a> : <span />}
+    {next && <a class="next" href={`/optometrist-blog/${next.slug}`}>{next.h1}<span aria-hidden="true">›</span></a>}
+  </nav>
+</Base>
+
+<style>
+  .post { background: #fff; padding: 0 6vw 60px; }
+  .post > header, .post-body { max-width: 690px; margin: 0 auto; }
+  .post > header { padding-top: 10px; }
+  .post-title { font-family: var(--heading-font); font-weight: 500; letter-spacing: -.02em; color: hsla(var(--black-hsl), 1); margin: 0 0 40px; }
+  time { display: block; font-size: 16px; margin-bottom: 40px; }
+  .post-body :global(.txt h2) { margin-top: 2.2rem; }
+  .post-body :global(.txt a) { color: hsla(var(--accent-hsl), 1); text-decoration: underline; text-underline-offset: 3px; }
+  .post-body :global(.img) { margin: 1.5rem 0; }
+  .pager { display: flex; justify-content: space-between; gap: 40px; background: #fff; padding: 40px 1.5vw 60px; }
+  .pager a { display: flex; align-items: center; gap: 18px; max-width: 46%; font: 400 32px/1.15 var(--heading-font); color: hsla(var(--black-hsl), 1); text-decoration: none; }
+  .pager .next { text-align: right; margin-left: auto; }
+  .pager span[aria-hidden] { font-size: 48px; line-height: 1; }
+  @media (max-width: 767px) { .pager a { font-size: 20px; } }
+</style>

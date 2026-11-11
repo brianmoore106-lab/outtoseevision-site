@@ -1,0 +1,461 @@
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+/* OUT TO SEE · BRAND PAGE STYLE (matches the ZEISS and Maui Jim pages).
+   Replaces the <style> at the top of the hero Code Block on every brand page.
+   Your text and layout stay the same. Only the look changes. */
+.ots, div.ots-also, div.ots-prec { box-sizing:border-box; max-width:none; margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+.ots *, div.ots-also *, div.ots-prec * { box-sizing:border-box; }
+
+/* Bands: white by default, every other section cream */
+.ots, div.ots-also { background:#FFFFFF; padding:72px 24px; color:#4A5568; }
+section.page-section:nth-of-type(even) .ots, section.page-section:nth-of-type(even) div.ots-also { background:#FAF8F4; }
+.ots > *, div.ots-also.ots-also > * { max-width:852px; margin-left:auto; margin-right:auto; }
+
+/* Type */
+.ots h1, .ots h2, div.ots-also h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; color:#1F2421; line-height:1.25; margin-top:0; margin-bottom:16px; }
+.ots h1 { font-size:38px; line-height:1.2; }
+.ots h2, div.ots-also h2 { font-size:30px; }
+.ots h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; line-height:1.4; color:#1A2E3B; margin:0 0 8px 0; }
+.ots p, div.ots-also p { font-size:16px; line-height:1.75; color:#4A5568; margin-top:0; margin-bottom:16px; }
+.ots p:last-child { margin-bottom:0; }
+.ots .eyebrow { display:block; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots a, div.ots-also .also-all a { color:#1D9E75 !important; font-weight:700; text-decoration:none !important; }
+.ots a:hover, div.ots-also .also-all a:hover { text-decoration:underline !important; }
+.ots .links { font-size:15px; margin-top:24px; }
+.ots.center { text-align:center; }
+.ots.center p { margin-left:auto; margin-right:auto; }
+
+/* Cards: bordered boxes with the green edge */
+.ots .grid, div.ots-also .also-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-top:36px; }
+.ots .card, div.ots-also a.also-card { background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+section.page-section:nth-of-type(even) .ots .card, section.page-section:nth-of-type(even) div.ots-also a.also-card { background:#FFFFFF; }
+.ots .card p { font-size:14px; line-height:1.7; margin:0; }
+div.ots-also a.also-card { display:block; text-decoration:none !important; color:#4A5568 !important; transition:transform .2s ease, box-shadow .2s ease; }
+div.ots-also a.also-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(26,46,59,.10); }
+div.ots-also .also-name { display:block; font-size:16px; font-weight:700; letter-spacing:.04em; color:#1A2E3B; margin:0 0 8px 0; }
+div.ots-also .also-text { display:block; font-size:14px; line-height:1.7; color:#4A5568; }
+div.ots-also .also-more { display:block; font-size:14px; font-weight:700; letter-spacing:.3px; text-transform:none; color:#1D9E75; margin-top:14px; }
+div.ots-also .also-all { font-size:15px; margin-top:24px; }
+
+/* Buttons */
+.ots .btns { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots.center .btns { justify-content:center; }
+.ots .btn { display:inline-block; padding:14px 28px; border-radius:8px; background:#1D9E75; color:#FFFFFF !important; font-size:15px; font-weight:700; letter-spacing:.3px; text-transform:none; text-decoration:none !important; transition:background .2s, color .2s, border-color .2s; }
+.ots .btn:hover { background:#0F6E56; text-decoration:none !important; }
+.ots .btn.alt { background:transparent; color:#1A2E3B !important; border:2px solid #1A2E3B; padding:12px 28px; }
+.ots .btn.alt:hover { background:#1A2E3B; color:#FFFFFF !important; }
+
+/* Hero: the navy band at the top (the block with the H1) */
+.ots:has(h1) { background:#1A2E3B !important; padding:80px 24px; }
+.ots:has(h1) h1 { color:#FFFFFF; max-width:720px; }
+.ots:has(h1) p { color:#A0B4BE; font-size:17px; line-height:1.7; max-width:640px; }
+.ots:has(h1) .eyebrow { color:#A0B4BE; }
+.ots:has(h1) .btn.alt { color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots:has(h1) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* Closing call to action: the green band at the bottom */
+.ots.center:not(:has(h1)) { background:#1D9E75 !important; }
+.ots.center:not(:has(h1)) h2 { color:#FFFFFF; }
+.ots.center:not(:has(h1)) p { color:rgba(255,255,255,.88); font-size:17px; max-width:580px; }
+.ots.center:not(:has(h1)) .btn { background:#FFFFFF; color:#1D9E75 !important; }
+.ots.center:not(:has(h1)) .btn:hover { background:#E1F5EE; color:#0F6E56 !important; }
+.ots.center:not(:has(h1)) .btn.alt { background:transparent; color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots.center:not(:has(h1)) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* FAQ accordion */
+.ots details { border-top:1px solid #E5E2DA; border-bottom:none; padding:0; }
+.ots details:last-of-type { border-bottom:1px solid #E5E2DA; }
+.ots h2 + details { margin-top:28px; }
+.ots summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; font-size:16px; font-weight:700; color:#1F2421; }
+.ots summary::-webkit-details-marker { display:none; }
+.ots summary:after { content:"+"; float:none; flex:0 0 auto; font-family:Georgia,"Times New Roman",serif; font-size:24px; font-weight:400; line-height:1; color:#1D9E75; transition:transform .25s ease; }
+.ots details[open] summary:after { content:"+"; transform:rotate(45deg); }
+.ots summary:hover { color:#1D9E75; }
+.ots details p { font-size:15px; line-height:1.7; margin:0; padding:0 36px 22px 0; }
+
+/* LINDBERG Precious panel: keeps its gold, matches the site navy */
+div.ots-prec { padding:0; }
+div.ots-prec .ots-prec-panel { background:#1A2E3B; padding:72px 48px; }
+div.ots-prec .ots-prec-panel > * { max-width:852px; margin-left:auto; margin-right:auto; }
+div.ots-prec h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; font-size:30px; line-height:1.25; }
+div.ots-prec .prec-grid h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; }
+div.ots-prec .ots-prec-panel p { font-size:16px; line-height:1.75; }
+div.ots-prec .prec-grid p { font-size:14px; line-height:1.7; }
+div.ots-prec a.prec-btn { border-radius:8px; text-transform:none; letter-spacing:.3px; font-weight:700; font-size:15px; }
+
+/* Phones */
+@media (max-width:720px) {
+  .ots, div.ots-also { padding:52px 20px; }
+  .ots:has(h1) { padding:60px 20px; }
+  .ots h1 { font-size:28px; }
+  .ots h2, div.ots-also h2, div.ots-prec h2 { font-size:24px; }
+  .ots details p { padding-right:0; }
+  .ots summary { font-size:15px; }
+  div.ots-prec .ots-prec-panel { padding:52px 24px; }
+}
+</style>
+<div class="ots center">
+<p class="eyebrow">Designer Eyewear · Kailua, Oahu</p>
+<h1>MYKITA Eyewear in Kailua, Oahu</h1>
+<p>MYKITA frames look like nothing else because they are built like nothing else. Every pair is assembled by hand in Berlin from folded stainless steel with a hinge that uses no screws at all. At Out to See, we pair them with ZEISS lenses cut in our Kailua lab, so the precision on the outside matches the precision inside.</p>
+<div class="btns">
+<a class="btn" href="/location-and-parking">Visit Us in Kailua</a>
+<a class="btn alt" href="sms:+18085012020">Text us anytime</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_465 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-none h-small"><div class="fe" style="--rm:6;--rd:49;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/50/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- MYKITA PAGE · FRAMES WE CARRY · new Code Block directly below "MYKITA at Out to See". Styles come from the brand page style in the hero block, plus the few card styles below. -->
+<style>
+.ots .ots-fr-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:36px; }
+.ots .ots-fr-card { display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; overflow:hidden; }
+section.page-section:nth-of-type(odd) .ots .ots-fr-card { background:#FAF8F4; }
+.ots .ots-fr-img { position:relative; aspect-ratio:4 / 3; background:#F1EEE7; display:flex; align-items:center; justify-content:center; margin:0; }
+.ots .ots-fr-img img { width:100%; height:100%; object-fit:contain; display:block; padding:16px; }
+.ots .ots-fr-img svg { width:66%; height:auto; opacity:.55; }
+.ots .ots-fr-body { padding:20px 20px 22px 18px; display:flex; flex-direction:column; flex:1; }
+.ots .ots-fr-coll { display:block; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#1D9E75; margin:0 0 6px 0; }
+.ots .ots-fr-body h3 { font-family:Georgia,"Times New Roman",serif; font-size:21px; font-weight:500; color:#1F2421; margin:0 0 10px 0; }
+.ots .ots-fr-body p { font-size:14px; line-height:1.7; margin:0 0 14px 0; }
+.ots .ots-fr-tags { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px 0; padding:0; list-style:none; }
+.ots .ots-fr-tags li { font-size:12px; font-weight:600; color:#1A2E3B; background:#E8F4EF; border-radius:999px; padding:4px 10px; margin:0; }
+.ots .ots-fr-tags li::before { content:none; }
+.ots .ots-fr-body a.ots-fr-ask { margin-top:auto; font-size:14px; }
+.ots .ots-fr-more { font-size:15px; margin-top:28px; }
+@media (max-width:900px) { .ots .ots-fr-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:600px) { .ots .ots-fr-grid { grid-template-columns:1fr; } }
+</style>
+<div class="ots">
+<p class="eyebrow">In the Boutique</p>
+<h2>MYKITA Frames We Carry</h2>
+<p>These are the MYKITA models we always keep in stock, and they are only the start. We carry many more MYKITA styles and colors, and new pieces arrive often. Feel free to stop by and shop anytime. Or, if you're looking for a specific pair you can text us before you come in and we will tell you what is on the wall today. However, we recommend trying them on in person and we can order any color and model.</p>
+<div class="ots-fr-grid">
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="MYKITA LITE NIKEN eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><path d="M12 16 Q50 8 92 16 Q96 44 74 64 Q40 76 22 54 Q8 36 12 16 Z"></path><path d="M208 16 Q170 8 128 16 Q124 44 146 64 Q180 76 198 54 Q212 36 208 16 Z"></path><path d="M92 18 L128 18"></path><path d="M90 24 Q110 18 130 24"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">MYKITA LITE</span>
+<h3>MYKITA NIKEN</h3>
+<p>An aviator made from lightweight stainless steel and handcrafted in Berlin. MYKITA's screwless spiral hinge and soft silicone nose pads keep it light and comfortable, and it adjusts to fit your face.</p>
+<ul class="ots-fr-tags"><li>Aviator</li><li>Stainless steel</li><li>Spiral hinge</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="MYKITA LITE TOBI eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><rect height="54" rx="14" width="80" x="12" y="14"></rect><rect height="54" rx="14" width="80" x="128" y="14"></rect><path d="M92 30 Q110 22 128 30"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">MYKITA LITE</span>
+<h3>MYKITA TOBI</h3>
+<p>A square frame in lightweight stainless steel, handcrafted in Berlin. Clean and easy to wear every day, with the screwless spiral hinge, silicone nose pads, and temple tips that can be adjusted to you.</p>
+<ul class="ots-fr-tags"><li>Square</li><li>Stainless steel</li><li>Spiral hinge</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="MYKITA NO1 HENNING eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><rect height="50" rx="8" width="80" x="12" y="16"></rect><rect height="50" rx="8" width="80" x="128" y="16"></rect><path d="M92 30 L128 30"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">MYKITA NO1</span>
+<h3>MYKITA HENNING</h3>
+<p>A square frame from the NO1 collection, made from lightweight stainless steel in Berlin. Its straight lines give it a little more presence, while the spiral hinge and silicone nose pads keep it comfortable all day.</p>
+<ul class="ots-fr-tags"><li>Square</li><li>Stainless steel</li><li>Adjustable fit</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="MYKITA NO1 MATIS eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><rect height="54" rx="10" width="80" x="12" y="14"></rect><rect height="54" rx="10" width="80" x="128" y="14"></rect><path d="M92 28 Q110 20 128 28"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">MYKITA NO1</span>
+<h3>MYKITA MATIS</h3>
+<p>A full rim square in ultra lightweight stainless steel from the NO1 collection. A modern classic that suits a wide range of faces, with the spiral hinge, silicone nose pads, and a fully adjustable fit.</p>
+<ul class="ots-fr-tags"><li>Square</li><li>Full rim</li><li>Stainless steel</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Check colors and sizes →</a>
+</div>
+</article>
+<article class="ots-fr-card">
+<figure class="ots-fr-img">
+<!-- PHOTO: replace this svg with <img src="YOUR IMAGE URL" alt="MYKITA LITE LIVA eyeglasses at Out to See in Kailua"> -->
+<svg aria-hidden="true" viewbox="0 0 220 80"><g fill="none" stroke="#1A2E3B" stroke-width="3"><path d="M6 14 Q50 4 94 16 Q98 48 76 66 Q38 76 16 54 Q2 34 6 14 Z"></path><path d="M214 14 Q170 4 126 16 Q122 48 144 66 Q182 76 204 54 Q218 34 214 14 Z"></path><path d="M94 26 Q110 18 126 26"></path></g></svg>
+</figure>
+<div class="ots-fr-body">
+<span class="ots-fr-coll">MYKITA LITE</span>
+<h3>MYKITA LIVA</h3>
+<p>An oversized butterfly shape with a generous sweep, made from lightweight stainless steel and handmade in Berlin. A statement frame that still feels light on your face, thanks to the spiral hinge and silicone nose pads.</p>
+<ul class="ots-fr-tags"><li>Oversized</li><li>Butterfly</li><li>Stainless steel</li></ul>
+<a class="ots-fr-ask" href="sms:+18085012020">Check colors and sizes →</a>
+</div>
+</article>
+</div>
+<p class="ots-fr-more">Looking for a MYKITA style you do not see here? <a href="sms:+18085012020">Text us the name</a> and we will check our wall or see if we can order it for you.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1791865318534_2412 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:10;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/11/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Engineered in Berlin</h2>
+<p>MYKITA was founded in Berlin in 2003 by four friends who wanted to rethink how glasses are made. Instead of outsourcing, they built their own manufactory, known as MYKITA HAUS, where every frame is still assembled by hand.</p>
+<p>Their first collection introduced a patented hinge made from the steel itself, with no screws and no welded joints. It became the brand's calling card.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_1134 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:13;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/14/26;z-index:2;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>What makes a MYKITA different</h2>
+<div class="grid">
+<div class="card"><h3>The hinge</h3><p>Flat stainless steel folded into a spring hinge. Nothing to tighten, nothing to fall out.</p></div>
+<div class="card"><h3>MYLON</h3><p>A polyamide material introduced in 2010 and shaped layer by layer with laser sintering. Extremely light, strong, with a soft matte feel.</p></div>
+<div class="card"><h3>Serious collaborators</h3><p>MYKITA has partnered with brands like Leica Camera, which says a lot about the engineering involved.</p></div>
+<div class="card"><h3>Handmade</h3><p>Every frame is assembled by hand in Berlin, not on an assembly line.</p></div>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_1663 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Precision frames deserve precision lenses</h2>
+<p>MYKITA frames are built to tight tolerances, and the lenses should be too. Our lens maker, Cory, measures your eyes in the frame you choose, then cuts ZEISS lenses to fit it exactly in our lab here in Kailua.</p>
+<p>The result is a pair that looks sharp and sees sharp.</p>
+<p class="links"><a href="/lens-upgrades-kailua-hi">Why we only use ZEISS</a>  ·  <a href="/the-lab">Meet our Kailua lab</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_1948 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:7;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/8/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>MYKITA at Out to See</h2>
+<p>We carry a curated selection of MYKITA optical frames and sunglasses at our boutique in Lau Hala Shops. Collections change often, so text us before you come in if you are looking for something specific.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_2244 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:12;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/13/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Questions about MYKITA</h2>
+<details><summary>Why are MYKITA glasses so light?</summary><p>Thin stainless steel and MYLON are both very low in weight, and the screwless hinge removes the extra hardware most frames carry.</p></details>
+<details><summary>Can MYKITA sunglasses be made in my prescription?</summary><p>Most MYKITA frames can take prescription lenses. We fit them with ZEISS sun lenses, polarized where the frame allows.</p></details>
+<details><summary>Are MYKITA frames durable?</summary><p>The steel hinge is designed to flex without loosening. If anything ever needs adjusting, bring them in and we will take care of it.</p></details>
+<details><summary>Do I need an eye exam first?</summary><p>Bring a current prescription, or book a <a href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p></details>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_2533 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright-inverse h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:2;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- MYKITA PAGE · YOU MIGHT ALSO LIKE · paste in a new Code Block just above "Come try them on" -->
+<style>
+.ots-also{max-width:880px;margin:0 auto;padding:40px 20px;color:#4F6272;font-family:inherit}
+.ots-also h2{color:#1F2640;font-family:inherit;line-height:1.15;margin:0 0 18px;font-size:clamp(26px,3.4vw,38px)}
+.ots-also p{font-size:18px;line-height:1.65;margin:0 0 18px}
+.ots-also .also-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}
+.ots-also a.also-card{display:block;background:#FDF6E9;padding:26px 24px;text-decoration:none!important;color:#4F6272!important;transition:transform .2s ease,box-shadow .2s ease}
+.ots-also a.also-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(31,38,64,.12)}
+.ots-also .also-name{display:block;color:#1F2640;font-size:19px;font-weight:600;letter-spacing:.06em;margin:0 0 10px}
+.ots-also .also-text{display:block;font-size:16px;line-height:1.6}
+.ots-also .also-more{display:block;color:#B8452A;font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin-top:16px}
+.ots-also .also-all{font-size:16px;margin:26px 0 0}
+.ots-also .also-all a{color:#B8452A}
+</style>
+<div class="ots-also">
+<h2>You might also like</h2>
+<p>If the engineering behind MYKITA speaks to you, try these on too.</p>
+<div class="also-grid">
+<a class="also-card" href="/lindberg-eyewear-hawaii">
+<span class="also-name">LINDBERG</span>
+<span class="also-text">Danish titanium with no screws. So light you forget it is there.</span>
+<span class="also-more">Explore LINDBERG →</span>
+</a>
+<a class="also-card" href="/face-a-face-eyewear-hawaii">
+<span class="also-name">Face à Face</span>
+<span class="also-text">Bold, sculptural frames from Paris.</span>
+<span class="also-more">Explore Face à Face →</span>
+</a>
+<a class="also-card" href="/etnia-barcelona-eyewear-hawaii">
+<span class="also-name">Etnia Barcelona</span>
+<span class="also-text">Fearless color and natural acetate from Barcelona.</span>
+<span class="also-more">Explore Etnia Barcelona →</span>
+</a>
+</div>
+<p class="also-all"><a href="/best-eyewear-kailua-hi">See all our designer eyewear</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790975929583_2167 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots center">
+<h2>Come try them on</h2>
+<p>Out to See, 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Walk in to browse, or text (808) 501 2020.</p>
+<div class="btns">
+<a class="btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb">Book an Eye Exam</a>
+<a class="btn alt" href="/best-eyewear-kailua-hi">See All Our Brands</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790463099304_2833 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>

@@ -1,18 +1,37 @@
 ---
-// Every page passes its exact title and description so they match the live site.
+// Shared page shell. Every page passes its exact title, description and schema
+// so they match the Squarespace site one for one.
+import '@fontsource/manrope/400.css';
+import '@fontsource/manrope/500.css';
+import '@fontsource/manrope/700.css';
+import '@fontsource/nunito-sans/400.css';
+import '@fontsource/nunito-sans/400-italic.css';
+import '@fontsource/nunito-sans/700.css';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Tracking from '../components/Tracking.astro';
+import business from '../site/business.json';
+
 interface Props {
   title: string;
-  description?: string;
-  canonical?: string;
+  description?: string | null;
+  canonical?: string | null;
   noindex?: boolean;
-  ogImage?: string;
+  ogImage?: string | null;
+  ogType?: string;
   schema?: object[];
 }
-const { title, description, canonical, noindex = false, ogImage, schema = [] } = Astro.props;
-const canonicalUrl = new URL(canonical ?? Astro.url.pathname, Astro.site).href.replace(/\/$/, '') || Astro.site.href;
+const { title, description, canonical, noindex = false, ogImage, ogType = 'website', schema = [] } = Astro.props;
+const site = 'https://www.outtoseevision.com';
+const path = canonical ?? Astro.url.pathname;
+const canonicalUrl = path === '/' ? site + '/' : site + path.replace(/\/$/, '');
+const og = ogImage ? (ogImage.startsWith('http') ? ogImage : site + ogImage) : site + '/images/storefront.jpg';
+const website = { '@context': 'http://schema.org', '@type': 'WebSite', url: site, name: 'Out to See' };
+const allSchema = [website, business, ...schema];
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,14 +39,26 @@ const canonicalUrl = new URL(canonical ?? Astro.url.pathname, Astro.site).href.r
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={canonicalUrl} />
     {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:site_name" content="Out to See" />
     <meta property="og:title" content={title} />
     {description && <meta property="og:description" content={description} />}
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:type" content="website" />
-    {ogImage && <meta property="og:image" content={ogImage} />}
-    {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:image" content={og} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="facebook-domain-verification" content="25892ye4loxhbdbkgem3ggz8s9u07o" />
+    {allSchema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+    <Tracking />
   </head>
   <body>
-    <slot />
+    <a class="skip" href="#main">Skip to content</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>

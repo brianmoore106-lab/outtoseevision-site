@@ -1,4 +1,27 @@
-# Redirects carried over from Squarespace URL Mappings.
-# Format: /old-path  /new-path  301
-/home  /  301
-/sitemap.xml  /sitemap-index.xml  301
+# Redirects. Format: /old-path  /new-path  301
+# Squarespace URL Mappings get added here once copied from the Squarespace dashboard.
+
+/home                       /                                  301
+/sitemap.xml                /sitemap-index.xml                 301
+
+# Old Squarespace pages found still linked or redirecting on the live site
+/about-us                   /the-team                          301
+/contact                    /contact-best-optometrist-kailua-hi 301
+/contact-lens-fitting-kailua-hi-2 /contact-lens-fitting-kailua-hi 301
+/dry-eye                    /dry-eye-treatment-kailua          301
+/eye-care-1                 /comprehensive-eye-exam-kailua-hi  301
+/eyewear-boutique           /the-lab                           301
+/learn                      /optometrist-blog                  301
+
+# Squarespace blog tag and category pages (thin pages) go to the blog
+/optometrist-blog/tag/*      /optometrist-blog                 301
+/optometrist-blog/category/* /optometrist-blog                 301
+
+# Store category page duplicated /store
+/store/reeflect-sunnies     /store                             301
+/cart                       /store                             301
+
+# Trailing slashes go to the clean URL, like Squarespace
+/optometrist-blog/:post/    /optometrist-blog/:post            301
+/store/p/:product/          /store/p/:product                  301
+/:page/                     /:page                             301

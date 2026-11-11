@@ -1,0 +1,346 @@
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:14;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/15/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<style>
+/* OUT TO SEE · BRAND PAGE STYLE (matches the ZEISS and Maui Jim pages).
+   Replaces the <style> at the top of the hero Code Block on every brand page.
+   Your text and layout stay the same. Only the look changes. */
+.ots, div.ots-also, div.ots-prec { box-sizing:border-box; max-width:none; margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+.ots *, div.ots-also *, div.ots-prec * { box-sizing:border-box; }
+
+/* Bands: white by default, every other section cream */
+.ots, div.ots-also { background:#FFFFFF; padding:72px 24px; color:#4A5568; }
+section.page-section:nth-of-type(even) .ots, section.page-section:nth-of-type(even) div.ots-also { background:#FAF8F4; }
+.ots > *, div.ots-also.ots-also > * { max-width:852px; margin-left:auto; margin-right:auto; }
+
+/* Type */
+.ots h1, .ots h2, div.ots-also h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; color:#1F2421; line-height:1.25; margin-top:0; margin-bottom:16px; }
+.ots h1 { font-size:38px; line-height:1.2; }
+.ots h2, div.ots-also h2 { font-size:30px; }
+.ots h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; line-height:1.4; color:#1A2E3B; margin:0 0 8px 0; }
+.ots p, div.ots-also p { font-size:16px; line-height:1.75; color:#4A5568; margin-top:0; margin-bottom:16px; }
+.ots p:last-child { margin-bottom:0; }
+.ots .eyebrow { display:block; font-size:11px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:#1D9E75; margin-bottom:14px; }
+.ots a, div.ots-also .also-all a { color:#1D9E75 !important; font-weight:700; text-decoration:none !important; }
+.ots a:hover, div.ots-also .also-all a:hover { text-decoration:underline !important; }
+.ots .links { font-size:15px; margin-top:24px; }
+.ots.center { text-align:center; }
+.ots.center p { margin-left:auto; margin-right:auto; }
+
+/* Cards: bordered boxes with the green edge */
+.ots .grid, div.ots-also .also-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-top:36px; }
+.ots .card, div.ots-also a.also-card { background:#FAF8F4; border:1px solid #E5E2DA; border-left:3px solid #1D9E75; border-radius:8px; padding:22px 22px 22px 20px; }
+section.page-section:nth-of-type(even) .ots .card, section.page-section:nth-of-type(even) div.ots-also a.also-card { background:#FFFFFF; }
+.ots .card p { font-size:14px; line-height:1.7; margin:0; }
+div.ots-also a.also-card { display:block; text-decoration:none !important; color:#4A5568 !important; transition:transform .2s ease, box-shadow .2s ease; }
+div.ots-also a.also-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(26,46,59,.10); }
+div.ots-also .also-name { display:block; font-size:16px; font-weight:700; letter-spacing:.04em; color:#1A2E3B; margin:0 0 8px 0; }
+div.ots-also .also-text { display:block; font-size:14px; line-height:1.7; color:#4A5568; }
+div.ots-also .also-more { display:block; font-size:14px; font-weight:700; letter-spacing:.3px; text-transform:none; color:#1D9E75; margin-top:14px; }
+div.ots-also .also-all { font-size:15px; margin-top:24px; }
+
+/* Buttons */
+.ots .btns { display:flex; flex-wrap:wrap; gap:14px; margin-top:28px; }
+.ots.center .btns { justify-content:center; }
+.ots .btn { display:inline-block; padding:14px 28px; border-radius:8px; background:#1D9E75; color:#FFFFFF !important; font-size:15px; font-weight:700; letter-spacing:.3px; text-transform:none; text-decoration:none !important; transition:background .2s, color .2s, border-color .2s; }
+.ots .btn:hover { background:#0F6E56; text-decoration:none !important; }
+.ots .btn.alt { background:transparent; color:#1A2E3B !important; border:2px solid #1A2E3B; padding:12px 28px; }
+.ots .btn.alt:hover { background:#1A2E3B; color:#FFFFFF !important; }
+
+/* Hero: the navy band at the top (the block with the H1) */
+.ots:has(h1) { background:#1A2E3B !important; padding:80px 24px; }
+.ots:has(h1) h1 { color:#FFFFFF; max-width:720px; }
+.ots:has(h1) p { color:#A0B4BE; font-size:17px; line-height:1.7; max-width:640px; }
+.ots:has(h1) .eyebrow { color:#A0B4BE; }
+.ots:has(h1) .btn.alt { color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots:has(h1) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* Closing call to action: the green band at the bottom */
+.ots.center:not(:has(h1)) { background:#1D9E75 !important; }
+.ots.center:not(:has(h1)) h2 { color:#FFFFFF; }
+.ots.center:not(:has(h1)) p { color:rgba(255,255,255,.88); font-size:17px; max-width:580px; }
+.ots.center:not(:has(h1)) .btn { background:#FFFFFF; color:#1D9E75 !important; }
+.ots.center:not(:has(h1)) .btn:hover { background:#E1F5EE; color:#0F6E56 !important; }
+.ots.center:not(:has(h1)) .btn.alt { background:transparent; color:#FFFFFF !important; border-color:rgba(255,255,255,.5); }
+.ots.center:not(:has(h1)) .btn.alt:hover { background:rgba(255,255,255,.1); border-color:#FFFFFF; }
+
+/* FAQ accordion */
+.ots details { border-top:1px solid #E5E2DA; border-bottom:none; padding:0; }
+.ots details:last-of-type { border-bottom:1px solid #E5E2DA; }
+.ots h2 + details { margin-top:28px; }
+.ots summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:20px 0; font-size:16px; font-weight:700; color:#1F2421; }
+.ots summary::-webkit-details-marker { display:none; }
+.ots summary:after { content:"+"; float:none; flex:0 0 auto; font-family:Georgia,"Times New Roman",serif; font-size:24px; font-weight:400; line-height:1; color:#1D9E75; transition:transform .25s ease; }
+.ots details[open] summary:after { content:"+"; transform:rotate(45deg); }
+.ots summary:hover { color:#1D9E75; }
+.ots details p { font-size:15px; line-height:1.7; margin:0; padding:0 36px 22px 0; }
+
+/* LINDBERG Precious panel: keeps its gold, matches the site navy */
+div.ots-prec { padding:0; }
+div.ots-prec .ots-prec-panel { background:#1A2E3B; padding:72px 48px; }
+div.ots-prec .ots-prec-panel > * { max-width:852px; margin-left:auto; margin-right:auto; }
+div.ots-prec h2 { font-family:Georgia,"Times New Roman",serif; font-weight:500; font-size:30px; line-height:1.25; }
+div.ots-prec .prec-grid h3 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:700; }
+div.ots-prec .ots-prec-panel p { font-size:16px; line-height:1.75; }
+div.ots-prec .prec-grid p { font-size:14px; line-height:1.7; }
+div.ots-prec a.prec-btn { border-radius:8px; text-transform:none; letter-spacing:.3px; font-weight:700; font-size:15px; }
+
+/* Phones */
+@media (max-width:720px) {
+  .ots, div.ots-also { padding:52px 20px; }
+  .ots:has(h1) { padding:60px 20px; }
+  .ots h1 { font-size:28px; }
+  .ots h2, div.ots-also h2, div.ots-prec h2 { font-size:24px; }
+  .ots details p { padding-right:0; }
+  .ots summary { font-size:15px; }
+  div.ots-prec .ots-prec-panel { padding:52px 24px; }
+}
+</style>
+<div class="ots center">
+<p class="eyebrow">Designer Eyewear · Kailua, Oahu</p>
+<h1>MOSCOT Glasses in Kailua, Oahu</h1>
+<p>MOSCOT has been making glasses in New York for more than a century, and some of its frames have barely changed in decades because they never needed to. Bold acetate, keyhole bridges and real hardware, fitted at Out to See with ZEISS lenses cut in our Kailua lab.</p>
+<div class="btns">
+<a class="btn" href="/location-and-parking">Visit Us in Kailua</a>
+<a class="btn alt" href="sms:+18085012020">Text to Check Stock</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_460 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-white-bold h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>From an Orchard Street pushcart</h2>
+<p>In 1915, Hyman Moscot started selling eyeglasses from a pushcart on Orchard Street on Manhattan's Lower East Side. That pushcart became a shop, the shop became an institution, and the business has stayed in the Moscot family ever since.</p>
+<p>Today the fifth generation leads the company, still designing frames with the same New York attitude.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_744 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:11;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/12/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>The frames people ask for by name</h2>
+<div class="grid">
+<div class="card"><h3>Lemtosh</h3><p>Round, bold and instantly recognizable. The MOSCOT frame most people picture.</p></div>
+<div class="card"><h3>Miltzen</h3><p>A softer panto shape that works on almost every face.</p></div>
+<div class="card"><h3>The details</h3><p>Handcrafted Italian acetate, keyhole bridges, metal core temples and multi barrel hinges built to last.</p></div>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_1023 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-white-bold h-small"><div class="fe" style="--rm:6;--rd:10;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/11/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Classic frames, modern lenses</h2>
+<p>A MOSCOT frame is timeless. The lenses inside it shouldn't be. We fill every pair with ZEISS lenses measured and cut by our lens maker, Cory, in our lab here in Kailua.</p>
+<p>Thicker acetate frames also give us more options for stronger prescriptions, and we'll show you which lens keeps the edges thin.</p>
+<p class="links"><a href="/lens-upgrades-kailua-hi">Why we only use ZEISS</a>  ·  <a href="/the-lab">Meet our Kailua lab</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_3661 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light h-small"><div class="fe" style="--rm:6;--rd:7;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/8/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>MOSCOT at Out to See</h2>
+<p>We carry MOSCOT optical frames and sunglasses at our boutique in Lau Hala Shops. Try on a few shapes, and we will help you find the size and color that fits. Text us first if you are after a particular model.</p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_6807 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-light-bold h-small"><div class="fe" style="--rm:6;--rd:12;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/13/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots">
+<h2>Questions about MOSCOT</h2>
+<details><summary>What size Lemtosh should I get?</summary><p>It depends on your face width and prescription. The fastest way to know is to try two sizes side by side, which is exactly what our boutique is for.</p></details>
+<details><summary>Can MOSCOT sunglasses be made in my prescription?</summary><p>Yes. We fit them with ZEISS sun lenses, polarized if you like.</p></details>
+<details><summary>Are MOSCOT frames good for strong prescriptions?</summary><p>Their thicker acetate rims hide lens edges well. Pair them with high index ZEISS lenses and they stay light and slim.</p></details>
+<details><summary>Do I need an eye exam first?</summary><p>Bring a current prescription, or book a <a href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p></details>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_7090 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright h-small"><div class="fe" style="--rm:6;--rd:13;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/14/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<!-- MOSCOT PAGE · YOU MIGHT ALSO LIKE · paste in a new Code Block just above "Come try them on" -->
+<style>
+.ots-also{max-width:880px;margin:0 auto;padding:40px 20px;color:#4F6272;font-family:inherit}
+.ots-also h2{color:#1F2640;font-family:inherit;line-height:1.15;margin:0 0 18px;font-size:clamp(26px,3.4vw,38px)}
+.ots-also p{font-size:18px;line-height:1.65;margin:0 0 18px}
+.ots-also .also-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}
+.ots-also a.also-card{display:block;background:#FDF6E9;padding:26px 24px;text-decoration:none!important;color:#4F6272!important;transition:transform .2s ease,box-shadow .2s ease}
+.ots-also a.also-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(31,38,64,.12)}
+.ots-also .also-name{display:block;color:#1F2640;font-size:19px;font-weight:600;letter-spacing:.06em;margin:0 0 10px}
+.ots-also .also-text{display:block;font-size:16px;line-height:1.6}
+.ots-also .also-more{display:block;color:#B8452A;font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin-top:16px}
+.ots-also .also-all{font-size:16px;margin:26px 0 0}
+.ots-also .also-all a{color:#B8452A}
+</style>
+<div class="ots-also">
+<h2>You might also like</h2>
+<p>Love a classic? Here are three more to try on while you are here.</p>
+<div class="also-grid">
+<a class="also-card" href="/tom-ford">
+<span class="also-name">TOM FORD</span>
+<span class="also-text">Rich Italian acetate and the signature metal T.</span>
+<span class="also-more">Explore TOM FORD →</span>
+</a>
+<a class="also-card" href="/krewe-eyewear-hawaii">
+<span class="also-name">KREWE</span>
+<span class="also-text">New Orleans style in sunglasses and optical frames.</span>
+<span class="also-more">Explore KREWE →</span>
+</a>
+<a class="also-card" href="/lindberg-eyewear-hawaii">
+<span class="also-name">LINDBERG</span>
+<span class="also-text">Danish titanium with no screws. So light you forget it is there.</span>
+<span class="also-more">Explore LINDBERG →</span>
+</a>
+</div>
+<p class="also-all"><a href="/best-eyewear-kailua-hi">See all our designer eyewear</a></p>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790976007265_2038 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>
+<section class="sec t-bright h-small"><div class="fe" style="--rm:6;--rd:9;--rg:11.0px;--cg:11.0px"><div class="b b-code" style="--m:1/2/7/10;--d:1/2/10/26;z-index:1;--va:flex-start"><div class="code"><div class="sqs-code-container" data-localized="{&quot;enableSafeModeButton&quot;:&quot;Preview in safe mode&quot;,&quot;enableSafeModeText&quot;:&quot;This block contains embedded scripts. Embedded scripts are disabled while you're logged in and editing your site.&quot;,&quot;enableSafeModeTitle&quot;:&quot;Embedded Scripts&quot;,&quot;exitSafeModeButton&quot;:&quot;Exit safe preview&quot;,&quot;exitSafeModeText&quot;:&quot;Please view the page after logging out for accurate rendering.&quot;,&quot;exitSafeModeTitle&quot;:&quot;Safe Preview&quot;,&quot;globalSafeMode&quot;:&quot;Embedded Code: This block contains embedded code that has been disabled.&quot;,&quot;scriptDisabled&quot;:&quot;Script Disabled&quot;}">
+<div class="ots center">
+<h2>Come try them on</h2>
+<p>Out to See, 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Walk in to browse, or text (808) 501 2020.</p>
+<div class="btns">
+<a class="btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb">Book an Eye Exam</a>
+<a class="btn alt" href="/best-eyewear-kailua-hi">See All Our Brands</a>
+</div>
+</div>
+</div>
+<style class="transform-vars">
+    .fe-block-yui_3_17_2_1_1790465172224_7373 {
+      --opacity: 100%;
+      --translate-x: 0px;
+      --translate-y: 0px;
+      --rotation: 0deg;
+      --scale-x: 100%;
+      --scale-y: 100%;
+      --skew-x: 0deg;
+      --skew-y: 0deg;
+      --origin-x: 50%;
+      --origin-y: 50%;
+      --block-transform: none;
+
+      opacity: var(--opacity, 1);
+      transform: var(--block-transform);
+      transform-origin: var(--origin-x) var(--origin-y);
+    }
+  </style></div></div></div></section>

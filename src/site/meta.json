@@ -1,0 +1,4179 @@
+{
+ "pages": {
+  "optometrist-blog": {
+   "title": "Helpful Insights On Eyecare | Dr Lauren Mordue's Blog | Out to See Vision Care",
+   "description": "Read our optometrist blog to gain more insights on eyecare, how much an eye exam is in Kailua, HI, the importance of regular eye exams & more. Find out more.",
+   "canonical": "/optometrist-blog",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/optometrist-blog"
+  },
+  "index": {
+   "title": "Independent Optometrist & Designer Eyewear | Kailua, Honolulu",
+   "description": "Designer and Luxury frames from LINDBERG, MYKITA, MOSCOT, Tom Ford, and more, fitted with ZEISS lenses cut in our own lab. Personal eye exams with Dr. Lauren Mordue. Lau Hala Shops, Kailua, Honolulu, Oahu.",
+   "canonical": null,
+   "noindex": false,
+   "ogImage": "/images/outtoseelogothicker-1f61da.webp",
+   "schema": [],
+   "path": "/"
+  },
+  "about-best-optometrist-kailua-hi": {
+   "title": "About Us | Optometrist in Kailua, HI | Out to See Vision Care",
+   "description": "Meet Dr. Lauren Mordue, OD, the independent optometrist behind Out to See in Kailua, serving Honolulu and all of Oahu. From Tampa to NYC to Lau Hala Shops. Here's our story.",
+   "canonical": "/about-best-optometrist-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/about-best-optometrist-kailua-hi"
+  },
+  "dmv-vision-testing-kailua-hi": {
+   "title": "DMV Vision Testing in Kailua, HI | Out to See Vision Care",
+   "description": "Dr. Lauren Mordue offers DMV vision testing in Kailua, HI to test your vision acuity & sharpness to ensure you have visual function to safely drive. Book now!",
+   "canonical": "/dmv-vision-testing-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Service",
+     "name": "DMV Vision Testing & Certification",
+     "description": "Hawaii DMV vision testing and certification for driver's license renewals. Walk-ins welcome, same-day results available at our Kailua office.",
+     "provider": {
+      "@type": "Optometrist",
+      "name": "Out to See Vision Care",
+      "telephone": "+1-808-501-2020",
+      "url": "",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "573 Kailua Rd, Ste 106",
+       "addressLocality": "Kailua",
+       "addressRegion": "HI",
+       "postalCode": "96734",
+       "addressCountry": "US"
+      }
+     },
+     "areaServed": {
+      "@type": "City",
+      "name": "Kailua, Hawaii"
+     }
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What vision do I need to pass the Hawaii DMV eye test?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a standard Hawaii driver's license (Class 1, 2, or 3), you must have 20/40 or better in at least one eye — with or without corrective lenses — and a horizontal field of vision of at least 70 degrees in one eye. Commercial licenses require both eyes to individually meet the 20/40 standard, plus color recognition ability."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What happens if I fail the DMV vision screening?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The DMV will direct you to obtain a Certificate of Eye Examination from a licensed optometrist or ophthalmologist. Once we complete and sign the form, you bring it back to your DMV office. Without this certificate, you cannot receive or renew your Hawaii driver's license."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How soon can I be seen for a DMV vision exam?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically within a few days, and often the same day. Call us at (808) 501-2020 and let us know you have a DMV deadline — we do our best to get you in quickly. We are open Monday through Saturday 10am–6pm and Sunday 10am–3pm at Lau Hala Shops in Kailua."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you help with out-of-state or military license renewals?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We see patients — especially military families stationed in Hawaii — who need vision clearance for an out-of-state license renewal. Every state has different vision requirements and uses a different form. Dr. Mordue looks up the specific form your state requires and completes it during your visit."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Will wearing glasses help me pass the Hawaii DMV vision test?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes. Hawaii's vision standard allows corrected acuity — meaning your vision with glasses or contacts counts toward the 20/40 requirement. Your license will carry a restriction requiring you to wear them while driving. We have a full eyewear boutique on-site if you need frames right away."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long is the Hawaii Certificate of Eye Examination valid?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The completed Certificate of Eye Examination is valid for six months from the date of your eye examination. You must submit it to the DMV within that window."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What should I bring to my DMV vision exam appointment?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bring your current glasses or contact lenses if you wear them, your driver's license or state ID, and any paperwork the DMV gave you. If you have vision insurance, bring your card — we will verify your benefits before your visit."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can you handle commercial CDL vision clearance?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Dr. Mordue can evaluate and complete the certificate for Class 4 and commercial license holders. Commercial requirements are stricter — 20/40 in each eye separately, binocular acuity, bilateral peripheral field of 70 degrees per eye, and color recognition."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What if my vision isn't correctable to 20/40?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dr. Mordue will walk you through your results and options honestly. In some cases, specific restrictions — such as a daylight-only or outside rear-view mirror requirement — may still allow you to drive legally. If driving safely is not achievable, we will help you understand your next steps."
+       }
+      }
+     ]
+    }
+   ],
+   "path": "/dmv-vision-testing-kailua-hi"
+  },
+  "best-eyewear-kailua-hi": {
+   "title": "Designer Eyewear on Oahu | LINDBERG, MYKITA, ZEISS | Out to See Vision Care",
+   "description": "An independent and luxury eyewear boutique carrying LINDBERG, MYKITA, MOSCOT, Tom Ford, Face à Face and KREWE, fitted with ZEISS lenses cut in our own Kailua lab. Serving Honolulu, Oahu and outer islands. ",
+   "canonical": "/best-eyewear-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "WebPage",
+       "@id": "/best-eyewear-kailua-hi#webpage",
+       "url": "/best-eyewear-kailua-hi",
+       "name": "Designer Eyewear in Kailua, Hawaii",
+       "isPartOf": {
+        "@type": "WebSite",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/best-eyewear-kailua-hi#service"
+       },
+       "breadcrumb": {
+        "@id": "/best-eyewear-kailua-hi#breadcrumb"
+       }
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/best-eyewear-kailua-hi#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Designer Eyewear",
+         "item": "/best-eyewear-kailua-hi"
+        }
+       ]
+      },
+      {
+       "@type": "Service",
+       "@id": "/best-eyewear-kailua-hi#service",
+       "name": "Designer Eyewear and Prescription Glasses",
+       "serviceType": "Optical boutique and eyeglass fitting",
+       "description": "Hand picked frames from LINDBERG, MYKITA, MOSCOT, FACE À FACE, TOM FORD and more, paired with ZEISS lenses made to order, measured and fitted by our optician, and cut and mounted in our own lab in Kailua, Oahu. Adjustments are always free.",
+       "provider": {
+        "@id": "/#business"
+       },
+       "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Oahu, Hawaii"
+       },
+       "brand": [
+        {
+         "@type": "Brand",
+         "name": "LINDBERG",
+         "url": "/lindberg-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "MYKITA",
+         "url": "/mykita-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "MOSCOT",
+         "url": "/moscot-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "TOM FORD",
+         "url": "/tom-ford-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "FACE À FACE",
+         "url": "/face-a-face-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "ETNIA BARCELONA",
+         "url": "/etnia-barcelona-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "KREWE",
+         "url": "/krewe-eyewear-hawaii"
+        },
+        {
+         "@type": "Brand",
+         "name": "MAUI JIM",
+         "url": "/maui-jim-prescription-sunglasses-kailua-hi"
+        },
+        {
+         "@type": "Brand",
+         "name": "PRODESIGN DENMARK"
+        },
+        {
+         "@type": "Brand",
+         "name": "VERNON GANTRY"
+        },
+        {
+         "@type": "Brand",
+         "name": "SHWOOD"
+        }
+       ]
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/best-eyewear-kailua-hi#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Do I need an appointment to shop for frames?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Walk in any time we are open: Monday to Saturday 10am to 6pm, and Sunday 10am to 3pm. If you would like dedicated time with Cory, text us at (808) 501-2020 and we will set a time."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I use a prescription from a different eye doctor?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Bring a current prescription from any provider and use it for frames and lenses from our boutique. We cut and fit your lenses in our own lab no matter where your exam was done."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I buy frames without a prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every frame in our boutique is available without a prescription. Choose plano lenses with no correction, readers, or just the frame."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you have frames for smaller faces or lower nose bridges?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We stock frames in smaller sizes and with lower bridge fits, a real need for many people in Hawaii. Many of our titanium frames also have adjustable nose pads that we shape to your nose, so the frame sits where your lenses need it."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are LINDBERG frames worth it?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For many people, yes. LINDBERG frames are made from titanium, weigh very little, and use a screwless hinge with no screws to work loose. Fitted well, they are comfortable enough to forget you are wearing them. The best way to decide is to try one on next to a heavier frame. See our LINDBERG collection."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What makes your selection different from a chain optical store?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We curate independently. Every brand we carry was chosen because we believe in it, not because of a corporate buying agreement. You will find independent makers, European designers, and heritage brands that chain stores do not carry, and every pair of everyday glasses gets ZEISS lenses cut in our own lab."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can you put new lenses in a frame I already own?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In most cases, yes. We check the frame first to make sure it is in good shape and suited to your prescription, then order ZEISS lenses and cut them to fit in our lab. The exception is Maui Jim, which only makes its own prescription lenses."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you carry prescription sunglasses and sports eyewear?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We carry polarized sunglasses made for Hawaii light, plus sports and safety glasses, and most can be made with your prescription. See our sunglasses."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What lenses do you use?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We use ZEISS lenses. Each pair is made to order for your prescription, then cut and mounted in our lab. Maui Jim prescription sunglasses are the exception. Maui Jim makes those lenses in its own lab and ships the pair complete. Learn about our ZEISS lens options."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "How long does it take to get my glasses?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most glasses are ready in 1 to 2 weeks. ZEISS makes your lenses to order and sends them to us, and we cut, mount, and check them in our lab. Complex prescriptions or specialty lenses can take a little longer, and we will give you a timeline when you order."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I change or cancel my order after it is placed?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Because every pair is made just for you, orders cannot be changed or cancelled once they are placed. That is why we take time with you before you sign, and answer every question first."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What if my new glasses do not feel right?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Come back and see us. Most issues come down to fit, and adjustments are always free. If it is something else, we will check your measurements and prescription and work out the right fix with you."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you repair and adjust glasses I bought somewhere else?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, and it is always free. Frame adjustments, nose pad replacements, and minor repairs are complimentary no matter where you bought your glasses."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you accept HSA and FSA?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Prescription glasses and lenses are an eligible expense for most HSA and FSA plans. If you are unsure about yours, check with your plan administrator."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you take vision insurance?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We accept UHA. We do not accept VSP or EyeMed, which lets us spend more time with every patient and choose our frames and lenses freely. Some plans reimburse you for out of network purchases, so it is worth checking with yours. See pricing and insurance."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "How much do glasses cost?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the frame and lenses you choose. We will always give you the full price before anything is ordered. Exam and service prices are on our pricing page."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What forms of payment do you accept?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HSA and FSA cards, major credit cards, and yes, Bitcoin."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/best-eyewear-kailua-hi"
+  },
+  "lens-upgrades-kailua-hi": {
+   "title": "ZEISS Lenses in Kailua, Oahu | Out to See Vision Care",
+   "description": "For everyday glasses, we only fit ZEISS lenses, including ClearMind progressives. Measured and cut in our own Kailua lab by Cory, our Master Lens Maker.",
+   "canonical": "/lens-upgrades-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "WebPage",
+       "@id": "/lens-upgrades-kailua-hi#webpage",
+       "url": "/lens-upgrades-kailua-hi",
+       "name": "ZEISS Lenses in Kailua, Oahu",
+       "description": "For everyday glasses, we only fit ZEISS lenses, including ClearMind progressives. Measured and cut in our own Kailua lab by Cory, our Master Lens Maker.",
+       "inLanguage": "en-US",
+       "breadcrumb": {
+        "@id": "/lens-upgrades-kailua-hi#breadcrumb"
+       },
+       "about": {
+        "@id": "/lens-upgrades-kailua-hi#service"
+       },
+       "publisher": {
+        "@id": "/#business"
+       }
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/lens-upgrades-kailua-hi#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "ZEISS Lenses",
+         "item": "/lens-upgrades-kailua-hi"
+        }
+       ]
+      },
+      {
+       "@type": "Service",
+       "@id": "/lens-upgrades-kailua-hi#service",
+       "name": "ZEISS Prescription Lenses",
+       "serviceType": "Prescription eyeglass lenses",
+       "description": "ZEISS prescription lenses, including ClearMind progressive, single vision and anti fatigue designs, made to order and cut, mounted and checked in our own lab in Kailua, Oahu.",
+       "brand": {
+        "@type": "Brand",
+        "name": "ZEISS"
+       },
+       "provider": {
+        "@id": "/#business"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Windward Oahu"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu"
+        }
+       ],
+       "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ZEISS lens options",
+        "itemListElement": [
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS ClearMind Progressive Lenses"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS ClearMind Single Vision Lenses"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS ClearMind Anti Fatigue Lenses"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS DuraVision Plus Coatings"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS BlueGuard"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS PhotoFusion X"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "ZEISS PerformaSun Prescription Sun Lenses"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/lens-upgrades-kailua-hi#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Why do you only fit ZEISS?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We only fit what we believe is the best, and for everyday glasses that is ZEISS. ZEISS has been making precision optics since 1846, and its lenses are made to order for each prescription. The one exception is prescription sunglasses, where we also offer Maui Jim."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What is ZEISS ClearMind?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ClearMind is the newest lens design from ZEISS and the one we recommend first. ZEISS built it around how people use their eyes today, moving between phones, screens, and the world around them. It comes in single vision, anti fatigue, and progressive designs."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I have to get ClearMind?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. ClearMind is our recommendation because it is what we would wear ourselves. If your budget calls for something simpler, we can order other ZEISS lens designs, and we will tell you plainly what you would give up."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are progressive lenses hard to get used to?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most people adapt within a few days to a couple of weeks. The lens design and the measurements make the biggest difference, which is why we fit ClearMind and take your measurements with your frame on. If something does not feel right, come back and we will check the fit, the measurements, and the prescription."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need a blue light filter?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is optional. There is no evidence that blue light from screens harms your eyes. Some people find screens more comfortable with a filter, especially in the evening, and it does no harm, so we offer it and let you decide."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What is the difference between the Gold and Platinum coatings?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both are ZEISS DuraVision Plus coatings that cut reflections and resist scratches and smudges. Gold is the top performer and has a warm gold reflection. Platinum has a quieter blue sheen. The look is a personal choice, so we show you both in person."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do clear lenses protect my eyes from UV?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every clear ZEISS lens we fit has full UV protection, with or without a blue light filter."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Which lens material will I get?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We choose it for you, based on your prescription and your frame. Stronger prescriptions get thinner, lighter high index lenses. When you need impact resistance, we like Trivex because it is tough and optically sharp."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can you put ZEISS lenses in a frame I already own?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In most cases, yes. We check the frame first, then measure, cut, and fit new ZEISS lenses in our lab."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I use a prescription from another eye doctor?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Bring a current prescription from any provider and we will make your ZEISS lenses from it."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "How long does it take to get my lenses?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most glasses are ready in 1 to 2 weeks. ZEISS makes your lenses to order and sends them to us, and we cut, mount, and check them in our lab. Complex prescriptions or specialty lenses can take a little longer, and we will give you a timeline when you order."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/lens-upgrades-kailua-hi"
+  },
+  "myopia-management-kailua-hi": {
+   "title": "Myopia Management In Kailua, HI  | Out to See Vision Care",
+   "description": "Dr. Lauren Mordue provides myopia management in Kailua, HI to help slow the progression of the disease & reduce the risks & complications. Book today!",
+   "canonical": "/myopia-management-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Service",
+     "name": "Myopia Management for Children",
+     "description": "Specialized myopia management program to slow the progression of nearsightedness in children ages 6-14. Options include specialty contact lenses, orthokeratology, and low-dose atropine therapy.",
+     "provider": {
+      "@type": "Optometrist",
+      "name": "Out to See",
+      "telephone": "+1-808-501-2020",
+      "url": "",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "573 Kailua Rd, Ste 106",
+       "addressLocality": "Kailua",
+       "addressRegion": "HI",
+       "postalCode": "96734",
+       "addressCountry": "US"
+      }
+     },
+     "areaServed": {
+      "@type": "City",
+      "name": "Kailua, Hawaii"
+     }
+    }
+   ],
+   "path": "/myopia-management-kailua-hi"
+  },
+  "custom-sunglasses-kailua-hi": {
+   "title": "Custom Sunglasses In Kailua, HI | Kailua Custom Sunglasses | Out to See Vision Care",
+   "description": "Make your own custom sunglasses in Kailua, HI. Collect microplastics on the beach, choose your mold, make the frames & walk out with your own sunnies. See more.",
+   "canonical": "/custom-sunglasses-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/custom-sunglasses-kailua-hi"
+  },
+  "contact-best-optometrist-kailua-hi": {
+   "title": "Contact Dr Lauren Mordue | Optometrist In Kailua, HI | Out to See Vision Care",
+   "description": "Contact Out to See Vision Care in Kailua, HI. Call or text (808) 501-2020, email hello@outtoseevision.com, or book online. Same-day appointments often available at Lau Hala Shops.",
+   "canonical": "/contact-best-optometrist-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/contact-best-optometrist-kailua-hi"
+  },
+  "pricing": {
+   "title": "Pricing & Insurance | Kailua Optometrist | Out to See Vision Care",
+   "description": "Out To See accepts Tricare, UHA, FSA/HSA & CareCredit financing in Kailua. See what's included in your comprehensive eye exam & contact lens fitting.",
+   "canonical": "/pricing",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/pricing"
+  },
+  "patient-literature": {
+   "title": "Eye Care Tips from Kailua's Optometrist  | Out to See Vision Care",
+   "description": "Science-backed eye care tips from Dr. Mordue, Kailua's independent optometrist — daily habits, digital eye-strain fixes, contact lens care, and when to see a doctor.",
+   "canonical": "/patient-literature",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/patient-literature"
+  },
+  "patient-portal": {
+   "title": "Patient Portal | Kailua, HI | Out to See Vision Care",
+   "description": "Access your Out to See Vision Care patient records, prescriptions, and intake forms online. Log in to the secure patient portal anytime — Kailua, HI.",
+   "canonical": "/patient-portal",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/patient-portal"
+  },
+  "location-and-parking": {
+   "title": "Location & Parking | Kailua (Lau Hala Shops) | Out to See Vision Care",
+   "description": "Find Out To See at\n573 Kailua Road, Lau Hala Shops, Kailua, HI 96734 — free parking behind the shops. Open Mon–Sat 10–6,\nSun 10–3. Call (808) 501-2020.",
+   "canonical": "/location-and-parking",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/location-and-parking"
+  },
+  "eye-doctor-kailua-hi": {
+   "title": "Full Hour Eye Exams in Kailua, Oahu | Out to See Vision Care",
+   "description": "Dr. Lauren Mordue, OD. Unhurried eye exams rated 5.0 stars by 200+ Google reviewers. UHA and TRICARE accepted. Lau Hala Shops, Kailua. Book online.",
+   "canonical": "/eye-doctor-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Do you take walk-ins, or do I need to book an appointment?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Walk-ins are welcome whenever we have availability — but to make sure we can see you the same day and keep your wait short, we recommend booking ahead. Same-day appointments are often available; the fastest way to lock one in is to book online or text us at (808) 501-2020. For browsing the eyewear boutique, frames, sunglasses, repairs, and adjustments, feel free to walk in anytime during business hours."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where are you located and is there parking?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We're inside the Lau Hala Shops (the former Macy's building), next door to Maui Brewing Company and directly across from Ulta, at 573 Kailua Road, Suite 106, Kailua, HI 96734. Parking is free — park in the lot behind Lau Hala Shops or in the garage by Longs Drugs. There's a 3-hour limit and a few curbside pickup stalls in front for quick stops. Note: on Thursday afternoons part of the lot is reserved for the farmers market and cars are towed after 2pm."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What are your hours?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monday through Saturday: 10am to 6pm. Sunday: 10am to 3pm. Open 7 days a week."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you see children?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we see patients of all ages, including young children. Whether it's your child's first eye exam or a school physical update, we keep things calm, fun, and at their pace."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What insurance do you accept?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are in-network with TRICARE and UHA. If we're not in-network with your provider, we'll provide everything you need to submit an out-of-network claim and get reimbursed. We also accept FSA/HSA funds, CareCredit financing, all major credit cards, cash, and Bitcoin."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I get prescription Maui Jim sunglasses here?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have the most comprehensive Maui Jim prescription sunglass collection in Kailua. Whether it is driving, fishing, golf, or island life, we measure you here and order your pair from Maui Jim. Maui Jim makes its prescription lenses in its own lab, and Cory checks every pair when it arrives. The boutique also carries Tom Ford, Krewe, Moscot, and more at nearly every price point."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What brands of frames do you carry?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A curated selection including Lindberg, Mykita, Moscot, Krewe, Tom Ford, Shwood, Maui Jim, and others — handmade, high-quality eyewear from designers around the world, in materials like titanium, wood, acetate, even seashell."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you do glasses adjustments and repairs?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — adjustments, nose pad replacements, and minor repairs are always complimentary, no matter where you bought your glasses. Stop by anytime during open hours."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you offer custom sunglasses?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — one of our most unique offerings. We turn microplastics and sorted recycled plastics into one-of-a-kind custom sunglass frames you can purchase in store."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a comprehensive eye exam take?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most comprehensive eye exams take about 45 minutes, depending on any additional testing you might need. We never rush — we reserve a full hour for you."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What's included in a comprehensive eye exam?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every comprehensive exam at Out to See includes visual acuity testing, pupil and eye muscle evaluation, peripheral vision check, digital prescription testing, eye pressure measurement (glaucoma screening), microscope evaluation of the front of the eye, Optomap widefield retinal imaging, OCT scanning of your macula and optic nerve, and corneal topography. No surprise upcharges for premium tests — everything that's standard of care is included. The exam is $150 with your eyeglass prescription included."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What if I'm overdue for an exam — is that a problem?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not at all — and no lectures, promise. Whether your last exam was one year ago or somewhere you can't quite remember, we'll meet you where you are. You'll walk out with an up-to-date prescription and a full picture of your eye health."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you do DMV vision testing?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide DMV vision testing for Hawaii driver's license renewals — quick and easy, with the paperwork you need. Walk in or schedule online."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are you a licensed optometrist or an ophthalmologist?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Out to See is a licensed optometry practice. Dr. Lauren Mordue is a Doctor of Optometry (OD), trained at the New England College of Optometry in Boston, licensed to perform comprehensive eye exams, diagnose and manage most eye conditions, prescribe glasses and contacts, and provide medical eye care for dry eye, infections, and red eyes. For surgical or specialty care (cataracts, LASIK, retinal surgery), she refers you to a trusted ophthalmologist on Oahu and coordinates your care."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you serve patients from outside Kailua?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely — we proudly serve all of Oahu, with patients driving in from Honolulu, Aiea, Pearl City, Kaneohe, Kapolei, the North Shore, and Marine Corps Base Hawaii."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I use my prescription from another eye doctor to buy glasses?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — bring it in. You don't have to be a patient at Out to See to shop our boutique, and all frames are also available as non-prescription."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I order contact lenses from you?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Once we have a current contact lens prescription on file, you can order ongoing supplies through us — online via our Buy Contacts page, in store, or by phone."
+       }
+      }
+     ]
+    }
+   ],
+   "path": "/eye-doctor-kailua-hi"
+  },
+  "maui-jim-prescription-sunglasses-kailua-hi": {
+   "title": "Maui Jim Prescription Sunglasses in Kailua | Out to See Vision Care",
+   "description": "Try on Maui Jim in Kailua, then order them in your prescription. Real Maui Jim lenses, measured for you and checked by our Master Lens Maker.",
+   "canonical": "/maui-jim-prescription-sunglasses-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "WebPage",
+       "@id": "/maui-jim-prescription-sunglasses-kailua-hi#webpage",
+       "url": "/maui-jim-prescription-sunglasses-kailua-hi",
+       "name": "Maui Jim Prescription Sunglasses in Kailua, Oahu",
+       "description": "Maui Jim sunglasses fitted and measured in Kailua, Oahu, with prescription lenses made by Maui Jim in its own lab and checked by our Master Lens Maker on arrival. MyMaui custom orders available, including prescription.",
+       "inLanguage": "en-US",
+       "breadcrumb": {
+        "@id": "/maui-jim-prescription-sunglasses-kailua-hi#breadcrumb"
+       },
+       "about": {
+        "@id": "/maui-jim-prescription-sunglasses-kailua-hi#service"
+       },
+       "publisher": {
+        "@id": "/#business"
+       }
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/maui-jim-prescription-sunglasses-kailua-hi#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Sunglasses",
+         "item": "/sunglasses"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "Maui Jim",
+         "item": "/maui-jim-prescription-sunglasses-kailua-hi"
+        }
+       ]
+      },
+      {
+       "@type": "Service",
+       "@id": "/maui-jim-prescription-sunglasses-kailua-hi#service",
+       "name": "Maui Jim Prescription Sunglasses",
+       "serviceType": "Prescription sunglasses",
+       "description": "Maui Jim sunglasses fitted and measured in Kailua, Oahu, with prescription lenses made by Maui Jim in its own lab and checked by our Master Lens Maker on arrival. MyMaui custom orders available.",
+       "brand": {
+        "@type": "Brand",
+        "name": "Maui Jim"
+       },
+       "provider": {
+        "@id": "/#business"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Windward Oahu"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu"
+        }
+       ],
+       "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Maui Jim options",
+        "itemListElement": [
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "Maui Jim Prescription Sunglasses, Single Vision"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "Maui Jim Prescription Sunglasses, Progressive"
+          }
+         },
+         {
+          "@type": "Offer",
+          "itemOffered": {
+           "@type": "Service",
+           "name": "MyMaui Custom Prescription Sunglasses"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/maui-jim-prescription-sunglasses-kailua-hi#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Can Maui Jim sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most styles can. It depends on the frame and your prescription, so we check both before you order."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Who makes the prescription lenses?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Maui Jim does. Your lenses are made in Maui Jim's own lab and fitted into your frame there, so you get authentic Maui Jim lenses, not a copy."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I buy Maui Jims somewhere else and have prescription lenses put in?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We do not recommend it. When you buy a pair off the rack, you pay for polarized lenses that are removed and never used once the prescription lenses go in. If you need a prescription, order the pair with prescription lenses from the start. If you already own a pair, bring it in and we will go over your options with you."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What is PolarizedPlus2?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is the lens technology in every pair of Maui Jim sunglasses. It removes glare, blocks 100% of UVA and UVB rays, and enhances color, all in one lens."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Which Maui Jim lens color is best for Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on your day. Neutral Grey is made for bright, direct sun and time on the water. HCL Bronze suits everyday, changing light and driving. Maui Rose adds the most contrast for fast moving sports. Maui HT is made for lower light and golf."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are Maui Jim lenses glass or plastic?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both. Maui Jim makes SuperThin Glass lenses and several lightweight materials, including MauiBrilliant, MauiPure, and Maui Evolution. Prescription lenses come in a shorter list of materials, and we will help you choose."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What is MyMaui?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MyMaui is Maui Jim's custom program. You choose the frame, the frame color, and the lens color, and Maui Jim builds that exact pair for you. It works with prescription lenses too, and we place the order for you here in the shop."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I get Maui Jim progressives?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Maui Jim prescription lenses are available in both single vision and progressive designs."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What do you measure before you order?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We check how the frame sits on your face and where your eyes line up in the lens. Those measurements go to Maui Jim with your prescription."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Why not put ZEISS lenses in a Maui Jim frame?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For everyday glasses, ZEISS is all we fit. With Maui Jim sunglasses, the lens is the reason people buy them, so we order the real thing from Maui Jim."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "What happens when my sunglasses arrive?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cory, our Master Lens Maker, inspects the frame and lenses, verifies the prescription, and fits the pair to your face. Adjustments after that are always free."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "How long does a prescription pair take?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Timing depends on the lens and the prescription. We will give you an estimate when you order."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can I use my HSA or FSA?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We accept HSA and FSA, and prescription sunglasses are an eligible expense for most plans."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Lauren and choose your sunglasses the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/maui-jim-prescription-sunglasses-kailua-hi"
+  },
+  "iris-photography": {
+   "title": "Iris Photography | Out to See Vision Care",
+   "description": "",
+   "canonical": "/iris-photography",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/iris-photography"
+  },
+  "the-lab": {
+   "title": "Optical Lab & Lens Replacement in Kailua, HI | Out to See Vision Care",
+   "description": "Love your frames but need new lenses? Our Kailua lab measures, cuts and fits ZEISS lenses into the glasses you already own. Meet Cory, our lens maker.",
+   "canonical": "/the-lab",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/the-lab"
+  },
+  "the-team": {
+   "title": "Meet Our Team | Kailua Optometrist  | Out to See Vision Care",
+   "description": "Meet Dr. Lauren Mordue, OD and the Out To See team — Kailua's independent optometry & eyewear boutique at Lau Hala Shops.\nSame-day appointments often available.",
+   "canonical": "/the-team",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/the-team"
+  },
+  "featured-films": {
+   "title": "Featured Films | Kailua Optometrist | Out to See Vision Care",
+   "description": "Original short films made in-house at Out To See, Kailua's independent optometrist — from our May the 4th Star Wars series to Optician's Corner. Take a look.",
+   "canonical": "/featured-films",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/featured-films"
+  },
+  "sunglasses": {
+   "title": "Prescription Sunglasses in Kailua, Oahu, HI | Out to See Vision Care",
+   "description": "Maui Jim, KREWE, Tom Ford and MOSCOT sunglasses made in your prescription, with polarized lenses cut in our Kailua lab. Walk in and try them on.",
+   "canonical": "/sunglasses",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Service",
+     "name": "Premium Sunglasses & Prescription Sunglasses",
+     "description": "Browse Maui Jim, MOSCOT, Tom Ford, Krewe, and Shwood sunglasses at our Kailua boutique. Prescription lenses available and cut in-house. No appointment needed to shop.",
+     "provider": {
+      "@type": "Optometrist",
+      "name": "Out to See",
+      "telephone": "+1-808-501-2020",
+      "url": "",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "573 Kailua Rd, Ste 106",
+       "addressLocality": "Kailua",
+       "addressRegion": "HI",
+       "postalCode": "96734",
+       "addressCountry": "US"
+      }
+     },
+     "areaServed": {
+      "@type": "City",
+      "name": "Kailua, Hawaii"
+     }
+    }
+   ],
+   "path": "/sunglasses"
+  },
+  "comprehensive-eye-exam-kailua-hi": {
+   "title": "Eye Exam in Kailua, HI | Unhurried & Thorough | Out to See Vision Care",
+   "description": "Most eye exams are rushed in 15 minutes. Ours don't. Retinal imaging, glaucoma screening and real time with Dr. Mordue. UHA and TRICARE accepted. Book online.",
+   "canonical": "/comprehensive-eye-exam-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/comprehensive-eye-exam-kailua-hi"
+  },
+  "contact-lens-fitting-kailua-hi": {
+   "title": "Contact Lens Fitting in Kailua, HI | Out to See Vision Care",
+   "description": "Contact lens fittings in Kailua, Oʻahu for every prescription — daily, monthly, toric & multifocal, plus dry-eye-friendly options. Book today.",
+   "canonical": "/contact-lens-fitting-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/contact-lens-fitting-kailua-hi"
+  },
+  "dry-eye-treatment-kailua": {
+   "title": "Dry Eye Treatment in Kailua, Oahu HI | Out to See Vision Care",
+   "description": "Dry eye evaluation and treatment in Kailua, HI — meibomian gland care, scleral lenses, and ongoing management. UHA in-network. Same-day visits often available.",
+   "canonical": "/dry-eye-treatment-kailua",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is dry eye curable?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dry eye syndrome is typically a chronic condition, which means it is managed rather than cured. That said, managed effectively can mean nearly symptom-free for most patients. Some cases linked to temporary factors, like post-LASIK dryness or a medication side effect, do resolve completely."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I just use over-the-counter drops and skip the exam?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTC artificial tears provide temporary symptom relief but do not treat the underlying cause of dry eye. If your meibomian glands are blocked, no amount of artificial tears will fix the problem. Using the wrong drops can even make things worse by adding preservatives that irritate already-sensitive eyes."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Will dry eye get worse if I don't treat it?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes. Untreated dry eye tends to be progressive. Meibomian glands that remain blocked can eventually atrophy permanently. Chronic inflammation on the ocular surface can cause corneal damage over time. The earlier you address dry eye, the more treatment options you have."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "I wear contacts — does dry eye mean I have to stop wearing them?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. Many contact lens wearers with dry eye do well with a switch to daily disposable lenses, silicone hydrogel materials, or specialty lenses designed for dry eye. In more severe cases, scleral lenses are often the best solution. We will find an option that keeps you in lenses comfortably."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is my dry eye related to my allergies?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dry eye and eye allergies share many symptoms — redness, itching, tearing, and light sensitivity — and both conditions can exist at the same time. A thorough evaluation tells us which is which, because the treatment for each is different."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can dry eye actually affect my vision?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The tear film is part of your optical system. When it is unstable, light does not focus properly and your vision fluctuates. Most people notice blurry vision that clears briefly after blinking. In severe cases, surface damage to the cornea can cause more persistent visual changes."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you serve patients from Waimanalo, Lanikai, and other parts of Windward Oahu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We see patients from throughout Windward Oahu, including Kailua, Lanikai, Waimanalo, Kaneohe, and beyond. If you are looking for a dry eye specialist on the Windward side, we are your closest option with comprehensive in-office diagnostic capabilities."
+       }
+      }
+     ]
+    }
+   ],
+   "path": "/dry-eye-treatment-kailua"
+  },
+  "best-sunglasses-for-fishing-hawaii": {
+   "title": "Best Sunglasses for Fishing in Hawaii  | Out to See Vision Care",
+   "description": "The best polarized sunglasses for fishing in Hawaii: how tint and polarization help you spot fish, plus prescription Maui Jim measured and fitted in Kailua.",
+   "canonical": "/best-sunglasses-for-fishing-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/best-sunglasses-for-fishing-hawaii"
+  },
+  "walk-in-eye-exam-kailua-hi": {
+   "title": "Walk In & Same Day Eye Exams in Kailua, HI | Out to See Vision Care",
+   "description": "Need an eye exam today in Kailua? Out To See offers walk-in and same-day eye exams when availability allows. Call or text (808) 501-2020 to grab a spot.",
+   "canonical": "/walk-in-eye-exam-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/walk-in-eye-exam-kailua-hi"
+  },
+  "military-tricare-eye-care-kailua-hi": {
+   "title": "Military & TRICARE Eye Care in Kailua, HI  | Out to See Vision Care",
+   "description": "Military families near Marine Corps Base Hawaii: Out To See in Kailua accepts TRICARE Prime & Select and gives active-duty members & families 10% off. Book today.",
+   "canonical": "/military-tricare-eye-care-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/military-tricare-eye-care-kailua-hi"
+  },
+  "pediatric-eye-exams-kailua-hi": {
+   "title": "Pediatric Eye Exams Kailua, HI | Children's Eye Care  | Out to See Vision Care",
+   "description": "Comprehensive pediatric eye exams for children of all ages in Kailua, HI. Dr. Lauren Mordue serves families across Windward O'ahu. Signs, age guidelines, myopia management; book today.",
+   "canonical": "/pediatric-eye-exams-kailua-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "My child passed the school vision screening — do they still need an eye exam?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. School screenings test only basic distance acuity — they miss farsightedness, astigmatism, amblyopia, eye teaming issues, and focusing problems. A comprehensive optometric exam is the only way to get the full picture of your child's vision health."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do you test the eyes of a child who can't read yet?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use objective testing technology that measures the eyes without requiring verbal responses, plus picture-based and symbol charts for young children. We can perform complete, accurate exams on infants and toddlers — no alphabet required."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What age should my child have their first eye exam?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The American Optometric Association recommends the first exam at 6 months, another at age 3, and again before starting school. After that, annual exams are recommended every year through the school years. If you notice warning signs sooner, schedule an exam right away."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is pediatric eye care covered by insurance in Hawaii?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many vision and medical insurance plans include coverage for children's eye exams. Out to See Vision Care in Kailua, HI accepts a range of plans. Call (808) 501-2020 and we'll verify your child's benefits before the visit."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is amblyopia (lazy eye) and can it be treated?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amblyopia happens when the brain begins to favor one eye over the other, causing the weaker eye's vision to decline. It's one of the most common childhood vision conditions — and highly treatable when caught early. Treatment effectiveness decreases significantly after age 7 to 9, which is why early exams matter so much."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can children wear contact lenses?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Age alone doesn't determine contact lens readiness — maturity and responsibility are bigger factors. Many kids do great with contacts in their pre-teen or teenage years. We evaluate each child individually and discuss all options, including specialty lenses for myopia management if appropriate."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you see children from across Windward Oahu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely — we regularly see families from Kailua, Lanikai, Kaneohe, Waimanalo, and all across the Windward side of Oahu. We're located at 573 Kailua Road, Suite 106, in Lau Hala Shops — free parking, easy to find."
+       }
+      }
+     ]
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "MedicalWebPage",
+     "name": "Pediatric Eye Exams in Kailua, HI",
+     "description": "Comprehensive pediatric eye exams for children of all ages at Out to See Vision Care in Kailua, Hawaii. Dr. Lauren Mordue provides children's eye care for families across Windward Oahu.",
+     "url": "/pediatric-eye-exams-kailua-hi",
+     "about": {
+      "@type": "MedicalSpecialty",
+      "name": "Optometry"
+     },
+     "provider": {
+      "@type": "MedicalBusiness",
+      "name": "Out to See Vision Care",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "573 Kailua Road, Suite 106",
+       "addressLocality": "Kailua",
+       "addressRegion": "HI",
+       "postalCode": "96734",
+       "addressCountry": "US"
+      },
+      "telephone": "+18085012020",
+      "url": ""
+     }
+    }
+   ],
+   "path": "/pediatric-eye-exams-kailua-hi"
+  },
+  "friend": {
+   "title": "The Eye Exam Experience | Out to See Vision Care",
+   "description": "A friend sent you here. See what an eye exam looks like when nobody's rushing — a full hour with Dr. Mordue at Out to See in Kailua, Hawaiʻi.",
+   "canonical": "/friend",
+   "noindex": true,
+   "ogImage": null,
+   "schema": [],
+   "path": "/friend"
+  },
+  "lindberg-eyewear-hawaii": {
+   "title": "LINDBERG Eyewear in Kailua, Oahu | Out to See Vision Care",
+   "description": "Danish titanium eyewear so light you forget it is there. Try LINDBERG at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+   "canonical": "/lindberg-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/lindberg-eyewear-hawaii#webpage",
+       "url": "/lindberg-eyewear-hawaii",
+       "name": "LINDBERG Eyewear in Kailua, Oahu | Out to See Vision Care",
+       "description": "Danish titanium eyewear so light you forget it is there. Try LINDBERG at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/lindberg-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/lindberg-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/lindberg-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "LINDBERG",
+         "item": "/lindberg-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/lindberg-eyewear-hawaii#brand",
+       "name": "LINDBERG",
+       "url": "https://lindberg.com/",
+       "sameAs": [
+        "https://lindberg.com/"
+       ],
+       "description": "Danish eyewear founded in 1983, known for ultralight titanium frames with screwless hinges. Select designs available in solid platinum and 18 karat gold through LINDBERG Precious."
+      },
+      {
+       "@type": "ItemList",
+       "@id": "/lindberg-eyewear-hawaii#frames",
+       "name": "Most popular LINDBERG frames at Out to See in Kailua",
+       "description": "LINDBERG models usually on the wall at Out to See in Kailua, Oahu, along with many more. LINDBERG Precious in platinum, white gold, yellow gold, rose gold and black gold available by special order.",
+       "numberOfItems": 4,
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "item": {
+          "@type": "Product",
+          "name": "LINDBERG Richelle",
+          "brand": {
+           "@id": "/lindberg-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Titanium",
+          "description": "Fine titanium wire frame with a full rim and LINDBERG's screwless spiral hinge. Colors can be mixed across the front and temples.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "Air Titanium Rim"
+           }
+          ],
+          "url": "/lindberg-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "item": {
+          "@type": "Product",
+          "name": "LINDBERG N.O.W. 6564",
+          "brand": {
+           "@id": "/lindberg-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Composite front, titanium temples",
+          "description": "Ultra thin composite front with titanium temples and screwless hinges. Fronts in clear, translucent and matt colors.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "N.O.W. Titanium"
+           }
+          ],
+          "url": "/lindberg-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "item": {
+          "@type": "Product",
+          "name": "LINDBERG Strip 9753",
+          "brand": {
+           "@id": "/lindberg-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Titanium",
+          "description": "Laser cut from thin plates of premium titanium in Denmark. A clean unisex design with the screwless hinge.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "Strip Titanium"
+           }
+          ],
+          "url": "/lindberg-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 4,
+         "item": {
+          "@type": "Product",
+          "name": "LINDBERG Acetanium 1267",
+          "brand": {
+           "@id": "/lindberg-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Acetate front, titanium temples",
+          "description": "Full rim rectangle with an acetate front, titanium temples, titanium reinforced bridge and titanium nose pad arms.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "Acetanium"
+           }
+          ],
+          "url": "/lindberg-eyewear-hawaii"
+         }
+        }
+       ]
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/lindberg-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Are LINDBERG frames worth it?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you wear glasses every day, weight and comfort matter more than almost anything else. Most people feel the difference the moment they put a pair on."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can LINDBERG frames be adjusted?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Titanium adjusts well, and we fine tune the fit when you pick them up and any time after, at no charge."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can LINDBERG be made into sunglasses?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most LINDBERG optical frames can be fitted with polarized ZEISS prescription sun lenses. Ask us which styles work best."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy LINDBERG glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries a curated selection of LINDBERG optical frames at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Text (808) 501 2020 to check stock."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/lindberg-eyewear-hawaii"
+  },
+  "mykita-eyewear-hawaii": {
+   "title": "MYKITA Eyewear in Kailua, Oahu | Out to See Vision Care",
+   "description": "Handmade in Berlin with a patented screwless hinge. Try MYKITA optical and sunglasses at Out to See in Kailua, Oahu, with ZEISS lenses cut in our own lab.",
+   "canonical": "/mykita-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/mykita-eyewear-hawaii#webpage",
+       "url": "/mykita-eyewear-hawaii",
+       "name": "MYKITA Eyewear in Kailua, Oahu | Out to See Vision Care",
+       "description": "Handmade in Berlin with a patented screwless hinge. Try MYKITA optical and sunglasses at Out to See in Kailua, Oahu, with ZEISS lenses cut in our own lab.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/mykita-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/mykita-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/mykita-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "MYKITA",
+         "item": "/mykita-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/mykita-eyewear-hawaii#brand",
+       "name": "MYKITA",
+       "url": "https://mykita.com/",
+       "sameAs": [
+        "https://mykita.com/"
+       ],
+       "description": "Berlin eyewear manufactory founded in 2003. Frames are assembled by hand at MYKITA HAUS with a patented screwless stainless steel hinge."
+      },
+      {
+       "@type": "ItemList",
+       "@id": "/mykita-eyewear-hawaii#frames",
+       "name": "MYKITA frames always in stock at Out to See in Kailua",
+       "description": "MYKITA models Out to See always keeps in stock in Kailua, Oahu, along with many more styles and colors. Any color and model can be ordered.",
+       "numberOfItems": 5,
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "item": {
+          "@type": "Product",
+          "name": "MYKITA NIKEN",
+          "brand": {
+           "@id": "/mykita-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Stainless steel",
+          "description": "Aviator in lightweight stainless steel, handcrafted in Berlin, with the screwless spiral hinge and silicone nose pads.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "MYKITA LITE"
+           }
+          ],
+          "url": "/mykita-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "item": {
+          "@type": "Product",
+          "name": "MYKITA TOBI",
+          "brand": {
+           "@id": "/mykita-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Stainless steel",
+          "description": "Square frame in lightweight stainless steel with the screwless spiral hinge, silicone nose pads and adjustable temple tips.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "MYKITA LITE"
+           }
+          ],
+          "url": "/mykita-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "item": {
+          "@type": "Product",
+          "name": "MYKITA HENNING",
+          "brand": {
+           "@id": "/mykita-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Stainless steel",
+          "description": "Square frame from the NO1 collection with straight lines, the spiral hinge and silicone nose pads.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "MYKITA NO1"
+           }
+          ],
+          "url": "/mykita-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 4,
+         "item": {
+          "@type": "Product",
+          "name": "MYKITA MATIS",
+          "brand": {
+           "@id": "/mykita-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Stainless steel",
+          "description": "Full rim square in ultra lightweight stainless steel. A modern classic with a fully adjustable fit.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "MYKITA NO1"
+           }
+          ],
+          "url": "/mykita-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 5,
+         "item": {
+          "@type": "Product",
+          "name": "MYKITA LIVA",
+          "brand": {
+           "@id": "/mykita-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames",
+          "material": "Stainless steel",
+          "description": "Oversized butterfly shape in lightweight stainless steel, handmade in Berlin.",
+          "additionalProperty": [
+           {
+            "@type": "PropertyValue",
+            "name": "Collection",
+            "value": "MYKITA LITE"
+           }
+          ],
+          "url": "/mykita-eyewear-hawaii"
+         }
+        }
+       ]
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/mykita-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Why are MYKITA glasses so light?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Thin stainless steel and MYLON are both very low in weight, and the screwless hinge removes the extra hardware most frames carry."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can MYKITA sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most MYKITA frames can take prescription lenses. We fit them with ZEISS sun lenses, polarized where the frame allows."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are MYKITA frames durable?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The steel hinge is designed to flex without loosening. If anything ever needs adjusting, bring them in and we will take care of it."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy MYKITA glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries MYKITA optical frames and sunglasses at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Text (808) 501 2020 to check stock."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/mykita-eyewear-hawaii"
+  },
+  "moscot-eyewear-hawaii": {
+   "title": "MOSCOT Glasses in Kailua, Oahu | Out to See Vision Care",
+   "description": "The Lemtosh, the Miltzen and more. Try MOSCOT, New York's family eyewear house since 1915, at Out to See in Kailua, Oahu, with ZEISS lenses.",
+   "canonical": "/moscot-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/moscot-eyewear-hawaii#webpage",
+       "url": "/moscot-eyewear-hawaii",
+       "name": "MOSCOT Glasses in Kailua, Oahu | Out to See Vision Care",
+       "description": "The Lemtosh, the Miltzen and more. Try MOSCOT, New York's family eyewear house since 1915, at Out to See in Kailua, Oahu, with ZEISS lenses.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/moscot-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/moscot-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/moscot-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "MOSCOT",
+         "item": "/moscot-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/moscot-eyewear-hawaii#brand",
+       "name": "MOSCOT",
+       "url": "https://moscot.com/",
+       "sameAs": [
+        "https://moscot.com/"
+       ],
+       "description": "Family owned New York eyewear house founded in 1915 on Orchard Street, now led by the fifth generation of the Moscot family."
+      },
+      {
+       "@type": "ItemList",
+       "@id": "/moscot-eyewear-hawaii#frames",
+       "name": "Most popular MOSCOT frames at Out to See in Kailua",
+       "description": "The MOSCOT frames people ask for by name at Out to See in Kailua, Oahu, available as optical frames and sunglasses.",
+       "numberOfItems": 2,
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "item": {
+          "@type": "Product",
+          "name": "MOSCOT Lemtosh",
+          "brand": {
+           "@id": "/moscot-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames and sunglasses",
+          "material": "Italian acetate",
+          "description": "Round, bold and instantly recognizable. The MOSCOT frame most people picture, with a keyhole bridge and metal core temples.",
+          "url": "/moscot-eyewear-hawaii"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "item": {
+          "@type": "Product",
+          "name": "MOSCOT Miltzen",
+          "brand": {
+           "@id": "/moscot-eyewear-hawaii#brand"
+          },
+          "category": "Eyeglass frames and sunglasses",
+          "material": "Italian acetate",
+          "description": "A softer panto shape that works on almost every face.",
+          "url": "/moscot-eyewear-hawaii"
+         }
+        }
+       ]
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/moscot-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "What size Lemtosh should I get?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on your face width and prescription. The fastest way to know is to try two sizes side by side, which is exactly what our boutique is for."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can MOSCOT sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We fit them with ZEISS sun lenses, polarized if you like."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are MOSCOT frames good for strong prescriptions?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Their thicker acetate rims hide lens edges well. Pair them with high index ZEISS lenses and they stay light and slim."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy MOSCOT glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries MOSCOT optical frames and sunglasses, including the Lemtosh and Miltzen, at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/moscot-eyewear-hawaii"
+  },
+  "tom-ford": {
+   "title": "Tom Ford Eyewear in Kailua, Oahu | Out to See Vision Care",
+   "description": "Tom Ford glasses and sunglasses, made in Italy with the signature metal T. Try them at Out to See in Kailua, Oahu, fitted with ZEISS lenses in our lab.",
+   "canonical": "/tom-ford",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/tom-ford#webpage",
+       "url": "/tom-ford",
+       "name": "Tom Ford Eyewear in Kailua, Oahu | Out to See Vision Care",
+       "description": "Tom Ford glasses and sunglasses, made in Italy with the signature metal T. Try them at Out to See in Kailua, Oahu, fitted with ZEISS lenses in our lab.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/tom-ford#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/tom-ford#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/tom-ford#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "TOM FORD",
+         "item": "/tom-ford"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/tom-ford#brand",
+       "name": "TOM FORD",
+       "url": "https://www.tomfordfashion.com/",
+       "sameAs": [
+        "https://www.tomfordfashion.com/"
+       ],
+       "description": "Luxury eyewear launched in 2005, made in Italy with rich acetates and the signature metal T at the temple."
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/tom-ford#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Can Tom Ford sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most can. We fit them with ZEISS prescription sun lenses, polarized where the frame allows."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Are Tom Ford glasses good quality?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. They are made in Italy with premium acetates and metal hardware. The lenses you put in them matter just as much, which is why we use ZEISS."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy Tom Ford glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries Tom Ford optical frames and sunglasses at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Text (808) 501 2020 to check stock."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/tom-ford"
+  },
+  "face-a-face-eyewear-hawaii": {
+   "title": "Face à Face Eyewear in Kailua, Oahu | Out to See Vision Care",
+   "description": "Bold, sculptural frames from Paris since 1995. Try Face à Face at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+   "canonical": "/face-a-face-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/face-a-face-eyewear-hawaii#webpage",
+       "url": "/face-a-face-eyewear-hawaii",
+       "name": "Face à Face Eyewear in Kailua, Oahu | Out to See Vision Care",
+       "description": "Bold, sculptural frames from Paris since 1995. Try Face à Face at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/face-a-face-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/face-a-face-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/face-a-face-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "Face à Face",
+         "item": "/face-a-face-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/face-a-face-eyewear-hawaii#brand",
+       "name": "Face à Face",
+       "url": "https://www.faceaface-paris.com/",
+       "sameAs": [
+        "https://www.faceaface-paris.com/"
+       ],
+       "description": "Paris eyewear designer since 1995, known for architectural shapes and bold color."
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/face-a-face-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Are Face à Face frames too bold for everyday wear?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most people are surprised how natural they feel once the fit is right. We will help you find a shape that feels like you, not a costume."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can Face à Face frames take strong prescriptions?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Usually, yes. Some shapes suit higher prescriptions better than others, and we will guide you toward frames and ZEISS lenses that keep things thin and light."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can they be made into sunglasses?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Many Face à Face optical frames can be fitted with ZEISS prescription sun lenses. Ask us which styles work best."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy Face à Face glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries a curated selection of Face à Face optical frames at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/face-a-face-eyewear-hawaii"
+  },
+  "etnia-barcelona-eyewear-hawaii": {
+   "title": "Etnia Barcelona Glasses in Kailua, Oahu | Out to See Vision Care",
+   "description": "Bold color and natural acetate from Barcelona. Try Etnia Barcelona optical and sunglasses at Out to See in Kailua, Oahu, fitted with ZEISS lenses.",
+   "canonical": "/etnia-barcelona-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/etnia-barcelona-eyewear-hawaii#webpage",
+       "url": "/etnia-barcelona-eyewear-hawaii",
+       "name": "Etnia Barcelona Glasses in Kailua, Oahu | Out to See Vision Care",
+       "description": "Bold color and natural acetate from Barcelona. Try Etnia Barcelona optical and sunglasses at Out to See in Kailua, Oahu, fitted with ZEISS lenses.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/etnia-barcelona-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/etnia-barcelona-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/etnia-barcelona-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "Etnia Barcelona",
+         "item": "/etnia-barcelona-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/etnia-barcelona-eyewear-hawaii#brand",
+       "name": "Etnia Barcelona",
+       "url": "https://www.etniabarcelona.com/",
+       "sameAs": [
+        "https://www.etniabarcelona.com/"
+       ],
+       "description": "Barcelona eyewear brand founded in 2001 by David Pellicer, known for natural Mazzucchelli acetate and a palette of more than 500 colors."
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/etnia-barcelona-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "How do I choose the right color?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Try a few in natural light. Colors look very different on different skin tones and hair, and we are happy to give an honest opinion."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Can Etnia Barcelona sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We fit them with ZEISS prescription sun lenses, polarized if you like."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Is natural acetate durable?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. It is strong and comfortable, and it can be adjusted for a precise fit. We fine tune it at pickup and any time after."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy Etnia Barcelona glasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries Etnia Barcelona optical frames and sunglasses at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/etnia-barcelona-eyewear-hawaii"
+  },
+  "krewe-eyewear-hawaii": {
+   "title": "KREWE Sunglasses & Glasses in Kailua, Oahu | Out to See Vision Care",
+   "description": "New Orleans style, made in your prescription. Try KREWE sunglasses and optical frames at Out to See in Kailua, Oahu, with ZEISS lenses cut in our lab.",
+   "canonical": "/krewe-eyewear-hawaii",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Optician",
+       "@id": "/#business",
+       "name": "Out to See",
+       "alternateName": [
+        "Out to See Vision",
+        "Out to See Vision Care",
+        "OUT TO SEE"
+       ],
+       "description": "Independent eyewear boutique and optometrist in Kailua, Oahu. Curated designer frames fitted with ZEISS lenses cut in our own lab, and full hour eye exams with Dr. Lauren Mordue, OD.",
+       "url": "/",
+       "logo": "/images/outtoseelogothicker.png",
+       "image": "/images/freestandingouttosee.webp",
+       "telephone": "+18085012020",
+       "email": "hello@outtoseevision.com",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Road, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kailua"
+        },
+        {
+         "@type": "City",
+         "name": "Lanikai"
+        },
+        {
+         "@type": "City",
+         "name": "Kaneohe"
+        },
+        {
+         "@type": "City",
+         "name": "Maunawili"
+        },
+        {
+         "@type": "City",
+         "name": "Waimanalo"
+        },
+        {
+         "@type": "AdministrativeArea",
+         "name": "Oahu, Hawaii"
+        }
+       ],
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, HSA, FSA",
+       "sameAs": [
+        "https://www.instagram.com/outtoseevision/",
+        "https://www.facebook.com/outtoseevision/",
+        "https://www.youtube.com/@OutToSeeVision"
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/krewe-eyewear-hawaii#webpage",
+       "url": "/krewe-eyewear-hawaii",
+       "name": "KREWE Sunglasses & Glasses in Kailua, Oahu | Out to See Vision Care",
+       "description": "New Orleans style, made in your prescription. Try KREWE sunglasses and optical frames at Out to See in Kailua, Oahu, with ZEISS lenses cut in our lab.",
+       "isPartOf": {
+        "@type": "WebSite",
+        "@id": "/#website",
+        "url": "/",
+        "name": "Out to See"
+       },
+       "about": {
+        "@id": "/krewe-eyewear-hawaii#brand"
+       },
+       "mentions": [
+        {
+         "@type": "Brand",
+         "name": "ZEISS",
+         "url": "https://www.zeiss.com/vision-care/"
+        }
+       ],
+       "provider": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@id": "/krewe-eyewear-hawaii#breadcrumb"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "/krewe-eyewear-hawaii#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Eyewear Boutique",
+         "item": "/best-eyewear-kailua-hi"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "KREWE",
+         "item": "/krewe-eyewear-hawaii"
+        }
+       ]
+      },
+      {
+       "@type": "Brand",
+       "@id": "/krewe-eyewear-hawaii#brand",
+       "name": "KREWE",
+       "url": "https://www.krewe.com/",
+       "sameAs": [
+        "https://www.krewe.com/"
+       ],
+       "description": "New Orleans eyewear brand founded in 2013 by Stirling Barrett, known for colorful acetate sunglasses and optical frames."
+      },
+      {
+       "@type": "FAQPage",
+       "@id": "/krewe-eyewear-hawaii#faq",
+       "mainEntity": [
+        {
+         "@type": "Question",
+         "name": "Can KREWE sunglasses be made in my prescription?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We fit most KREWE sunglasses with ZEISS prescription sun lenses, polarized if you like."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Why buy KREWE from you instead of online?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can try frames on in person to find the right style and fit, then have them professionally adjusted. For prescription eyewear, we pair your KREWE frame with custom ZEISS lenses made to your exact prescription and measurements. Our KREWE frames are priced at essentially the same MSRP you will find online, you are still eligible for KREWE's Second Chances program, and we can often order other colorways for you."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do you adjust KREWE frames?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We fine tune the fit when you pick them up and any time after."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Where can I buy KREWE sunglasses in Hawaii?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Out to See carries KREWE sunglasses and optical frames at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu."
+         }
+        },
+        {
+         "@type": "Question",
+         "name": "Do I need an eye exam first?",
+         "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bring a current prescription, or book a full hour eye exam with Dr. Mordue and choose your frames the same visit."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "path": "/krewe-eyewear-hawaii"
+  },
+  "eye-doctor-kaneohe-hi": {
+   "title": "Kaneohe Eye Doctor and Designer Eyewear | Out to See | Out to See Vision Care",
+   "description": "Designer frames from LINDBERG and MYKITA, ZEISS lenses, and full hour eye exams, minutes from Kaneohe at Lau Hala Shops in Kailua. In network with UHA.",
+   "canonical": "/eye-doctor-kaneohe-hi",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": [
+        "Optician",
+        "Optometric",
+        "Store"
+       ],
+       "@id": "/#business",
+       "name": "Out to See Vision Care & Eyewear Boutique",
+       "url": "/",
+       "telephone": "+1-808-501-2020",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "573 Kailua Rd, Suite 106",
+        "addressLocality": "Kailua",
+        "addressRegion": "HI",
+        "postalCode": "96734",
+        "addressCountry": "US"
+       },
+       "openingHoursSpecification": [
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+         ],
+         "opens": "10:00",
+         "closes": "18:00"
+        },
+        {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "10:00",
+         "closes": "15:00"
+        }
+       ],
+       "areaServed": [
+        {
+         "@type": "City",
+         "name": "Kaneohe, Hawaii"
+        },
+        {
+         "@type": "City",
+         "name": "Kailua, Hawaii"
+        },
+        {
+         "@type": "Place",
+         "name": "Marine Corps Base Hawaii"
+        }
+       ],
+       "brand": [
+        {
+         "@type": "Brand",
+         "name": "LINDBERG"
+        },
+        {
+         "@type": "Brand",
+         "name": "MYKITA"
+        },
+        {
+         "@type": "Brand",
+         "name": "MOSCOT"
+        },
+        {
+         "@type": "Brand",
+         "name": "Tom Ford"
+        },
+        {
+         "@type": "Brand",
+         "name": "KREWE"
+        },
+        {
+         "@type": "Brand",
+         "name": "Maui Jim"
+        },
+        {
+         "@type": "Brand",
+         "name": "Face à Face"
+        },
+        {
+         "@type": "Brand",
+         "name": "Etnia Barcelona"
+        },
+        {
+         "@type": "Brand",
+         "name": "ZEISS"
+        }
+       ],
+       "paymentAccepted": "Cash, Credit Card, FSA, HSA, CareCredit, Bitcoin",
+       "employee": {
+        "@type": "Person",
+        "name": "Dr. Lauren Mordue, OD",
+        "jobTitle": "Optometrist",
+        "alumniOf": "New England College of Optometry"
+       }
+      },
+      {
+       "@type": "WebPage",
+       "@id": "/eye-doctor-kaneohe-hi#webpage",
+       "url": "/eye-doctor-kaneohe-hi",
+       "name": "Kaneohe Eye Doctor and Designer Eyewear | Out to See",
+       "description": "Designer frames from LINDBERG and MYKITA, ZEISS lenses, and full hour eye exams, minutes from Kaneohe at Lau Hala Shops in Kailua. In network with UHA.",
+       "about": {
+        "@id": "/#business"
+       },
+       "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+         {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "/"
+         },
+         {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Kaneohe",
+          "item": "/eye-doctor-kaneohe-hi"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ],
+   "path": "/eye-doctor-kaneohe-hi"
+  },
+  "hipaa": {
+   "title": "Privacy Policy 2 | Out to See Vision Care",
+   "description": "",
+   "canonical": "/hipaa",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [],
+   "path": "/hipaa"
+  }
+ },
+ "posts": {
+  "can-you-walk-in-for-an-eye-exam": {
+   "title": "Can You Walk In for an Eye Exam in Kailua? | Out to See Vision Care — Out to See",
+   "description": "Can you walk in for an eye exam in Kailua? Often, yes — here's exactly how same-day exams work, when to call first, and what your visit includes.",
+   "canonical": "/optometrist-blog/can-you-walk-in-for-an-eye-exam",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "name": "Can You Walk In for an Eye Exam in Kailua? | Out to See Vision Care — Out to See",
+     "url": "/optometrist-blog/can-you-walk-in-for-an-eye-exam",
+     "datePublished": "2026-09-14T21:32:46-1000",
+     "dateModified": "2026-09-14T21:39:23-1000",
+     "headline": "Can You Walk In for an Eye Exam?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-09-14",
+   "h1": "Can You Walk In for an Eye Exam?",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "next": "/optometrist-blog/how-often-should-you-really-get-an-eye-exam-and-6-other-questions-we-hear-every-week-in-kailua"
+   },
+   "thumb": "/images/image.webp"
+  },
+  "how-often-should-you-really-get-an-eye-exam-and-6-other-questions-we-hear-every-week-in-kailua": {
+   "title": "How Often Should You Really Get an Eye Exam? (And 6 Other Questions We Hear Every Week in Kailua) — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/how-often-should-you-really-get-an-eye-exam-and-6-other-questions-we-hear-every-week-in-kailua",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "name": "How Often Should You Really Get an Eye Exam? (And 6 Other Questions We Hear Every Week in Kailua) — Out to See",
+     "url": "/optometrist-blog/how-often-should-you-really-get-an-eye-exam-and-6-other-questions-we-hear-every-week-in-kailua",
+     "datePublished": "2026-09-01T17:01:27-1000",
+     "dateModified": "2026-09-01T17:01:27-1000",
+     "headline": "How Often Should You Really Get an Eye Exam? (And 6 Other Questions We Hear Every Week in Kailua)",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-09-01",
+   "h1": "How Often Should You Really Get an Eye Exam? (And 6 Other Questions We Hear Every Week in Kailua)",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/can-you-walk-in-for-an-eye-exam",
+    "next": "/optometrist-blog/optometrist-vs-ophthalmologist"
+   }
+  },
+  "optometrist-vs-ophthalmologist": {
+   "title": "Optometrist vs Ophthalmologist: Which Do You Need? — Out to See",
+   "description": "An optometrist handles eye exams, glasses, contacts and most eye conditions. An ophthalmologist performs surgery. Here is which to book, from a Kailua, Oahu optometrist.",
+   "canonical": "/optometrist-blog/optometrist-vs-ophthalmologist",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "name": "Optometrist vs Ophthalmologist: Which Do You Need? — Out to See",
+     "url": "/optometrist-blog/optometrist-vs-ophthalmologist",
+     "datePublished": "2026-08-04T13:54:17-1000",
+     "dateModified": "2026-09-26T12:14:38-1000",
+     "headline": "Optometrist vs. Ophthalmologist",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-08-04",
+   "h1": "Optometrist vs. Ophthalmologist",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/how-often-should-you-really-get-an-eye-exam-and-6-other-questions-we-hear-every-week-in-kailua",
+    "next": "/optometrist-blog/the-top-8-eye-care-questions-asked-answered-by-us"
+   }
+  },
+  "the-top-8-eye-care-questions-asked-answered-by-us": {
+   "title": "The top 8 eye care questions asked, answered by us.  — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/the-top-8-eye-care-questions-asked-answered-by-us",
+   "noindex": false,
+   "ogImage": null,
+   "schema": [
+    {
+     "name": "The top 8 eye care questions asked, answered by us.  — Out to See",
+     "url": "/optometrist-blog/the-top-8-eye-care-questions-asked-answered-by-us",
+     "datePublished": "2026-07-22T13:52:34-1000",
+     "dateModified": "2026-11-07T15:27:59-1000",
+     "headline": "The top 8 eye care questions asked, answered by us. ",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-07-22",
+   "h1": "The top 8 eye care questions asked, answered by us.",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/optometrist-vs-ophthalmologist",
+    "next": "/optometrist-blog/eye-exam-in-kailua-hawaii"
+   }
+  },
+  "eye-exam-in-kailua-hawaii": {
+   "title": "Eye Exam in Kailua, Hawaii — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/eye-exam-in-kailua-hawaii",
+   "noindex": false,
+   "ogImage": "/images/img-2296.webp",
+   "schema": [
+    {
+     "name": "Eye Exam in Kailua, Hawaii — Out to See",
+     "url": "/optometrist-blog/eye-exam-in-kailua-hawaii",
+     "datePublished": "2026-04-30T11:00:41-1000",
+     "dateModified": "2026-05-03T12:12:52-1000",
+     "headline": "Eye Exam in Kailua, Hawaii",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/img-2296.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-04-30",
+   "h1": "Eye Exam in Kailua, Hawaii",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/the-top-8-eye-care-questions-asked-answered-by-us",
+    "next": "/optometrist-blog/optometrist-in-kailua-hi-what-to-look-for-how-do-you-even-choose"
+   },
+   "thumb": "/images/image.webp"
+  },
+  "optometrist-in-kailua-hi-what-to-look-for-how-do-you-even-choose": {
+   "title": "Kailua Optometrist  — Out to See",
+   "description": " If you've ever Googled \"best optometrist in Kailua\" and ended up more confused than when you started — you're not alone.&nbsp; ",
+   "canonical": "/optometrist-blog/optometrist-in-kailua-hi-what-to-look-for-how-do-you-even-choose",
+   "noindex": false,
+   "ogImage": "/images/freestandingouttosee-b2d33e.webp",
+   "schema": [
+    {
+     "name": "Kailua Optometrist  — Out to See",
+     "url": "/optometrist-blog/optometrist-in-kailua-hi-what-to-look-for-how-do-you-even-choose",
+     "datePublished": "2026-04-20T21:53:31-1000",
+     "dateModified": "2026-11-02T09:08:26-1000",
+     "headline": "Optometrist in Kailua, HI: What to Look For (How do you even choose?)",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/freestandingouttosee-b2d33e.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2026-04-20",
+   "h1": "Optometrist in Kailua, HI: What to Look For (How do you even choose?)",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "If you've ever Googled \"best optometrist in Kailua\" and ended up more confused than when you started — you're not alone.",
+   "pagination": {
+    "prev": "/optometrist-blog/eye-exam-in-kailua-hawaii",
+    "next": "/optometrist-blog/what-is-anti-reflective-coating"
+   },
+   "thumb": "/images/image-edb9be.webp"
+  },
+  "what-is-anti-reflective-coating": {
+   "title": "What is Anti Reflective Coating? — Out to See",
+   "description": "The one upgrade your glasses need—anti-reflective (AR) coating. AR coating helps reduce glare from headlights, computer screens, and overhead lights, making it ideal for nighttime driving, screen time, and bright office environments. It also gives you sharper vision by allowing more light through the lenses, and it makes your glasses look cleaner, with no distracting reflections.\n",
+   "canonical": "/optometrist-blog/what-is-anti-reflective-coating",
+   "noindex": false,
+   "ogImage": "/images/antireflectivecoatingwidescreencoveryoutube.webp",
+   "schema": [
+    {
+     "name": "What is Anti Reflective Coating? — Out to See",
+     "url": "/optometrist-blog/what-is-anti-reflective-coating",
+     "datePublished": "2024-10-03T06:23:19-1000",
+     "dateModified": "2026-10-08T13:38:52-1000",
+     "headline": "What is Anti Reflective Coating?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/antireflectivecoatingwidescreencoveryoutube.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2024-10-03",
+   "h1": "What is Anti Reflective Coating?",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "The one upgrade your glasses need— anti-reflective (AR) coating . AR coating helps reduce glare from headlights, computer screens, and overhead lights, making it ideal for nighttime driving, screen time, and bright office environments. It also gives you sharper vision by allowing more light through the lenses, and it makes your glasses look cleaner, with no distracting reflections.",
+   "pagination": {
+    "prev": "/optometrist-blog/optometrist-in-kailua-hi-what-to-look-for-how-do-you-even-choose",
+    "next": "/optometrist-blog/how-to-get-the-most-out-of-your-progressive-lenses-a-comprehensive-guide"
+   },
+   "thumb": "/images/image-b03287.webp"
+  },
+  "how-to-get-the-most-out-of-your-progressive-lenses-a-comprehensive-guide": {
+   "title": "How to Get the Most Out of Your Progressive Lenses: A Comprehensive Guide — Out to See",
+   "description": "Progressive lenses, also known as no-line bifocals, offer seamless vision correction for near, intermediate, and far distances. However, many people struggle with these lenses due to factors like lens quality, improper fit, or not knowing how to use them. If you’ve had trouble with progressive lenses in the past, we can help you find the perfect fit and quality. ",
+   "canonical": "/optometrist-blog/how-to-get-the-most-out-of-your-progressive-lenses-a-comprehensive-guide",
+   "noindex": false,
+   "ogImage": "/images/progressivelensescover.webp",
+   "schema": [
+    {
+     "name": "How to Get the Most Out of Your Progressive Lenses: A Comprehensive Guide — Out to See",
+     "url": "/optometrist-blog/how-to-get-the-most-out-of-your-progressive-lenses-a-comprehensive-guide",
+     "datePublished": "2024-09-09T13:37:48-1000",
+     "dateModified": "2026-10-08T13:37:33-1000",
+     "headline": "How to Get the Most Out of Your Progressive Lenses: A Comprehensive Guide",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/progressivelensescover.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2024-09-09",
+   "h1": "How to Get the Most Out of Your Progressive Lenses: A Comprehensive Guide",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/what-is-anti-reflective-coating",
+    "next": "/optometrist-blog/does-the-quality-of-your-lenses-even-matter"
+   },
+   "thumb": "/images/image-844eeb.webp"
+  },
+  "does-the-quality-of-your-lenses-even-matter": {
+   "title": "Does the Quality of Your Lenses Even Matter? — Out to See",
+   "description": "When it comes to eyewear, the quality of your lenses makes a huge difference. Zeiss lenses are optimized to be thin, lightweight, and durable, offering the best possible vision correction. Zeiss lenses use anti-reflective coating, which reduces glare, enhances clarity, and provides superior protection from harmful UV rays. Enhanced scratch resistance and a two-year warranty.",
+   "canonical": "/optometrist-blog/does-the-quality-of-your-lenses-even-matter",
+   "noindex": false,
+   "ogImage": "/images/ocep-1cover.webp",
+   "schema": [
+    {
+     "name": "Does the Quality of Your Lenses Even Matter? — Out to See",
+     "url": "/optometrist-blog/does-the-quality-of-your-lenses-even-matter",
+     "datePublished": "2024-09-05T20:46:31-1000",
+     "dateModified": "2026-10-08T13:40:30-1000",
+     "headline": "Does the Quality of Your Lenses Even Matter?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/ocep-1cover.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2024-09-05",
+   "h1": "Does the Quality of Your Lenses Even Matter?",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "Does the Quality of Your Lenses Even Matter?",
+   "pagination": {
+    "prev": "/optometrist-blog/how-to-get-the-most-out-of-your-progressive-lenses-a-comprehensive-guide",
+    "next": "/optometrist-blog/photochromic-lenses-transition-lenses"
+   },
+   "thumb": "/images/image-0fce98.webp"
+  },
+  "photochromic-lenses-transition-lenses": {
+   "title": "Photochromic Lenses (transition lenses) — Out to See",
+   "description": "What are photochromic lenses and are they right for you? ",
+   "canonical": "/optometrist-blog/photochromic-lenses-transition-lenses",
+   "noindex": false,
+   "ogImage": "/images/photochromicyoutubecover.webp",
+   "schema": [
+    {
+     "name": "Photochromic Lenses (transition lenses) — Out to See",
+     "url": "/optometrist-blog/photochromic-lenses-transition-lenses",
+     "datePublished": "2024-09-04T20:38:34-1000",
+     "dateModified": "2026-10-08T13:41:57-1000",
+     "headline": "Photochromic Lenses (transition lenses)",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/photochromicyoutubecover.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2024-09-04",
+   "h1": "Photochromic Lenses (transition lenses)",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "What are Photochromic (aka transition) lenses and how do they work?",
+   "pagination": {
+    "prev": "/optometrist-blog/does-the-quality-of-your-lenses-even-matter",
+    "next": "/optometrist-blog/navigating-the-world-of-dry-eye-causes-prevalence-and-effective-treatments"
+   },
+   "thumb": "/images/image-56f2ff.webp"
+  },
+  "navigating-the-world-of-dry-eye-causes-prevalence-and-effective-treatments": {
+   "title": "Navigating the World of Dry Eye: Causes, Prevalence, and Effective Treatments — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/navigating-the-world-of-dry-eye-causes-prevalence-and-effective-treatments",
+   "noindex": false,
+   "ogImage": "/images/jonnyshwood-medium.webp",
+   "schema": [
+    {
+     "name": "Navigating the World of Dry Eye: Causes, Prevalence, and Effective Treatments — Out to See",
+     "url": "/optometrist-blog/navigating-the-world-of-dry-eye-causes-prevalence-and-effective-treatments",
+     "datePublished": "2023-12-04T07:21:37-1000",
+     "dateModified": "2023-12-04T07:29:42-1000",
+     "headline": "Navigating the World of Dry Eye: Causes, Prevalence, and Effective Treatments",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/jonnyshwood-medium.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-12-04",
+   "h1": "Navigating the World of Dry Eye: Causes, Prevalence, and Effective Treatments",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/photochromic-lenses-transition-lenses",
+    "next": "/optometrist-blog/why-are-maui-jim-prescription-sunglasses-so-expensive"
+   },
+   "thumb": "/images/image-e95d2a.webp"
+  },
+  "why-are-maui-jim-prescription-sunglasses-so-expensive": {
+   "title": "Why Are Maui Jim Prescription Sunglasses So Expensive? — Out to See",
+   "description": "Maui Jim prescription sunglasses are pricier due to their superior lens technology, UV protection & brand reputation. Find out more about Maui Jim's.",
+   "canonical": "/optometrist-blog/why-are-maui-jim-prescription-sunglasses-so-expensive",
+   "noindex": false,
+   "ogImage": "/images/maui-jim-sunglasses-eyewear-out-to-see-kailua.webp",
+   "schema": [
+    {
+     "name": "Why Are Maui Jim Prescription Sunglasses So Expensive? — Out to See",
+     "url": "/optometrist-blog/why-are-maui-jim-prescription-sunglasses-so-expensive",
+     "datePublished": "2023-08-09T06:15:54-1000",
+     "dateModified": "2026-09-26T11:55:18-1000",
+     "headline": "Why Are Maui Jim Prescription Sunglasses So Expensive?",
+     "author": "Mike Shu",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/maui-jim-sunglasses-eyewear-out-to-see-kailua.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-08-09",
+   "h1": "Why Are Maui Jim Prescription Sunglasses So Expensive?",
+   "author": "Mike Shu",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/navigating-the-world-of-dry-eye-causes-prevalence-and-effective-treatments",
+    "next": "/optometrist-blog/the-top-reasons-contact-lenses-cause-discomfort"
+   },
+   "thumb": "/images/image-ffe3fd.webp"
+  },
+  "the-top-reasons-contact-lenses-cause-discomfort": {
+   "title": "The top reasons contact lenses cause discomfort — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/the-top-reasons-contact-lenses-cause-discomfort",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-kailua-optometry-contact-lens-fittings.webp",
+   "schema": [
+    {
+     "name": "The top reasons contact lenses cause discomfort — Out to See",
+     "url": "/optometrist-blog/the-top-reasons-contact-lenses-cause-discomfort",
+     "datePublished": "2023-04-30T22:03:59-1000",
+     "dateModified": "2023-04-30T23:16:23-1000",
+     "headline": "The top reasons contact lenses cause discomfort",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-kailua-optometry-contact-lens-fittings.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-04-30",
+   "h1": "The top reasons contact lenses cause discomfort",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/why-are-maui-jim-prescription-sunglasses-so-expensive",
+    "next": "/optometrist-blog/how-to-clean-your-sunglasses"
+   },
+   "thumb": "/images/image-7753c7.webp"
+  },
+  "how-to-clean-your-sunglasses": {
+   "title": "How to clean your sunglasses — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/how-to-clean-your-sunglasses",
+   "noindex": false,
+   "ogImage": "/images/jonnysamouttosee-40-small.webp",
+   "schema": [
+    {
+     "name": "How to clean your sunglasses — Out to See",
+     "url": "/optometrist-blog/how-to-clean-your-sunglasses",
+     "datePublished": "2023-03-31T00:04:00-1000",
+     "dateModified": "2023-03-31T00:08:36-1000",
+     "headline": "How to clean your sunglasses",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/jonnysamouttosee-40-small.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-03-31",
+   "h1": "How to clean your sunglasses",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/the-top-reasons-contact-lenses-cause-discomfort",
+    "next": "/optometrist-blog/whats-better-glasses-or-contacts"
+   },
+   "thumb": "/images/image-ceb923.webp"
+  },
+  "whats-better-glasses-or-contacts": {
+   "title": "What’s Better, Glasses or Contacts? — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/whats-better-glasses-or-contacts",
+   "noindex": false,
+   "ogImage": "/images/whatsbetterglassesorcontacts.webp",
+   "schema": [
+    {
+     "name": "What’s Better, Glasses or Contacts? — Out to See",
+     "url": "/optometrist-blog/whats-better-glasses-or-contacts",
+     "datePublished": "2023-03-21T20:36:59-1000",
+     "dateModified": "2023-03-21T20:43:22-1000",
+     "headline": "What’s Better, Glasses or Contacts?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/whatsbetterglassesorcontacts.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-03-21",
+   "h1": "What’s Better, Glasses or Contacts?",
+   "author": "Brian Daniel",
+   "tags": [
+    "eye glasses",
+    "contact lenses"
+   ],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/how-to-clean-your-sunglasses",
+    "next": "/optometrist-blog/is-it-better-to-get-glasses-from-optometrist"
+   },
+   "thumb": "/images/image-e1cfda.webp"
+  },
+  "is-it-better-to-get-glasses-from-optometrist": {
+   "title": "Is it better to get glasses from optometrist? — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/is-it-better-to-get-glasses-from-optometrist",
+   "noindex": false,
+   "ogImage": "/images/is-it-better-to-get-glasses-from-an-optometrist.webp",
+   "schema": [
+    {
+     "name": "Is it better to get glasses from optometrist? — Out to See",
+     "url": "/optometrist-blog/is-it-better-to-get-glasses-from-optometrist",
+     "datePublished": "2023-02-21T20:49:02-1000",
+     "dateModified": "2023-02-21T20:51:18-1000",
+     "headline": "Is it better to get glasses from optometrist?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/is-it-better-to-get-glasses-from-an-optometrist.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-02-21",
+   "h1": "Is it better to get glasses from optometrist?",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/whats-better-glasses-or-contacts",
+    "next": "/optometrist-blog/how-much-is-an-eye-exam-in-kailua-hawaii"
+   },
+   "thumb": "/images/image-3bd324.webp"
+  },
+  "how-much-is-an-eye-exam-in-kailua-hawaii": {
+   "title": "How much is an eye exam in Kailua, Hawaii? — Out to See",
+   "description": "",
+   "canonical": "/optometrist-blog/how-much-is-an-eye-exam-in-kailua-hawaii",
+   "noindex": false,
+   "ogImage": "/images/how-much-eye-exam-kailua.webp",
+   "schema": [
+    {
+     "name": "How much is an eye exam in Kailua, Hawaii? — Out to See",
+     "url": "/optometrist-blog/how-much-is-an-eye-exam-in-kailua-hawaii",
+     "datePublished": "2023-02-21T20:39:21-1000",
+     "dateModified": "2023-02-21T20:47:34-1000",
+     "headline": "How much is an eye exam in Kailua, Hawaii?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/how-much-eye-exam-kailua.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-02-21",
+   "h1": "How much is an eye exam in Kailua, Hawaii?",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/is-it-better-to-get-glasses-from-optometrist",
+    "next": "/optometrist-blog/is-an-optometrist-a-doctor-or-not"
+   },
+   "thumb": "/images/image-9af85b.webp"
+  },
+  "is-an-optometrist-a-doctor-or-not": {
+   "title": "Is an Optometrist a doctor? — Out to See",
+   "description": "An optometrist is a licensed healthcare professionals who specialize in the diagnosis and treatment of visual problems and eye diseases. Optometrists typically must obtain a bachelor’s degree, followed by a 4-year Doctor of Optometry (OD) program and pass a board exams in order to be licensed to practice.\n",
+   "canonical": "/optometrist-blog/is-an-optometrist-a-doctor-or-not",
+   "noindex": false,
+   "ogImage": "/images/optometristdoctor.webp",
+   "schema": [
+    {
+     "name": "Is an Optometrist a doctor? — Out to See",
+     "url": "/optometrist-blog/is-an-optometrist-a-doctor-or-not",
+     "datePublished": "2023-02-21T20:32:23-1000",
+     "dateModified": "2023-02-21T20:37:41-1000",
+     "headline": "Is an Optometrist a doctor or not?",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/optometristdoctor.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-02-21",
+   "h1": "Is an Optometrist a doctor or not?",
+   "author": "Brian Daniel",
+   "tags": [
+    "optometrist",
+    "optometry"
+   ],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/how-much-is-an-eye-exam-in-kailua-hawaii",
+    "next": "/optometrist-blog/allergies"
+   },
+   "thumb": "/images/image-489d44.webp"
+  },
+  "allergies": {
+   "title": "Itchy Eyes From Allergies? What Actually Helps — Out to See",
+   "description": "Itchy, watery, puffy eyes? An optometrist explains which allergy eye drops work, what to avoid, and when itchy eyes need a doctor. Kailua, Oahu.",
+   "canonical": "/optometrist-blog/allergies",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-optometry-kailua-hawaii-eye-wear-allergies-9c899f.webp",
+   "schema": [
+    {
+     "name": "Itchy Eyes From Allergies? What Actually Helps — Out to See",
+     "url": "/optometrist-blog/allergies",
+     "datePublished": "2023-01-18T17:50:58-1000",
+     "dateModified": "2026-09-26T12:12:50-1000",
+     "headline": "Allergies",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-optometry-kailua-hawaii-eye-wear-allergies-9c899f.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-01-18",
+   "h1": "Allergies",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "Allergies",
+   "pagination": {
+    "prev": "/optometrist-blog/is-an-optometrist-a-doctor-or-not",
+    "next": "/optometrist-blog/how-to-apply-and-remove-contacts"
+   },
+   "thumb": "/images/image-f4d599.webp"
+  },
+  "how-to-apply-and-remove-contacts": {
+   "title": "How to Apply and Remove Contacts — Out to See",
+   "description": "How to apply and remove contacts.",
+   "canonical": "/optometrist-blog/how-to-apply-and-remove-contacts",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-optometry-contacts-3a7832.webp",
+   "schema": [
+    {
+     "name": "How to Apply and Remove Contacts — Out to See",
+     "url": "/optometrist-blog/how-to-apply-and-remove-contacts",
+     "datePublished": "2023-01-18T17:49:43-1000",
+     "dateModified": "2023-01-19T21:14:18-1000",
+     "headline": "How to Apply and Remove Contacts",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-optometry-contacts-3a7832.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2023-01-18",
+   "h1": "How to Apply and Remove Contacts",
+   "author": "Brian Daniel",
+   "tags": [],
+   "excerpt": "",
+   "pagination": {
+    "prev": "/optometrist-blog/allergies",
+    "next": "/optometrist-blog/the-importance-of-regular-eye-exams"
+   },
+   "thumb": "/images/image-223250.webp"
+  },
+  "the-importance-of-regular-eye-exams": {
+   "title": "The Importance of Regular Eye Exams — Out to See",
+   "description": " The importance of regular eye exams. ",
+   "canonical": "/optometrist-blog/the-importance-of-regular-eye-exams",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-glasses-optometry-820fe1.webp",
+   "schema": [
+    {
+     "name": "The Importance of Regular Eye Exams — Out to See",
+     "url": "/optometrist-blog/the-importance-of-regular-eye-exams",
+     "datePublished": "2020-08-06T10:05:00-1000",
+     "dateModified": "2023-01-20T15:15:36-1000",
+     "headline": "The Importance of Regular Eye Exams",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-glasses-optometry-820fe1.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2020-08-06",
+   "h1": "The Importance of Regular Eye Exams",
+   "author": "Brian Daniel",
+   "tags": [
+    "Eye Exams",
+    "Optometry",
+    "eye health",
+    "vision",
+    "vision problems",
+    "eye disease",
+    "glaucoma",
+    "cataracts",
+    "macular degeneration",
+    "good vision",
+    "eye treatment"
+   ],
+   "excerpt": " The importance of regular eye exams. ",
+   "pagination": {
+    "prev": "/optometrist-blog/how-to-apply-and-remove-contacts",
+    "next": "/optometrist-blog/benefits-of-eye-glasses-and-contacts"
+   }
+  },
+  "benefits-of-eye-glasses-and-contacts": {
+   "title": "Benefits of Eyeglasses and Contacts — Out to See",
+   "description": " Benefits of Eye Glasses and Contacts ",
+   "canonical": "/optometrist-blog/benefits-of-eye-glasses-and-contacts",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-optometry-kailua-hawaii-eyeglasses-46d070.webp",
+   "schema": [
+    {
+     "name": "Benefits of Eyeglasses and Contacts — Out to See",
+     "url": "/optometrist-blog/benefits-of-eye-glasses-and-contacts",
+     "datePublished": "2020-08-05T10:05:00-1000",
+     "dateModified": "2023-01-19T21:17:15-1000",
+     "headline": "Benefits of Eyeglasses and Contacts&nbsp;",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-optometry-kailua-hawaii-eyeglasses-46d070.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2020-08-05",
+   "h1": "Benefits of Eyeglasses and Contacts",
+   "author": "Brian Daniel",
+   "tags": [
+    "contact lens",
+    "contact lenses",
+    "eye glasses",
+    "improved vision",
+    "improved safety",
+    "improved appearance",
+    "quality of life",
+    "optometrist",
+    "optometry"
+   ],
+   "excerpt": " Benefits of Eye Glasses and Contacts ",
+   "pagination": {
+    "prev": "/optometrist-blog/the-importance-of-regular-eye-exams",
+    "next": "/optometrist-blog/tips-for-good-eye-health"
+   }
+  },
+  "tips-for-good-eye-health": {
+   "title": "Tips for Good Eye Health  — Out to See",
+   "description": " Tips for good eye health ",
+   "canonical": "/optometrist-blog/tips-for-good-eye-health",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-video-tours.webp",
+   "schema": [
+    {
+     "name": "Tips for Good Eye Health  — Out to See",
+     "url": "/optometrist-blog/tips-for-good-eye-health",
+     "datePublished": "2020-08-04T10:04:00-1000",
+     "dateModified": "2023-01-19T21:19:00-1000",
+     "headline": "Tips for Good Eye Health",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-video-tours.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2020-08-04",
+   "h1": "Tips for Good Eye Health",
+   "author": "Brian Daniel",
+   "tags": [
+    "eye health",
+    "tips for eye health",
+    "tips",
+    "optometrist",
+    "optometry",
+    "protective eyewear"
+   ],
+   "excerpt": " Tips for good eye health ",
+   "pagination": {
+    "prev": "/optometrist-blog/benefits-of-eye-glasses-and-contacts",
+    "next": "/optometrist-blog/nutrition-and-eye-health"
+   }
+  },
+  "nutrition-and-eye-health": {
+   "title": "Nutrition for Eye Health — Out to See",
+   "description": " There are many foods that are good for eye health ",
+   "canonical": "/optometrist-blog/nutrition-and-eye-health",
+   "noindex": false,
+   "ogImage": "/images/out-to-see-optometry-kailua-nutrition-eye-health-141019.webp",
+   "schema": [
+    {
+     "name": "Nutrition for Eye Health — Out to See",
+     "url": "/optometrist-blog/nutrition-and-eye-health",
+     "datePublished": "2020-08-03T10:05:00-1000",
+     "dateModified": "2026-09-26T10:24:11-1000",
+     "headline": "Nutrition for Eye Health",
+     "author": "Brian Daniel",
+     "publisher": {
+      "name": "Out to See",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "/images/outtoseelogothicker.png"
+      },
+      "@context": "http://schema.org",
+      "@type": "Organization"
+     },
+     "image": "/images/out-to-see-optometry-kailua-nutrition-eye-health-141019.webp",
+     "@context": "http://schema.org",
+     "@type": "Article"
+    }
+   ],
+   "date": "2020-08-03",
+   "h1": "Nutrition for Eye Health",
+   "author": "Brian Daniel",
+   "tags": [
+    "nutrition",
+    "eye health",
+    "vision",
+    "optometrist",
+    "healthy",
+    "health"
+   ],
+   "excerpt": " There are many foods that are good for eye health ",
+   "pagination": {
+    "prev": "/optometrist-blog/tips-for-good-eye-health"
+   }
+  }
+ },
+ "logo": "/images/outtoseelogothicker.png"
+}
