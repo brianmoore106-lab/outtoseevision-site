@@ -1,0 +1,4 @@
+# Redirects carried over from Squarespace URL Mappings.
+# Format: /old-path  /new-path  301
+/home  /  301
+/sitemap.xml  /sitemap-index.xml  301
