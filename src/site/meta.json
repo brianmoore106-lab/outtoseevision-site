@@ -1397,11 +1397,11 @@
    "path": "/friend"
   },
   "lindberg-eyewear-hawaii": {
-   "title": "LINDBERG Eyewear in Kailua, Oahu | Out to See Vision Care",
-   "description": "Danish titanium eyewear so light you forget it is there. Try LINDBERG at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+   "title": "LINDBERG Designer Eyewear in Kailua, Oahu, Hawaii | Out to See",
+   "description": "Try LINDBERG designer eyewear in Kailua, Oahu. Danish titanium frames, a short drive from Honolulu, fitted with ZEISS lenses in our Hawaii lab.",
    "canonical": "/lindberg-eyewear-hawaii",
    "noindex": false,
-   "ogImage": null,
+   "ogImage": "/images/lindberg/og.jpg",
    "schema": [
     {
      "@context": "https://schema.org",
@@ -1487,8 +1487,8 @@
        "@type": "WebPage",
        "@id": "/lindberg-eyewear-hawaii#webpage",
        "url": "/lindberg-eyewear-hawaii",
-       "name": "LINDBERG Eyewear in Kailua, Oahu | Out to See Vision Care",
-       "description": "Danish titanium eyewear so light you forget it is there. Try LINDBERG at Out to See in Kailua, Oahu, fitted with ZEISS lenses cut in our own lab.",
+       "name": "LINDBERG Designer Eyewear in Kailua, Oahu, Hawaii | Out to See",
+       "description": "Try LINDBERG designer eyewear in Kailua, Oahu. Danish titanium frames, a short drive from Honolulu, fitted with ZEISS lenses in our Hawaii lab.",
        "isPartOf": {
         "@type": "WebSite",
         "@id": "/#website",
@@ -1543,15 +1543,16 @@
        "name": "LINDBERG",
        "url": "https://lindberg.com/",
        "sameAs": [
-        "https://lindberg.com/"
+        "https://lindberg.com/",
+        "https://www.youtube.com/channel/UC1OSDSr6c4VZqhs-29nfDTQ"
        ],
-       "description": "Danish eyewear founded in 1983, known for ultralight titanium frames with screwless hinges. Select designs available in solid platinum and 18 karat gold through LINDBERG Precious."
+       "description": "Danish eyewear. The first air titanium prototype was made in 1983, and the brand was founded in 1986. Ultralight titanium frames with a screwless spiral hinge, handmade to order in Denmark. Select designs are made in 18K solid gold, platinum, or buffalo horn."
       },
       {
        "@type": "ItemList",
        "@id": "/lindberg-eyewear-hawaii#frames",
        "name": "Most popular LINDBERG frames at Out to See in Kailua",
-       "description": "LINDBERG models usually on the wall at Out to See in Kailua, Oahu, along with many more. LINDBERG Precious in platinum, white gold, yellow gold, rose gold and black gold available by special order.",
+       "description": "LINDBERG models usually on the wall at Out to See in Kailua, Oahu: Richelle, n.o.w. 6564, Strip 9753, and Acetanium 1267. LINDBERG Precious is available by special order.",
        "numberOfItems": 4,
        "itemListElement": [
         {
@@ -1565,7 +1566,7 @@
           },
           "category": "Eyeglass frames",
           "material": "Titanium",
-          "description": "Fine titanium wire frame with a full rim and LINDBERG's screwless spiral hinge. Colors can be mixed across the front and temples.",
+          "description": "Titanium wire frame with a full rim and LINDBERG screwless spiral hinge. Front, temple, and temple cover colors can be mixed. Shown in PU9.",
           "additionalProperty": [
            {
             "@type": "PropertyValue",
@@ -1573,7 +1574,8 @@
             "value": "Air Titanium Rim"
            }
           ],
-          "url": "/lindberg-eyewear-hawaii"
+          "url": "/lindberg-eyewear-hawaii",
+          "image": "https://www.outtoseevision.com/images/lindberg/richelle-front.webp"
          }
         },
         {
@@ -1587,7 +1589,7 @@
           },
           "category": "Eyeglass frames",
           "material": "Composite front, titanium temples",
-          "description": "Ultra thin composite front with titanium temples and screwless hinges. Fronts in clear, translucent and matt colors.",
+          "description": "Cat-eye from the n.o.w. titanium collection. Ultra-thin composite front, titanium temples, and a screwless hinge. Shown in lavender.",
           "additionalProperty": [
            {
             "@type": "PropertyValue",
@@ -1595,7 +1597,8 @@
             "value": "N.O.W. Titanium"
            }
           ],
-          "url": "/lindberg-eyewear-hawaii"
+          "url": "/lindberg-eyewear-hawaii",
+          "image": "https://www.outtoseevision.com/images/lindberg/now-6564-front.webp"
          }
         },
         {
@@ -1609,7 +1612,7 @@
           },
           "category": "Eyeglass frames",
           "material": "Titanium",
-          "description": "Laser cut from thin plates of premium titanium in Denmark. A clean unisex design with the screwless hinge.",
+          "description": "Laser-cut titanium frame from the strip titanium collection, with an acetate inner rim and a screwless hinge. Made in Denmark.",
           "additionalProperty": [
            {
             "@type": "PropertyValue",
@@ -1617,7 +1620,8 @@
             "value": "Strip Titanium"
            }
           ],
-          "url": "/lindberg-eyewear-hawaii"
+          "url": "/lindberg-eyewear-hawaii",
+          "image": "https://www.outtoseevision.com/images/lindberg/strip-9753-front.webp"
          }
         },
         {
@@ -1631,7 +1635,7 @@
           },
           "category": "Eyeglass frames",
           "material": "Acetate front, titanium temples",
-          "description": "Full rim rectangle with an acetate front, titanium temples, titanium reinforced bridge and titanium nose pad arms.",
+          "description": "Full rim rectangle with an acetate front, titanium temples, a titanium reinforced bridge, and titanium nose pad arms. Handcrafted in Denmark.",
           "additionalProperty": [
            {
             "@type": "PropertyValue",
@@ -1639,10 +1643,37 @@
             "value": "Acetanium"
            }
           ],
-          "url": "/lindberg-eyewear-hawaii"
+          "url": "/lindberg-eyewear-hawaii",
+          "image": "https://www.outtoseevision.com/images/lindberg/acetanium-1267-front.webp"
          }
         }
        ]
+      },
+      {
+       "@type": "VideoObject",
+       "@id": "/lindberg-eyewear-hawaii#titanium-video",
+       "name": "The Story of Titanium",
+       "description": "LINDBERG on working with titanium: ultra-lightweight, hypoallergenic, flexible, and durable.",
+       "thumbnailUrl": "https://www.outtoseevision.com/images/lindberg/titanium-poster.webp",
+       "uploadDate": "2023-02-07",
+       "embedUrl": "https://www.youtube-nocookie.com/embed/IVzZKOghm5k",
+       "url": "https://www.youtube.com/watch?v=IVzZKOghm5k",
+       "publisher": {
+        "@id": "/lindberg-eyewear-hawaii#brand"
+       }
+      },
+      {
+       "@type": "VideoObject",
+       "@id": "/lindberg-eyewear-hawaii#timeless-video",
+       "name": "LINDBERG - Timeless Eyewear",
+       "description": "A short film from LINDBERG Eyewear on frames designed to feel both current and lasting.",
+       "thumbnailUrl": "https://www.outtoseevision.com/images/lindberg/timeless-poster.webp",
+       "uploadDate": "2023-06-01",
+       "embedUrl": "https://www.youtube-nocookie.com/embed/xzyE1qy1xjM",
+       "url": "https://www.youtube.com/watch?v=xzyE1qy1xjM",
+       "publisher": {
+        "@id": "/lindberg-eyewear-hawaii#brand"
+       }
       },
       {
        "@type": "FAQPage",
@@ -1653,7 +1684,7 @@
          "name": "Are LINDBERG frames worth it?",
          "acceptedAnswer": {
           "@type": "Answer",
-          "text": "If you wear glasses every day, weight and comfort matter more than almost anything else. Most people feel the difference the moment they put a pair on."
+          "text": "If you wear glasses all day, weight and comfort are the point. Most people notice the difference as soon as they put a pair on."
          }
         },
         {
@@ -1661,7 +1692,7 @@
          "name": "Can LINDBERG frames be adjusted?",
          "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Titanium adjusts well, and we fine tune the fit when you pick them up and any time after, at no charge."
+          "text": "Yes. Titanium adjusts well. We fine tune the fit when you pick them up, and any time after, at no charge."
          }
         },
         {
@@ -1669,7 +1700,7 @@
          "name": "Can LINDBERG be made into sunglasses?",
          "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Most LINDBERG optical frames can be fitted with polarized ZEISS prescription sun lenses. Ask us which styles work best."
+          "text": "Many LINDBERG optical frames can be fitted with polarized ZEISS prescription sun lenses. Ask us which styles work best."
          }
         },
         {
@@ -1677,7 +1708,7 @@
          "name": "Where can I buy LINDBERG glasses in Hawaii?",
          "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Out to See carries a curated selection of LINDBERG optical frames at 573 Kailua Road, Suite 106, Lau Hala Shops, Kailua, Oahu. Text (808) 501 2020 to check stock."
+          "text": "Out to See carries them at Lau Hala Shops, 573 Kailua Road, Suite 106, Kailua, Oahu. It is worth the drive from anywhere on Oahu. Call or text (808) 501-2020."
          }
         },
         {
