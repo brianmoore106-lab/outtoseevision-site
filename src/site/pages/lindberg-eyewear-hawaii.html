@@ -1,169 +1,240 @@
 <section class="sec t-white h-small lb-sec"><div class="fe" style="--rm:1;--rd:1;--rg:0px;--cg:0px"><div class="b b-code" style="--m:1/1/2/11;--d:1/1/2/27"><div class="code"><div class="sqs-code-container">
 <!--
-  LINDBERG images, downloaded from lindberg.com and saved as WebP.
-  Richelle PU9 front and angle: customiser-images.lindberg.com model/RIM/Richelle (also named on https://lindberg.com/en/collections/rim).
-  n.o.w. 6564 lavender C19/PU14: https://lindberg.com/en/product/6564
-  Strip 9753, temple 207, front 10, inner rim K277: customiser-images.lindberg.com model/9700/9753
-  Acetanium 1267 AK23, front K196, temple 10: customiser-images.lindberg.com model/1000/1267
-  LINDBERG does not publish a 360 sequence for these models. The viewer uses the angles that service returns.
-  Films: official LINDBERG Eyewear YouTube channel, The Story of Titanium (IVzZKOghm5k) and Timeless Eyewear (xzyE1qy1xjM).
+  Product renders from LINDBERG's image service. Campaign portraits from lindberg.com.
+  Hannah: https://cdn.lindberg.com/media/ffjomgoc/lindberg-com_hannah_tt_women_frontpage_desktop_2160x2160px.jpg
+  Jackson: https://cdn.lindberg.com/media/zmifc5hj/lindberg-com_vbd4_thumbnail_jackson_strip.png
+  Rie: https://cdn.lindberg.com/media/epuborj2/rie-1.png
+  Precious portrait cropped from https://cdn.lindberg.com/media/chopw3xj/lindberg_digital_rie_precious_desktop.jpg
+  Instagram (@lindbergeyewear) redirects to a login wall, so those posts are not embedded.
+  Films: official YouTube, The Story of Titanium (IVzZKOghm5k) and Timeless Eyewear (xzyE1qy1xjM).
 -->
 <style>
 .lb, .lb * { box-sizing: border-box; }
-.lb-sec { padding: 0 !important; min-height: 0 !important; background: #f6f3ec !important; }
+.lb-sec { padding: 0 !important; min-height: 0 !important; background: #f4f1ed !important; }
 main > .sec.lb-sec:first-child { padding-top: 102px !important; }
 @media (max-width: 1023px) { main > .sec.lb-sec:first-child { padding-top: 76px !important; } }
 .lb-sec .fe { display: block; }
-.lb { color: #243038; font-family: var(--body-font); font-size: 17px; line-height: 1.65; }
-.lb h1, .lb h2, .lb h3 { font-family: var(--heading-font); font-weight: 500; letter-spacing: -0.02em; color: #1a2e3b; line-height: 1.15; }
-.lb a { color: #0f6e56; }
-.lb-wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
-.lb-eyebrow { display: block; margin: 0 0 14px; font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #0f6e56; }
-.lb h1 { margin: 0 0 16px; font-size: clamp(36px, 5vw, 58px); max-width: 14ch; }
-.lb h2 { margin: 0 0 12px; font-size: clamp(28px, 3vw, 40px); }
-.lb h3 { margin: 0 0 8px; font-size: 26px; }
-.lb p { margin: 0 0 14px; }
-.lb-lede { font-size: 18px; max-width: 38em; color: #3d4c55; }
+.lb { position: relative; color: #2a2724; font-family: var(--body-font); font-size: 17px; line-height: 1.7; background: #f4f1ed; }
+.lb h1, .lb h2, .lb h3 { font-family: var(--heading-font); font-weight: 400; letter-spacing: -0.03em; color: #161616; line-height: 1.05; }
+.lb a { color: inherit; text-decoration: none; }
+.lb-wrap { max-width: 1180px; margin: 0 auto; padding: 0 40px; }
+.lb-kicker { display: block; margin: 0 0 22px; font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #8a847c; }
+.lb h1 { margin: 0 0 28px; font-size: clamp(46px, 6.4vw, 88px); max-width: 11ch; }
+.lb h2 { margin: 0 0 18px; font-size: clamp(34px, 4vw, 56px); }
+.lb h3 { margin: 0 0 12px; font-size: clamp(26px, 2vw, 34px); }
+.lb p { margin: 0 0 16px; }
+.lb-lede { max-width: 34em; font-size: 18px; line-height: 1.75; color: #4a463f; }
+.lb-link { border-bottom: 1px solid currentColor; }
+.lb-link:hover { color: #1d9e75; border-bottom-color: #1d9e75; }
+.lb-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px 28px; margin-top: 36px; }
+.lb-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 14px 26px; background: #1d9e75; color: #fff !important; border-bottom: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.lb-btn:hover { background: #0f6e56; }
+.lb-text { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; border-bottom: 1px solid #161616; padding-bottom: 3px; }
+.lb-text:hover { color: #1d9e75; border-bottom-color: #1d9e75; }
+.lb :focus-visible { outline: 2px solid #1d9e75; outline-offset: 4px; }
 
-.lb-hero { padding: 48px 0 28px; }
-.lb-hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: 36px; align-items: center; }
-.lb-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
-.lb-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 20px; border-radius: 8px; background: #1d9e75; color: #fff !important; font-weight: 700; text-decoration: none; border: 2px solid #1d9e75; }
-.lb-btn:hover { background: #0f6e56; border-color: #0f6e56; }
-.lb-btn.alt { background: transparent; color: #1a2e3b !important; border-color: #1a2e3b; }
-.lb-btn.alt:hover { background: #1a2e3b; color: #fff !important; }
-.lb-btn:focus-visible, .lb-angles button:focus-visible, .lb-nav:focus-visible, .lb-zoom:focus-visible, .lb-play:focus-visible, .lb summary:focus-visible { outline: 3px solid #1d9e75; outline-offset: 3px; }
+.lb-hero { padding: 72px 0 64px; }
+.lb-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr); gap: 48px; align-items: end; }
+.lb-hero-aside { margin: 0; }
+.lb-hero-aside img { display: block; width: 100%; height: auto; }
 
-.lb-hero-panel { position: relative; margin: 0; background: #fbf8f2; border: 3px solid #1a2e3b; box-shadow: 8px 8px 0 #1a2e3b; }
-.lb-hero-panel img { display: block; width: 100%; height: auto; }
-.lb-hero-panel::after { content: ""; position: absolute; top: 12px; right: 12px; width: 72px; height: 72px; pointer-events: none; background-image: radial-gradient(#1a2e3b 1.15px, transparent 1.25px); background-size: 8px 8px; opacity: 0.45; }
-.lb-bubble { position: absolute; left: 16px; bottom: 16px; margin: 0; max-width: 16em; padding: 10px 14px; background: #fff; border: 3px solid #1a2e3b; border-radius: 16px 16px 16px 4px; font-weight: 700; color: #1a2e3b; font-size: 15px; line-height: 1.35; }
+.lb-bleed { margin: 0; }
+.lb-bleed img { display: block; width: 100%; height: min(88vh, 920px); object-fit: cover; object-position: center 22%; }
+.lb-cap { max-width: 1180px; margin: 0 auto; padding: 14px 40px 0; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8a847c; }
 
-.lb-frames { background: #fffdf8; padding: 64px 0 28px; }
-.lb-intro { max-width: 40em; color: #3d4c55; }
-.lb-card { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr); gap: 28px; align-items: center; padding: 28px 0 36px; border-top: 1px solid #e4ddd0; }
-.lb-card:first-of-type { border-top: 0; }
-.lb-kicker { display: block; margin-bottom: 6px; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f6e56; }
-.lb-note { font-size: 14px; color: #5c6b73; }
-.lb-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; padding: 0; list-style: none; }
-.lb-tags li { font-size: 13px; font-weight: 700; color: #1a2e3b; background: #e7f6f1; border-radius: 999px; padding: 4px 10px; }
-.lb-ask { font-weight: 700; text-decoration: none; }
-.lb-ask:hover { text-decoration: underline; }
+.lb-frames { padding: 100px 0 40px; }
+.lb-intro { max-width: 36em; color: #4a463f; margin-bottom: 20px; }
+.lb-card { position: relative; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr); gap: 72px; align-items: center; padding: 72px 0; }
+.lb-card.flip { grid-template-columns: minmax(260px, 0.65fr) minmax(0, 1.35fr); }
+.lb-card.flip .lb-copy { order: -1; }
+.lb-copy p { color: #4a463f; }
+.lb-note { margin-top: 18px; font-size: 14px; color: #6e6860; }
+.lb-note a, .lb-ask { border-bottom: 1px solid currentColor; }
+.lb-note a:hover, .lb-ask:hover { color: #1d9e75; border-bottom-color: #1d9e75; }
 
 .lb-viewer { min-width: 0; }
-.lb-stage { position: relative; aspect-ratio: 16 / 10; overflow: hidden; touch-action: none; cursor: grab; background: radial-gradient(ellipse at 50% 42%, #fff 0%, #f4efe6 72%, #e7e0d4 100%); border: 3px solid #1a2e3b; }
+.lb-stage { position: relative; aspect-ratio: 16 / 10; overflow: hidden; touch-action: none; cursor: grab; background: #efeae4; }
 .lb-stage:active { cursor: grabbing; }
 .lb-stage.is-zoomed { cursor: zoom-out; }
-.lb-shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; pointer-events: none; transform-origin: 50% 50%; transition: transform 0.35s ease; }
+.lb-shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; pointer-events: none; transform-origin: 50% 50%; transition: transform 0.45s ease; }
 .lb-stage.is-dragging .lb-shot { transition: none; }
-.lb-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border: 3px solid #1a2e3b; border-radius: 50%; background: #fff; color: #1a2e3b; font-size: 26px; line-height: 1; cursor: pointer; }
-.lb-nav:hover { background: #1a2e3b; color: #fff; }
-.lb-prev { left: 10px; }
-.lb-next { right: 10px; }
-.lb-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
-.lb-angles { display: flex; flex-wrap: wrap; gap: 8px; }
-.lb-angles button, .lb-zoom { min-height: 40px; padding: 6px 12px; border: 2px solid #1a2e3b; border-radius: 999px; background: #fff; color: #1a2e3b; font: 700 14px/1 var(--body-font); cursor: pointer; }
-.lb-angles button[aria-pressed="true"] { background: #1a2e3b; color: #fff; }
-.lb-zoom { margin-left: auto; }
-.lb-hint { margin: 10px 0 0; font-size: 14px; color: #5c6b73; }
+.lb-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border: 1px solid rgba(22,22,22,.35); border-radius: 50%; background: rgba(244,241,237,.78); color: #161616; font-size: 20px; line-height: 1; cursor: pointer; }
+.lb-nav:hover { background: #161616; color: #f4f1ed; }
+.lb-prev { left: 14px; }
+.lb-next { right: 14px; }
+.lb-controls { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; margin-top: 16px; }
+.lb-angles { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.lb-angles button, .lb-zoom { min-height: 32px; padding: 4px 0; border: 0; border-bottom: 1px solid transparent; border-radius: 0; background: transparent; color: #8a847c; font: 500 11px/1 var(--body-font); letter-spacing: 0.18em; text-transform: uppercase; cursor: pointer; }
+.lb-angles button[aria-pressed="true"], .lb-zoom:hover, .lb-angles button:hover { color: #161616; border-bottom-color: #161616; }
+.lb-hint, .lb-credit { margin: 12px 0 0; font-size: 13px; color: #8a847c; }
 .lb-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
-.lb-credit { margin: 8px 0 0; font-size: 13px; color: #5c6b73; }
+.lb-lead { position: absolute; left: -8px; top: 18%; width: min(180px, 22%); height: 90px; pointer-events: none; }
+.lb-lead path { fill: none; stroke: #7d8b72; stroke-width: 0.8; }
 
-.lb-story { padding: 64px 0; background-color: #efeae1; background-image: radial-gradient(rgba(26, 46, 59, 0.18) 1.05px, transparent 1.15px); background-size: 8px 8px; }
-.lb-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
-.lb-panel { background: #fffdf8; border: 3px solid #1a2e3b; box-shadow: 6px 6px 0 #1a2e3b; padding: 18px 18px 8px; }
-.lb-panel:nth-child(even) { box-shadow: 6px 6px 0 #1d9e75; }
-.lb-panel h3 { font-size: 22px; }
-.lb-panel p { font-size: 15px; color: #3d4c55; }
-.lb-videos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
-.lb-video { margin: 0; background: #fffdf8; border: 3px solid #1a2e3b; }
-.lb-play { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0; background: #1a2e3b; cursor: pointer; color: inherit; text-decoration: none; }
-.lb-play img, .lb-video iframe { display: block; width: 100%; height: 100%; object-fit: cover; border: 0; }
-.lb-video iframe { aspect-ratio: 16 / 9; height: auto; }
-.lb-play span { position: absolute; left: 12px; bottom: 12px; padding: 8px 12px; background: #fff; border: 3px solid #1a2e3b; border-radius: 14px 14px 14px 4px; font-weight: 700; font-size: 14px; color: #1a2e3b; }
-.lb-video figcaption { padding: 12px 14px 14px; font-size: 14px; color: #3d4c55; }
+.lb-pair { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 12px; padding: 28px 12px 0; }
+.lb-pair figure { margin: 0; }
+.lb-pair img { display: block; width: 100%; height: min(78vh, 820px); object-fit: cover; }
 
-.lb-precious { background: #1a2e3b; color: #e4ebef; padding: 64px 0; }
-.lb-precious h2, .lb-precious h3 { color: #fff; }
-.lb-precious .lb-eyebrow { color: #e2c98a; }
-.lb-rule { width: 72px; height: 2px; margin: 0 0 22px; background: linear-gradient(90deg, #c4a46a, #f0e2bc); border: 0; }
-.lb-precious p { max-width: 42em; color: #d5dee4; }
-.lb-metals { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 18px 0 0; padding: 0; list-style: none; }
-.lb-metals li { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; }
-.lb-dot { width: 18px; height: 18px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.35); }
-.lb-precious .lb-btn { margin-top: 22px; }
+.lb-story { padding: 110px 0 80px; }
+.lb-facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 36px; margin-top: 48px; padding-top: 28px; border-top: 1px solid #ddd6cc; }
+.lb-facts h3 { font-size: 22px; margin-bottom: 12px; }
+.lb-facts p { font-size: 15px; color: #4a463f; }
 
-.lb-visit { padding: 64px 0; }
-.lb-visit-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 28px; align-items: start; }
-.lb-address { background: #fff; border: 3px solid #1a2e3b; box-shadow: 6px 6px 0 #1d9e75; padding: 20px 20px 8px; }
-.lb-address p { margin-bottom: 10px; }
-.lb-address a { font-weight: 700; text-decoration: none; }
-.lb-address a:hover { text-decoration: underline; }
+.lb-film { padding: 40px 0 20px; }
+.lb-play { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 78vh; background: #111; overflow: hidden; border-bottom: 0; }
+.lb-play img, .lb-film iframe { display: block; width: 100%; height: 100%; object-fit: cover; border: 0; }
+.lb-film iframe { aspect-ratio: 16 / 9; max-height: 78vh; height: auto; }
+.lb-play-mark { position: absolute; left: 50%; top: 50%; width: 74px; height: 74px; transform: translate(-50%, -50%); border: 1px solid rgba(255,255,255,.85); border-radius: 50%; background: rgba(20,20,20,.18); }
+.lb-play-mark::after { content: ""; position: absolute; left: 32px; top: 26px; border-style: solid; border-width: 11px 0 11px 16px; border-color: transparent transparent transparent #fff; }
+.lb-film-meta { max-width: 1180px; margin: 0 auto; padding: 28px 40px 10px; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 32px; align-items: start; }
+.lb-film-meta p { color: #4a463f; }
+.lb-film-second { max-width: 760px; margin: 48px 0 20px 40px; }
+.lb-film-second .lb-play { max-height: none; }
 
-.lb-faq { background: #fffdf8; padding: 56px 0 64px; }
-.lb-faq details { border-top: 1px solid #e4ddd0; }
-.lb-faq details:last-of-type { border-bottom: 1px solid #e4ddd0; }
-.lb-faq summary { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 18px 0; cursor: pointer; font-weight: 700; color: #1a2e3b; list-style: none; }
+.lb-precious { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center; padding: 80px 88px 40px 0; }
+.lb-precious img { display: block; width: 100%; height: auto; }
+.lb-metals { margin: 8px 0 22px; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #8a847c; }
+
+.lb-visit { padding: 80px 0; }
+.lb-visit-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 64px; align-items: start; padding-top: 28px; border-top: 1px solid #ddd6cc; }
+.lb-visit address { font-style: normal; font-size: 20px; line-height: 1.6; color: #161616; }
+.lb-visit address a { border-bottom: 1px solid currentColor; }
+.lb-visit address a:hover { color: #1d9e75; }
+
+.lb-faq { padding: 20px 0 80px; }
+.lb-faq details { border-top: 1px solid #ddd6cc; }
+.lb-faq details:last-of-type { border-bottom: 1px solid #ddd6cc; }
+.lb-faq summary { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 22px 0; cursor: pointer; font-weight: 500; color: #161616; list-style: none; }
 .lb-faq summary::-webkit-details-marker { display: none; }
-.lb-faq summary::after { content: "+"; font-family: var(--heading-font); font-size: 26px; font-weight: 500; color: #1d9e75; line-height: 1; }
+.lb-faq summary::after { content: "+"; display: inline-block; font-family: var(--heading-font); font-weight: 400; font-size: 24px; line-height: 1; color: #8a847c; }
 .lb-faq details[open] summary::after { transform: rotate(45deg); }
-.lb-faq details p { margin: 0 0 18px; padding-right: 28px; color: #3d4c55; font-size: 16px; }
+.lb-faq details p { margin: 0 0 22px; max-width: 40em; color: #4a463f; }
 
-.lb-also { padding: 56px 0; }
-.lb-also-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
-.lb-also a.card { display: block; padding: 18px; background: #fff; border: 3px solid #1a2e3b; text-decoration: none; color: #3d4c55 !important; }
-.lb-also a.card:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 #1a2e3b; }
-.lb-also a.card strong { display: block; margin-bottom: 6px; color: #1a2e3b; font-size: 18px; }
-.lb-also a.card span { display: block; margin-top: 10px; font-weight: 700; color: #0f6e56; }
+.lb-also { padding: 20px 0 80px; }
+.lb-also-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #ddd6cc; }
+.lb-also a { display: block; color: #2a2724; }
+.lb-also a strong { display: block; margin-bottom: 8px; font-family: var(--heading-font); font-weight: 400; font-size: 26px; letter-spacing: -0.03em; color: #161616; }
+.lb-also a span { display: inline-block; margin-top: 14px; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; border-bottom: 1px solid currentColor; }
+.lb-also a:hover span { color: #1d9e75; border-bottom-color: #1d9e75; }
 
-.lb-cta { background: #1d9e75; color: #fff; padding: 64px 0; text-align: center; }
-.lb-cta h2 { color: #fff; }
-.lb-cta p { max-width: 36em; margin-left: auto; margin-right: auto; color: rgba(255,255,255,0.92); }
-.lb-cta .lb-actions { justify-content: center; }
-.lb-cta .lb-btn { background: #fff; color: #0f6e56 !important; border-color: #fff; }
-.lb-cta .lb-btn:hover { background: #e7f6f1; }
-.lb-cta .lb-btn.alt { background: transparent; color: #fff !important; border-color: rgba(255,255,255,0.8); }
-.lb-cta .lb-btn.alt:hover { background: rgba(255,255,255,0.12); }
+.lb-cta { padding: 40px 0 110px; }
+.lb-cta .lb-wrap { padding-top: 48px; border-top: 1px solid #ddd6cc; }
 
-@media (max-width: 800px) {
-  .lb-hero { padding-top: 28px; }
-  .lb-hero-grid, .lb-card, .lb-panels, .lb-videos, .lb-visit-grid, .lb-also-grid { grid-template-columns: 1fr; }
-  .lb-zoom { margin-left: 0; }
-  .lb-hero-panel { box-shadow: 5px 5px 0 #1a2e3b; }
-  .lb-card { padding-top: 22px; }
-  .lb-frames, .lb-story, .lb-precious, .lb-visit, .lb-faq, .lb-cta { padding-top: 44px; padding-bottom: 44px; }
+.lb-flora { position: fixed; inset: 0; z-index: 4; pointer-events: none; overflow: hidden; }
+.lb-vine-svg { position: absolute; top: 0; height: 100%; width: 64px; }
+.lb-vine-left { left: 0; }
+.lb-vine-right { right: 0; }
+.lb-vine { fill: none; stroke: #7f8c74; stroke-width: 1; stroke-linecap: round; opacity: 0.7; }
+.lb-fly, .lb-bloom { position: absolute; color: #7f8c74; opacity: 0; }
+.lb-fly { width: 36px; height: 28px; }
+.lb-bloom { width: 28px; height: 28px; }
+.lb-fly path, .lb-bloom path, .lb-bloom circle { fill: none; stroke: currentColor; stroke-width: 0.8; }
+.lb-fly-a { left: 4px; bottom: 0; animation: lb-drift 34s linear infinite; }
+.lb-fly-b { right: 4px; bottom: 8vh; animation: lb-drift 42s linear infinite; animation-delay: -16s; }
+.lb-bloom-a { left: 6px; bottom: 18vh; animation: lb-drift 46s linear infinite; animation-delay: -8s; }
+.lb-bloom-b { right: 6px; bottom: 30vh; animation: lb-drift 38s linear infinite; animation-delay: -22s; }
+@keyframes lb-drift {
+  0% { transform: translate3d(0, 10vh, 0); opacity: 0; }
+  12% { opacity: 0.5; }
+  88% { opacity: 0.35; }
+  100% { transform: translate3d(0, -112vh, 0); opacity: 0; }
+}
+
+@media (max-width: 900px) {
+  .lb-wrap, .lb-cap, .lb-film-meta { padding-left: 36px; padding-right: 36px; }
+  .lb-shot { left: 58px; right: 58px; width: auto; }
+  .lb-fly, .lb-bloom { width: 16px; height: 16px; }
+  .lb-precious { padding: 48px 28px 24px; }
+  .lb-hero { padding: 40px 0 36px; }
+  .lb-hero-grid, .lb-card, .lb-card.flip, .lb-facts, .lb-film-meta, .lb-precious, .lb-visit-grid, .lb-also-grid, .lb-pair { grid-template-columns: 1fr; }
+  .lb-card.flip .lb-copy { order: 0; }
+  .lb-card, .lb-frames, .lb-story, .lb-precious, .lb-visit { padding-top: 56px; padding-bottom: 24px; gap: 28px; }
+  .lb-facts { gap: 22px; }
+  .lb-film-second { margin-left: 0; max-width: none; }
+  .lb-lead { display: none; }
+  .lb-fly-b, .lb-bloom-b { display: none; }
+  .lb-vine-svg { width: 28px; opacity: 0.8; }
+  .lb-bleed img, .lb-pair img { height: 72vh; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .lb-shot, .lb-also a.card { transition: none; }
+  .lb-shot { transition: none; }
+  .lb-fly, .lb-bloom { display: none; }
+  .lb-vine, .lb-lead path { stroke-dashoffset: 0 !important; }
 }
 </style>
 
 <div class="lb">
-  <div class="lb-hero">
+  <div class="lb-flora" aria-hidden="true">
+    <svg class="lb-vine-svg lb-vine-left" viewBox="0 0 80 1000" preserveAspectRatio="none">
+      <path class="lb-vine" d="M38 1000 C 52 880, 16 800, 34 700 C 54 580, 12 500, 32 400 C 50 300, 18 210, 36 110 C 44 60, 30 24, 36 0"></path>
+      <path class="lb-vine" data-delay="0.18" d="M34 700 C 62 682, 72 660, 70 636"></path>
+      <path class="lb-vine" data-delay="0.42" d="M32 400 C 8 382, 6 360, 16 340"></path>
+    </svg>
+    <svg class="lb-vine-svg lb-vine-right" viewBox="0 0 80 1000" preserveAspectRatio="none">
+      <path class="lb-vine" d="M42 1000 C 24 870, 64 790, 46 690 C 26 570, 66 490, 48 390 C 28 290, 62 200, 44 100 C 36 50, 48 20, 42 0"></path>
+      <path class="lb-vine" data-delay="0.28" d="M46 690 C 16 672, 10 650, 18 628"></path>
+      <path class="lb-vine" data-delay="0.55" d="M48 390 C 70 372, 74 352, 64 332"></path>
+    </svg>
+    <svg class="lb-fly lb-fly-a" viewBox="0 0 64 48">
+      <path d="M32 26 C 30 12, 8 8, 6 22 C 4 34, 22 36, 32 26"></path>
+      <path d="M32 26 C 34 12, 56 8, 58 22 C 60 34, 42 36, 32 26"></path>
+      <path d="M32 10 C 32 22, 32 34, 32 44"></path>
+      <path d="M32 14 C 24 8, 20 6, 18 10"></path>
+      <path d="M32 14 C 40 8, 44 6, 46 10"></path>
+    </svg>
+    <svg class="lb-fly lb-fly-b" viewBox="0 0 64 48">
+      <path d="M32 26 C 30 12, 8 8, 6 22 C 4 34, 22 36, 32 26"></path>
+      <path d="M32 26 C 34 12, 56 8, 58 22 C 60 34, 42 36, 32 26"></path>
+      <path d="M32 10 C 32 22, 32 34, 32 44"></path>
+    </svg>
+    <svg class="lb-bloom lb-bloom-a" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="1.6"></circle>
+      <path d="M20 20 C 20 10, 14 8, 20 4 C 26 8, 20 10, 20 20"></path>
+      <path d="M20 20 C 30 20, 32 14, 36 20 C 32 26, 30 20, 20 20"></path>
+      <path d="M20 20 C 20 30, 26 32, 20 36 C 14 32, 20 30, 20 20"></path>
+      <path d="M20 20 C 10 20, 8 26, 4 20 C 8 14, 10 20, 20 20"></path>
+    </svg>
+    <svg class="lb-bloom lb-bloom-b" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="1.4"></circle>
+      <path d="M20 20 C 18 8, 24 6, 20 2 C 16 6, 22 8, 20 20"></path>
+      <path d="M20 20 C 32 18, 34 26, 38 20 C 34 14, 32 22, 20 20"></path>
+      <path d="M20 20 C 22 32, 16 34, 20 38 C 24 34, 18 32, 20 20"></path>
+      <path d="M20 20 C 8 22, 6 14, 2 20 C 6 26, 8 18, 20 20"></path>
+    </svg>
+  </div>
+
+  <header class="lb-hero">
     <div class="lb-wrap lb-hero-grid">
       <div>
-        <p class="lb-eyebrow">Designer eyewear · Kailua, Oahu, Hawaii</p>
+        <p class="lb-kicker">Designer eyewear · Kailua, Oahu, Hawaii</p>
         <h1>LINDBERG eyewear in Kailua</h1>
         <p class="lb-lede">Handmade in Denmark. Titanium, a screwless hinge, and so little weight you can forget the frames are there. Try them at Out to See in Lau Hala Shops. Worth the drive from anywhere on Oahu, including Honolulu.</p>
         <div class="lb-actions">
           <a class="lb-btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" target="_blank" rel="noopener">Book an eye exam</a>
-          <a class="lb-btn alt" href="tel:+18085012020">Call (808) 501-2020</a>
+          <a class="lb-text" href="tel:+18085012020">Call (808) 501-2020</a>
         </div>
       </div>
-      <figure class="lb-hero-panel">
+      <figure class="lb-hero-aside">
         <img src="/images/lindberg/richelle-front.webp" width="1400" height="796" alt="LINDBERG Richelle titanium wire eyeglasses, front view, shown in PU9" fetchpriority="high" decoding="async">
-        <figcaption class="lb-bubble">No screws. Almost no weight.</figcaption>
       </figure>
     </div>
-  </div>
+  </header>
+
+  <figure class="lb-bleed">
+    <img src="/images/lindberg/campaign-hannah.webp" width="1600" height="1600" alt="LINDBERG campaign portrait of Hannah wearing thin titanium eyeglasses" decoding="async">
+    <figcaption class="lb-cap">Campaign portrait from lindberg.com. Images courtesy of LINDBERG.</figcaption>
+  </figure>
 
   <div class="lb-frames">
     <div class="lb-wrap">
-      <p class="lb-eyebrow">On the wall</p>
+      <p class="lb-kicker">On the wall</p>
       <h2>Frames we carry</h2>
       <p class="lb-intro">The selection changes as new pieces arrive. These are the models you will usually find in Kailua, along with others. Drag or swipe each pair to turn it. Click or pinch to look at the hinge. Text us if you want a certain color or size before you come.</p>
 
       <article class="lb-card" id="richelle">
+        <svg class="lb-lead" viewBox="0 0 200 80" aria-hidden="true">
+          <path class="lb-lead-path" d="M4 68 C 48 66, 90 36, 150 24 S 188 8, 196 6"></path>
+        </svg>
         <div class="lb-viewer" data-viewer>
           <div class="lb-stage" tabindex="0" aria-label="Richelle frame. Arrow keys turn it. Plus zooms in.">
             <img class="lb-shot" src="/images/lindberg/richelle-front.webp" width="1400" height="796" alt="LINDBERG air titanium rim Richelle eyeglasses, front view, titanium wire in PU9" draggable="false">
@@ -180,17 +251,16 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
           <p class="lb-hint">Drag or swipe to turn. Click or pinch to look closer.</p>
           <span class="lb-sr" aria-live="polite"></span>
         </div>
-        <div>
-          <span class="lb-kicker">Air titanium rim</span>
+        <div class="lb-copy">
+          <p class="lb-kicker">Air titanium rim</p>
           <h3>Richelle</h3>
           <p>A titanium wire frame with a full rim, and the spiral hinge LINDBERG has used since the 1980s. No screws and no rivets. Front, temple, and temple cover colors can be mixed. Shown in PU9.</p>
-          <ul class="lb-tags"><li>Titanium wire</li><li>Full rim</li><li>Spiral hinge</li></ul>
           <p class="lb-note"><a href="https://lindberg.com/en/collections/rim" target="_blank" rel="noopener">Air titanium rim on lindberg.com</a></p>
           <p><a class="lb-ask" href="sms:+18085012020">Text us about colors and sizes</a></p>
         </div>
       </article>
 
-      <article class="lb-card" id="now-6564">
+      <article class="lb-card flip" id="now-6564">
         <div class="lb-viewer" data-viewer>
           <div class="lb-stage" tabindex="0" aria-label="n.o.w. 6564 frame. Arrow keys turn it. Plus zooms in.">
             <img class="lb-shot" src="/images/lindberg/now-6564-front.webp" width="1400" height="796" alt="LINDBERG n.o.w. titanium 6564 cat-eye eyeglasses, front view, lavender composite" loading="lazy" decoding="async" draggable="false">
@@ -207,11 +277,10 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
           <p class="lb-hint">Drag or swipe to turn. Click or pinch to look closer.</p>
           <span class="lb-sr" aria-live="polite"></span>
         </div>
-        <div>
-          <span class="lb-kicker">n.o.w. titanium</span>
+        <div class="lb-copy">
+          <p class="lb-kicker">n.o.w. titanium</p>
           <h3>6564</h3>
           <p>A cat-eye from the n.o.w. titanium collection. The front is an ultra-thin composite, in clear, translucent, or matt color. Temples are titanium, with a screwless hinge. LINDBERG says frames in this collection can weigh as little as 2.3 grams. Shown in lavender.</p>
-          <ul class="lb-tags"><li>Composite front</li><li>Titanium temples</li><li>Ultralight</li></ul>
           <p class="lb-note"><a href="https://lindberg.com/en/product/6564" target="_blank" rel="noopener">6564 on lindberg.com</a></p>
           <p><a class="lb-ask" href="sms:+18085012020">Text us about colors and sizes</a></p>
         </div>
@@ -233,20 +302,19 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
             </div>
             <button class="lb-zoom" type="button" data-hinge="2">Closer</button>
           </div>
-          <p class="lb-hint">Four views, including the hinge. Drag, or use the labels.</p>
+          <p class="lb-hint">Four views, including the hinge.</p>
           <span class="lb-sr" aria-live="polite"></span>
         </div>
-        <div>
-          <span class="lb-kicker">Strip titanium</span>
+        <div class="lb-copy">
+          <p class="lb-kicker">Strip titanium</p>
           <h3>9753</h3>
           <p>Strip frames are laser cut from thin plates of titanium and made in Denmark. The 9753 is a clean unisex shape with an acetate inner rim and a screwless hinge. Titanium in the collection is hypoallergenic, light, and durable. Shown with a green inner rim.</p>
-          <ul class="lb-tags"><li>Laser cut titanium</li><li>Acetate inner rim</li><li>Screwless hinge</li></ul>
           <p class="lb-note"><a href="https://lindberg.com/en/collections/strip-titanium" target="_blank" rel="noopener">Strip titanium on lindberg.com</a></p>
           <p><a class="lb-ask" href="sms:+18085012020">Text us about colors and sizes</a></p>
         </div>
       </article>
 
-      <article class="lb-card" id="acetanium-1267">
+      <article class="lb-card flip" id="acetanium-1267">
         <div class="lb-viewer" data-viewer>
           <div class="lb-stage" tabindex="0" aria-label="Acetanium 1267 frame. Arrow keys turn it. Plus zooms in.">
             <img class="lb-shot" src="/images/lindberg/acetanium-1267-front.webp" width="1400" height="796" alt="LINDBERG acetanium 1267 rectangular eyeglasses, front view, green acetate with titanium temples" loading="lazy" decoding="async" draggable="false">
@@ -264,100 +332,110 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
           <p class="lb-hint">Turn it, then open the hinge view.</p>
           <span class="lb-sr" aria-live="polite"></span>
         </div>
-        <div>
-          <span class="lb-kicker">Acetanium</span>
+        <div class="lb-copy">
+          <p class="lb-kicker">Acetanium</p>
           <h3>1267</h3>
           <p>The look of acetate, with titanium where it helps. The 1267 is a full rim rectangle: acetate front, titanium temples, a titanium reinforced bridge, and titanium nose pad arms. Temple length can be chosen. Handcrafted in Denmark. Shown in acetate AK23.</p>
-          <ul class="lb-tags"><li>Acetate front</li><li>Titanium temples</li><li>Rectangle</li></ul>
           <p class="lb-note"><a href="https://lindberg.com/en/collections/acetanium" target="_blank" rel="noopener">Acetanium on lindberg.com</a></p>
           <p><a class="lb-ask" href="sms:+18085012020">Text us about colors and sizes</a></p>
         </div>
       </article>
-      <p class="lb-credit">Images courtesy of LINDBERG.</p>
+      <p class="lb-credit">Frame images courtesy of LINDBERG.</p>
     </div>
   </div>
 
-  <div class="lb-story">
+  <div class="lb-pair">
+    <figure>
+      <img src="/images/lindberg/campaign-jackson.webp" width="1120" height="1400" alt="LINDBERG campaign portrait of Jackson wearing strip titanium eyeglasses" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="/images/lindberg/campaign-rie.webp" width="1400" height="1400" alt="LINDBERG campaign portrait of Rie wearing rimless titanium eyeglasses" loading="lazy" decoding="async">
+    </figure>
+  </div>
+  <p class="lb-cap">From the LINDBERG campaign. Images courtesy of LINDBERG.</p>
+
+  <section class="lb-story">
     <div class="lb-wrap">
-      <p class="lb-eyebrow">Since 1983</p>
+      <p class="lb-kicker">Since 1983</p>
       <h2>Made in Denmark, still</h2>
       <p class="lb-intro">The short version, from LINDBERG's own history. Every pair is handmade to order.</p>
-      <div class="lb-panels">
-        <article class="lb-panel">
+      <div class="lb-facts">
+        <article>
           <h3>Aarhus</h3>
           <p>The first air titanium prototype was made in 1983. In 1986 it went on sale, and Poul-Jørn Lindberg founded the company with his son Henrik, an architect. The frames are still crafted in Denmark.</p>
         </article>
-        <article class="lb-panel">
+        <article>
           <h3>No screws</h3>
           <p>The hinge is a spiral of titanium. No screws, no rivets, nothing extra to loosen. Air titanium, designed with the architects Dissing+Weitling, was the first rimless frame made of titanium.</p>
         </article>
-        <article class="lb-panel">
+        <article>
           <h3>Almost nothing</h3>
           <p>Titanium is ultra-lightweight, flexible, durable, and hypoallergenic. The lightest spirit titanium frames are 1.9 grams. n.o.w. frames can be as little as 2.3 grams.</p>
         </article>
-        <article class="lb-panel">
+        <article>
           <h3>Yours</h3>
           <p>Color, size, temple length, and nose pads can be chosen. Titanium frames come in 36 colors, and the front, temples, and temple covers can be combined. The Danish ID Prize came in 1989. LINDBERG now holds 114 major design awards.</p>
         </article>
       </div>
-      <div class="lb-videos">
-        <figure class="lb-video">
-          <a class="lb-play" href="https://www.youtube.com/watch?v=IVzZKOghm5k" data-yt="IVzZKOghm5k" data-title="The Story of Titanium, from LINDBERG Eyewear">
-            <img src="/images/lindberg/titanium-poster.webp" width="480" height="270" alt="" loading="lazy" decoding="async">
-            <span>Play: The Story of Titanium</span>
-          </a>
-          <figcaption>LINDBERG on titanium. Light, flexible, hypoallergenic, and durable. The film plays here, and nothing loads from YouTube until you press play.</figcaption>
-        </figure>
-        <figure class="lb-video">
-          <a class="lb-play" href="https://www.youtube.com/watch?v=xzyE1qy1xjM" data-yt="xzyE1qy1xjM" data-title="LINDBERG, Timeless Eyewear">
-            <img src="/images/lindberg/timeless-poster.webp" width="480" height="220" alt="" loading="lazy" decoding="async">
-            <span>Play: Timeless Eyewear</span>
-          </a>
-          <figcaption>A short film from LINDBERG Eyewear on frames meant to feel current for a long time.</figcaption>
-        </figure>
-      </div>
-      <p class="lb-credit">Films from the LINDBERG Eyewear YouTube channel. Images courtesy of LINDBERG.</p>
     </div>
-  </div>
+  </section>
 
-  <div class="lb-precious">
-    <div class="lb-wrap">
-      <p class="lb-eyebrow">LINDBERG Precious</p>
-      <hr class="lb-rule">
+  <section class="lb-film" aria-label="Films from LINDBERG">
+    <a class="lb-play" href="https://www.youtube.com/watch?v=IVzZKOghm5k" data-yt="IVzZKOghm5k" data-title="The Story of Titanium, from LINDBERG Eyewear">
+      <img src="/images/lindberg/titanium-poster.webp" width="480" height="270" alt="" loading="lazy" decoding="async">
+      <span class="lb-play-mark" aria-hidden="true"></span>
+      <span class="lb-sr">Play: The Story of Titanium</span>
+    </a>
+    <div class="lb-film-meta">
+      <div>
+        <p class="lb-kicker">Film</p>
+        <h2>The Story of Titanium</h2>
+      </div>
+      <p>LINDBERG on titanium. Light, flexible, hypoallergenic, and durable. The film plays here. Nothing loads from YouTube until you press play.</p>
+    </div>
+    <div class="lb-film-second">
+      <a class="lb-play" href="https://www.youtube.com/watch?v=xzyE1qy1xjM" data-yt="xzyE1qy1xjM" data-title="LINDBERG, Timeless Eyewear">
+        <img src="/images/lindberg/timeless-poster.webp" width="480" height="220" alt="" loading="lazy" decoding="async">
+        <span class="lb-play-mark" aria-hidden="true"></span>
+        <span class="lb-sr">Play: Timeless Eyewear</span>
+      </a>
+      <p class="lb-cap" style="padding-left:0">Timeless Eyewear. A short film from the LINDBERG Eyewear channel.</p>
+    </div>
+  </section>
+
+  <section class="lb-precious">
+    <img src="/images/lindberg/campaign-precious.webp" width="1600" height="968" alt="Rie wearing LINDBERG Precious eyeglasses in solid gold, from the lindberg.com campaign" loading="lazy" decoding="async">
+    <div>
+      <p class="lb-kicker">LINDBERG Precious</p>
       <h2>When titanium is not enough</h2>
       <p>Some designs are also made in 18K solid gold, in yellow, white, rose, and black, and in platinum or buffalo horn. A few carry diamonds. They are handcrafted in Denmark, made in limited numbers, and still remarkably light. A name and a product number can be engraved inside.</p>
-      <ul class="lb-metals">
-        <li><span class="lb-dot" style="background:linear-gradient(135deg,#f7e7a8,#c99a2e)"></span>Yellow gold</li>
-        <li><span class="lb-dot" style="background:linear-gradient(135deg,#fff,#d9d5c8)"></span>White gold</li>
-        <li><span class="lb-dot" style="background:linear-gradient(135deg,#f6d2c4,#c98268)"></span>Rose gold</li>
-        <li><span class="lb-dot" style="background:linear-gradient(135deg,#6a6c74,#17181c)"></span>Black gold</li>
-        <li><span class="lb-dot" style="background:linear-gradient(135deg,#fff,#c9ced3)"></span>Platinum</li>
-      </ul>
+      <p class="lb-metals">Yellow gold · White gold · Rose gold · Black gold · Platinum</p>
       <a class="lb-btn" href="sms:+18085012020">Text us about Precious</a>
-      <p class="lb-note" style="margin-top:14px">By special order. <a href="https://lindberg.com/en/explore/gold" target="_blank" rel="noopener" style="color:#e2c98a">LINDBERG Precious</a></p>
+      <p class="lb-note"><a href="https://lindberg.com/en/explore/gold" target="_blank" rel="noopener">LINDBERG Precious</a>. By special order. Images courtesy of LINDBERG.</p>
     </div>
-  </div>
+  </section>
 
-  <div class="lb-visit">
+  <section class="lb-visit">
     <div class="lb-wrap lb-visit-grid">
       <div>
-        <p class="lb-eyebrow">In Kailua</p>
+        <p class="lb-kicker">In Kailua</p>
         <h2>Worth the drive from anywhere on Oahu</h2>
         <p>Out to See is an authorized LINDBERG dealer at Lau Hala Shops. Cory, our full-time optician, helps you choose and fit the frame. He also measures, cuts, and mounts ZEISS lenses in our in-house lab, here in Kailua. Adjustments are free, including later.</p>
         <p>Rimless and thin frames leave nowhere for a lens to hide, so the lab work matters as much as the frame. Bring a current prescription, or book a full hour with Dr. Mordue and pick the frames the same visit.</p>
-        <p><a href="/the-lab">See the lab</a> · <a href="/lens-upgrades-kailua-hi">Why the lenses are ZEISS</a></p>
+        <p><a class="lb-link" href="/the-lab">See the lab</a> &nbsp; <a class="lb-link" href="/lens-upgrades-kailua-hi">Why the lenses are ZEISS</a></p>
       </div>
-      <div class="lb-address">
-        <h3>Visit</h3>
-        <p>Lau Hala Shops<br>573 Kailua Road, Suite 106<br>Kailua, Oahu, Hawaii</p>
-        <p><a href="tel:+18085012020">(808) 501-2020</a></p>
-        <p><a href="/location-and-parking">Hours and parking</a></p>
+      <address>
+        Lau Hala Shops<br>
+        573 Kailua Road, Suite 106<br>
+        Kailua, Oahu, Hawaii<br>
+        <a href="tel:+18085012020">(808) 501-2020</a><br>
+        <a href="/location-and-parking">Hours and parking</a>
         <p class="lb-note">Open seven days. Call or text before you come if you are driving over for a specific frame.</p>
-      </div>
+      </address>
     </div>
-  </div>
+  </section>
 
-  <div class="lb-faq">
+  <section class="lb-faq">
     <div class="lb-wrap">
       <h2>Questions</h2>
       <details>
@@ -374,43 +452,45 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
       </details>
       <details>
         <summary>Do I need an eye exam first?</summary>
-        <p>Bring a current prescription, or book a <a href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p>
+        <p>Bring a current prescription, or book a <a class="lb-link" href="/comprehensive-eye-exam-kailua-hi">full hour eye exam with Dr. Mordue</a> and choose your frames the same visit.</p>
       </details>
       <details>
         <summary>Where can I buy LINDBERG glasses in Hawaii?</summary>
         <p>Out to See carries them at Lau Hala Shops, 573 Kailua Road, Suite 106, Kailua, Oahu. It is worth the drive from anywhere on Oahu. Call or text (808) 501-2020.</p>
       </details>
     </div>
-  </div>
+  </section>
 
-  <div class="lb-also">
+  <section class="lb-also">
     <div class="lb-wrap">
       <h2>You might also like</h2>
-      <p>If you like the quiet precision of LINDBERG, these are worth trying on next.</p>
       <div class="lb-also-grid">
-        <a class="card" href="/mykita-eyewear-hawaii"><strong>MYKITA</strong>Handmade in Berlin, with a screwless hinge.<span>Explore MYKITA</span></a>
-        <a class="card" href="/face-a-face-eyewear-hawaii"><strong>Face à Face</strong>Sculptural frames from Paris.<span>Explore Face à Face</span></a>
-        <a class="card" href="/moscot-eyewear-hawaii"><strong>MOSCOT</strong>New York classics, like the Lemtosh.<span>Explore MOSCOT</span></a>
+        <a href="/mykita-eyewear-hawaii"><strong>MYKITA</strong>Handmade in Berlin, with a screwless hinge.<span>Explore</span></a>
+        <a href="/face-a-face-eyewear-hawaii"><strong>Face à Face</strong>Sculptural frames from Paris.<span>Explore</span></a>
+        <a href="/moscot-eyewear-hawaii"><strong>MOSCOT</strong>New York classics, like the Lemtosh.<span>Explore</span></a>
       </div>
-      <p style="margin-top:18px"><a href="/best-eyewear-kailua-hi">See all our designer eyewear</a></p>
+      <p style="margin-top:28px"><a class="lb-link" href="/best-eyewear-kailua-hi">See all our designer eyewear</a></p>
     </div>
-  </div>
+  </section>
 
-  <div class="lb-cta">
+  <section class="lb-cta">
     <div class="lb-wrap">
+      <p class="lb-kicker">Visit</p>
       <h2>Come try them on</h2>
-      <p>573 Kailua Road, Suite 106, Lau Hala Shops, Kailua. Book an exam, call (808) 501-2020, or just walk in to look.</p>
+      <p class="lb-lede">573 Kailua Road, Suite 106, Lau Hala Shops, Kailua. Book an exam, call (808) 501-2020, or walk in to look.</p>
       <div class="lb-actions">
         <a class="lb-btn" href="https://schedulewidget.revintake.com/063bc795d10f2911c23316427dc66cbb" target="_blank" rel="noopener">Book an eye exam</a>
-        <a class="lb-btn alt" href="tel:+18085012020">Call (808) 501-2020</a>
-        <a class="lb-btn alt" href="/location-and-parking">Get directions</a>
+        <a class="lb-text" href="tel:+18085012020">Call (808) 501-2020</a>
+        <a class="lb-text" href="/location-and-parking">Directions</a>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 
 <script>
 (function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   function apply(stage, img, state) {
     img.style.transformOrigin = state.ox + "% " + state.oy + "%";
     img.style.transform = "translate(" + state.tx + "px," + state.ty + "px) scale(" + state.scale + ")";
@@ -435,8 +515,7 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
       if (img.getAttribute("src") !== src) img.src = src;
       img.alt = button.getAttribute("data-alt");
       buttons.forEach(function (item, i) {
-        var on = i === index;
-        item.setAttribute("aria-pressed", on ? "true" : "false");
+        item.setAttribute("aria-pressed", i === index ? "true" : "false");
       });
       if (live) live.textContent = button.textContent.trim();
       if (zoom) {
@@ -447,11 +526,7 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
         state.tx = 0;
         state.ty = 0;
       } else {
-        state.scale = 1;
-        state.tx = 0;
-        state.ty = 0;
-        state.ox = 50;
-        state.oy = 50;
+        state.scale = 1; state.tx = 0; state.ty = 0; state.ox = 50; state.oy = 50;
       }
       apply(stage, img, state);
     }
@@ -530,10 +605,7 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
       var wasPinch = pointers.size >= 2;
       pointers.delete(event.pointerId);
       if (pointers.size < 2) pinch = null;
-      if (!drag) {
-        stage.classList.remove("is-dragging");
-        return;
-      }
+      if (!drag) { stage.classList.remove("is-dragging"); return; }
       var start = drag;
       drag = null;
       stage.classList.remove("is-dragging");
@@ -605,6 +677,45 @@ main > .sec.lb-sec:first-child { padding-top: 102px !important; }
       link.replaceWith(frame);
     });
   });
+
+  var vines = Array.prototype.slice.call(document.querySelectorAll(".lb-vine"));
+  var lead = document.querySelector(".lb-lead-path");
+  vines.forEach(function (path) {
+    var len = path.getTotalLength();
+    path._len = len;
+    path.style.strokeDasharray = String(len);
+    path.style.strokeDashoffset = reduce ? "0" : String(len);
+  });
+  if (lead) {
+    lead._len = lead.getTotalLength();
+    lead.style.strokeDasharray = String(lead._len);
+    lead.style.strokeDashoffset = reduce ? "0" : String(lead._len);
+  }
+  if (!reduce) {
+    var ticking = false;
+    function draw() {
+      ticking = false;
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 1;
+      vines.forEach(function (path) {
+        var delay = parseFloat(path.getAttribute("data-delay") || "0");
+        var span = Math.max(0.2, 1 - delay);
+        var local = Math.min(1, Math.max(0, (progress - delay) / span));
+        path.style.strokeDashoffset = String(path._len * (1 - local));
+      });
+      if (lead) {
+        var card = document.getElementById("richelle");
+        var rect = card.getBoundingClientRect();
+        var localLead = 1 - (rect.top / window.innerHeight);
+        localLead = Math.min(1, Math.max(0, (localLead - 0.15) / 0.7));
+        lead.style.strokeDashoffset = String(lead._len * (1 - localLead));
+      }
+    }
+    window.addEventListener("scroll", function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(draw); }
+    }, { passive: true });
+    draw();
+  }
 })();
 </script>
 </div></div></div></div></section>
